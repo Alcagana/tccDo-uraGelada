@@ -1,0 +1,248 @@
+
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    background-color: hwb(0 94% 6%);
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+
+
+}
+
+
+header{
+ 
+width: 100%;
+height: 120px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+display: flex;
+align-items: center;
+justify-content:space-between;
+color:#8b4513; 
+margin-top: -8px;
+}
+
+
+.caixinha{
+    display: flex;
+}
+
+    .texto-produtos{
+
+
+  
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+       color: #8b4513;
+       margin-right: 1900px;
+       font-size: 35px;
+       margin-top: 60px;
+   
+
+    }
+
+
+    /*CARDS*/
+
+
+.card{
+ 
+width: 1700px;
+height: 400px;
+margin-top: 300px;
+margin-left: 6%;
+display: flex;
+justify-content: center;
+text-align: center;
+gap:70px
+
+}
+
+.card1{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 350px;
+border-radius: 40px;
+height: 300px;
+background-color: #EDA5CA;
+
+}
+
+
+
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+background-color: #f0baff;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #FF9393;
+
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    border-radius: 40px;
+    background-color: #A3CAE8;
+   
+   
+}
+
+
+/*IMAGENS*/
+
+#casquinha{
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    margin-top: -25%;
+
+
+}
+
+#refrigerante{
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    margin-top: -25%;
+    
+}
+
+#picole{
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    margin-top: -25%;
+    
+}
+
+#artesanal{
+
+    width: 160px;
+    height: 160px;
+    display: flex;
+    margin-top: -25%;
+    }
+
+
+
+/*botões*/
+
+
+
+#btn-sorvete{
+border: 0px;
+    font-size: 30px;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    color:#ffffff;
+    background-color:  #EDA5CA;
+    margin-top: 45px;
+    cursor: pointer;
+   
+}
+
+#btn-sorvete:hover{
+    color:#f3429d;
+}
+
+
+
+
+
+
+#btn-artesanal{
+border: 0px;
+    font-size: 30px;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    color:#ffffff;
+    background-color: #f0baff;
+    margin-top: 45px;
+    cursor: pointer;
+
+}
+
+#btn-artesanal:hover{
+    color: #da6ef8;
+}
+
+
+
+
+
+
+#btn-picole{
+    border: 0px;
+    font-size: 30px;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    background-color:  #FF9393;;
+    color:#ffffff;
+    display: flex;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+#btn-picole:hover{
+
+color:#f06767;
+
+}
+
+
+
+
+#btn-add{
+    border: 0px;
+    font-size: 30px;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    background-color:  #A3CAE8;;
+    color:#ffffff;
+    display: flex;
+    margin-top: 45px;
+    cursor: pointer;
+}
+#btn-add:hover{
+
+    color:  #50acf1;;
+
+}
+
+
+
+
+#logo{
+
+  
+    width: 150px;
+    height: 121px;
+ display: flex;
+ align-items: center;
+ margin-top: 25px;
+
+
+}

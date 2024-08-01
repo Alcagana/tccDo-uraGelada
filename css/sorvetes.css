@@ -1,0 +1,52 @@
+body{
+ background-color: rgba(236, 225, 214, 0.872);
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+
+
+
+}
+header{
+ 
+    border: solid 3px;
+    height: 120px;
+    width: 100%;
+    color:#8b4513;
+    display: grid;
+  
+}
+.sorvete{
+ 
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+    font-size: 80px;
+}
+#casquinha{
+    height: 400px;
+
+    border: solid;
+    
+}
+.sorvetes{
+    
+   
+    border: solid red;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 80%;
+   
+  
+
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+
+}
