@@ -54,7 +54,11 @@ body{
         color:rgba(189, 131, 102, 0.889); 
     }
     
-    
+    #link-btnCadastrar{
+        list-style: none;
+        text-decoration: none;
+    }
+
     #btn-ajuda{
         width: 250px;
         height: 60px;

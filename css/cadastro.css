@@ -56,7 +56,7 @@ body{
     
 
 
-    #btn-acessar{
+    #btn-Cadastrar{
         width: 250px;
         height: 60px;
         background-color: rgba(240, 248, 255, 0.797);
@@ -69,7 +69,7 @@ body{
         font-style: italic;
        
     }
-    #btn-acessar:hover{
+    #btn-Cadastrar:hover{
     
         color:rgba(189, 131, 102, 0.889); 
     }
@@ -157,12 +157,11 @@ background-color: #a7734e;;
 
 
 img{   /*logotipo*/
-    width: 300px;
-    height: 160px;
+    width: 160px;
+    height: 140px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 100px;
+justify-content: space-between;
 
 }
 

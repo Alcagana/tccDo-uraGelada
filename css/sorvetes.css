@@ -1,5 +1,5 @@
 body{
-    background-color: hwb(0 94% 6%);
+ background-color: rgba(236, 225, 214, 0.872);
  margin: 0px;
  padding: 0px;
  box-sizing: border-box;
@@ -7,112 +7,46 @@ body{
 
 
 }
-header{  
-
+header{
+ 
+    border: solid 3px;
+    height: 120px;
     width: 100%;
-    height: 150px;
+    color:#8b4513;
+    display: grid;
+  
+}
+.sorvete{
+ 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #a7734e;;
-    }
+    justify-content: center;
+    margin-top: -100px;
+    font-size: 80px;
+}
+#casquinha{
+    height: 400px;
 
-
-
-
-
-
-
-
-
-    /*classes*/
+    border: solid;
     
-
-
+}
 .sorvetes{
-
+    
+   
+    border: solid red;
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 30px;
+    width: 80%;
+   
   
 
 }
-
-
-
-
-
-/*id*/
-
-#casquinha{
-    width: 300px;
-    height: 250px;
-    border: solid 2px;
-    border-color: #a7734e;
-}
-
-
-
-#btn-finalizar{
-
-    width: 250px;
-    height: 60px;
-    background-color: rgba(240, 248, 255, 0.797);
-    font-size: 48px;
-    cursor: pointer;
-    color: #3d790d;
-    background-color: #92c755;;
-    border:solid 3px;
-    align-items: center;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
- margin-left: 80%;
-    border-radius: 8px;
-    margin-top: 100px;
-}
-
-#btn-finalizar:hover{
-
-    color:rgba(102, 189, 102, 0.889); 
-
-}
-
-
-
-/*outros*/
-
 
 
 main{
-   
-    width: 62%;
-    height: 220vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 200px;
     flex-wrap: wrap;
-    margin-left: 10px;
-  
-
-}
-
-input{
-    width: 500px;
-    height: 40px;
-    margin-right: 50px;
-    border: solid 0,75px;
-    border-radius: 20px;
-   
-    font-size: 25px;
-    margin-top: 0px;
- 
-}
-
-img{
-
-    width: 300px;
-    height: 160px;
-
-    
 
 }
