@@ -6,8 +6,9 @@
     <title>tcc</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="../css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
 
 </head>
@@ -23,7 +24,9 @@
 
         </div>
 
-    <a href="../html/cadastro.html"  id="link-btnCadastrar"><button onclick="acessar" id="btn-cadastrar">Cadastro funcionário </button></a>    
+    <a href="../html/cadastro.html"  id="link-btnCadastrar">
+        <button onclick="acessar" id="btn-cadastrar">Cadastro funcionário </button>
+    </a>    
         <button onclick="ajudar" id="btn-ajuda">Ajuda</button>
 
 </header>
@@ -37,9 +40,19 @@
     <input type="text" name="" id= "login" placeholder="Digite seu login">
      <input type="password" name="" id= "Senha" placeholder="Digite sua senha" >
     
-    <a href="../html/produtos.html"><button onclick="acessar" id="btn-acessar">Acessar</button></a> 
+    <a href="../html/produtos.html">
+        <button onclick="acessar" id="btn-acessar">Acessar</button>
+    </a> 
 
     </div>
+
+    <dialog id="ajuda" >
+        <button id="fechar"> fechar </button>
+        <h1 id="mensagem1">Precisa de ajuda? Algum erro no site?</h1>
+        <P id="mensagem2">Deixe sua mensagem aqui:</P>
+        <textarea rows="8" cols="50" id="btn-comentario"></textarea>
+        
+    </dialog>
 
 
 
@@ -48,6 +61,6 @@
 </main>
       
       
-
+<script src="../js/modal.js"></script>
 </body>
 </html>
