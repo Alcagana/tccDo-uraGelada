@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* MODAL INTEIRO */
 dialog{
    
@@ -12,6 +14,8 @@ dialog{
       background-color: #a7734e;
       color:  hwb(0 94% 6% / 0.842);
       margin-bottom:450px;
+      font-family:"Nunito Sans", sans-serif;
+      font-style: italic;
 }
 
 /* SOMBRA EM VOLTA DO MODAL */
@@ -36,6 +40,10 @@ dialog::backdrop {
     background-color: #a7734e;
     color:  hwb(0 94% 6% / 0.842);
     font-size: 19px;
+
+}
+#fechar:hover{
+    color: #68452d;
 }
 #mensagem2{
 
@@ -45,4 +53,14 @@ dialog::backdrop {
 #mensagem1{
 
     font-size: 30px;
+}
+#enviar{
+    margin: 0px;
+    margin-left: 510px;
+    padding: 0px;
+    border: solid #a7734e;
+    background-color: #a7734e;
+    color:  hwb(0 94% 6% / 0.842);
+    font-size: 19px;
+  
 }
