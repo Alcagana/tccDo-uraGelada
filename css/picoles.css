@@ -1,52 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 body{
-    background-color: rgba(236, 225, 214, 0.872);
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-   
-   
-   
-   }
-   header{
+    background-color: hwb(0 94% 6%);
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+
+}
+
+header{
     
-       border: solid 3px;
-       height: 120px;
-       width: 100%;
-       color:#8b4513;
-       display: grid;
-     
+    height: 150px;
+    width: 100%;
+    display: grid;
+    background-color:#a7734e;
+   
    }
+
+
    .picoles{
     
-       display: flex;
+    display: flex;
        justify-content: center;
        margin-top: -100px;
        font-size: 80px;
    }
+
+
    #casquinha{
-       height: 400px;
-   
-       border: solid;
+    height: 260px;
+    border: solid;
        
    }
+
+
    .Picoles{
-       
-      
-       border: solid red;
        display: grid;
-       grid-template-columns: 50% 50%;
-       width: 80%;
-      
-     
-   
+    grid-template-columns: 50% 50%;
+    width: 55%;
+    margin-right: 800px;
+    gap: 10px;
+    margin-top: 30px;
+
    }
    
    
    main{
-       height: 100vh;
-       display: flex;
-       justify-content: center;
-       margin-top: 200px;
-       flex-wrap: wrap;
-   
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    flex-wrap: wrap;
+
    }
+
+
+   #logo{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+#pesquisar{
+    width: 350px;
+    height: 30px;
+margin-right: 42%;
+border-radius: 5px;
+font-size: 20px;
+
+}
