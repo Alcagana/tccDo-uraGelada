@@ -6,12 +6,11 @@ dialog{
       width: 700px;
       height: 410px;
       padding: 35px;
-      border: solid #a7734ea8;
       border-radius: 0.6rem;
-      box-shadow: 0 0 1em #a7734ec7;
+      box-shadow: 0 0 1em hwb(0 94% 6% / 0.842);
       margin-right: 250px;
       text-align: center;
-      background-color: #a7734e;
+      background-color:#48033f;
       color:  hwb(0 94% 6% / 0.842);
       margin-bottom:450px;
       font-family:"Nunito Sans", sans-serif;
@@ -37,15 +36,15 @@ dialog::backdrop {
     /* margin: 0px;
     margin-right: 510px; */
     padding: 0px;
-    border: solid #a7734e;
-    background-color: #a7734e;
+    border: 0px;
+    background-color:#48033f;
     color:  hwb(0 94% 6% / 0.842);
     font-size: 22px;
     width: 100px;
 
 }
 #fechar:hover{
-    color: #633e28;
+    color:#a50f91;
 }
 #mensagem2{
 
@@ -61,14 +60,14 @@ dialog::backdrop {
     /* margin-left: 510px; */
     /* margin-bottom: 100px; */
     padding: 0px;
-    border: solid #a7734e;
-    background-color: #a7734e;
+    border: 0px;
+    background-color: #48033f;
     color:  hwb(0 94% 6% / 0.842);
     font-size: 22px;
   
 }
 #enviar:hover{
-    color: #633e28;
+    color:#a50f91;
 }
 
 .btn-fechar-ajuda{

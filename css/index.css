@@ -17,6 +17,7 @@ body{
 /*card, borão*/
 
 .card{
+    
     width: 700px;
     height: 500px;
     font-size: 50px;
@@ -25,10 +26,10 @@ body{
     align-items: center;
     gap: 40px;
     margin: 0px auto;
-    margin-top: 2%;
+    margin-top: 3%;
     border-radius: 20px;
     border: solid 3px;
-    border-color: #a55923;
+    border-color:#48033f;
     
 }
 
@@ -37,10 +38,10 @@ body{
         width: 250px;
         height: 60px;
         margin-top: 0%;
-        background-color:#a7734e;
+        background-color:#48033f;
         font-size: 25px;
         cursor: pointer;
-        color:  #773b10;
+        color: #e7b705;
         border: 0px;
         display: flex;
         align-items: center;
@@ -52,7 +53,7 @@ body{
     
     }
     #btn-cadastrar:hover{
-        color:rgba(189, 131, 102, 0.889); 
+        color:rgba(197, 155, 135, 0.889); 
     }
     
     #link-btnCadastrar{
@@ -67,21 +68,21 @@ body{
         background-color: rgba(240, 248, 255, 0.797);
         font-size: 25px;
         cursor: pointer;
-        color:  #773b10;
+        color: #e7b705;
         border: 0px;
         display: flex;
         align-items: center;
         justify-content:space-between;
         font-family:"Nunito Sans", sans-serif;
         font-style: italic;
-        background-color:#a7734e;
+        background-color:#48033f;
         
      
        
     }
     #btn-ajuda:hover{
     
-        color:rgba(189, 131, 102, 0.889); 
+        color:rgba(197, 155, 135, 0.889); 
     }
     
 
@@ -94,15 +95,14 @@ body{
         font-size: 30px;
         font-style: italic;
         cursor: pointer;
-        color:  #8b4513;
+        color:#48033f;
         border: 0px;
         font-family:  "Nunito Sans", sans-serif;
        
 }
 #btn-acessar:hover{
 
-    color:rgba(189, 131, 102, 0.889); 
-
+    color:#a50f91;
 }
 
 
@@ -114,12 +114,12 @@ body{
 
 
 .texto-login{
-    margin-top:35px;
+    margin-top:70px;
     margin-bottom: 50px;
     font-family: "Nunito Sans", sans-serif;
     font-size: 45px;
     font-style: italic;
-    color: #8b4513;
+    color: #48033f;
     text-align: center;
 
 }
@@ -136,14 +136,14 @@ height: 150px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-background-color:#a7734e;
+background-color:#48033f;
 }
 
 
 
 img{   /*logotipo*/
-    width: 300px;
-    height: 160px;
+    width: 200px;
+    height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -167,7 +167,7 @@ img{   /*logotipo*/
     font-family: "Nunito Sans", sans-serif;
     font-style: italic;
     border: solid 2px;
-    border-color: #8b4513;
+    border-color:#48033f;
     background-color: rgba(255, 255, 255, 0.872);
     margin-top: 20%;
 }
@@ -184,7 +184,7 @@ input{
     font-family: "Nunito Sans", sans-serif;
     font-style: italic;
     border: solid 2px;
-    border-color: #8b4513;
+    border-color:#48033f;
     background-color: rgba(255, 255, 255, 0.872);
  
 }
@@ -204,8 +204,9 @@ input{
 /*responsividade*/
 
 
-@media(max-width: 320px){
+@media(max-width: 500px){
 
+  
     .card{
     width: 500px;
     height: 400px;
