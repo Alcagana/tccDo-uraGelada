@@ -18,9 +18,11 @@
             
             <div class="img">
 
-                <img src="../sorvetelogo.png"alt="logosorveteria">
+                <img src="../logonova.png"alt="logosorveteria">
              
-               <a href="../html/capa.html"><button onclick="ajudar" id="btn-voltar">voltar</button></a>
+               <a href="../html/capa.html">
+                <button onclick="ajudar" id="btn-voltar">voltar</button>
+            </a>
 
             </div>
     
@@ -40,7 +42,7 @@
         <input type="text" id="nome" placeholder="Nome do funcionário">
 
         
-        <input type="text" placeholder="Digite seu login">
+        <input type="text" placeholder="Crie seu login">
      
         <input type="text" placeholder="Digite novamente">
 
@@ -67,8 +69,11 @@
 
 
     <dialog id="ajuda" >
-        <button id="fechar"> Fechar </button>
-        <button id="enviar">Enviar</button>
+        <div class="btn-fechar-ajuda">
+            <button id="fechar"> Fechar </button>
+           <button id="enviar" onclick="Enviar">Enviar</button>
+        </div>
+
         <h1 id="mensagem1">Precisa de ajuda? Algum erro no site?</h1>
         <P id="mensagem2">Deixe sua mensagem aqui:</P>
         <textarea rows="8" cols="50" id="btn-comentario"></textarea>

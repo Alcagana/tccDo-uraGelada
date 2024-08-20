@@ -27,7 +27,7 @@ body{
     margin-top: 2%;
     border-radius: 20px;
     border: solid 3px;
-    border-color: #8b4513;
+    border-color: #48033f;
 }
 
 @media (max-widh:480px){
@@ -58,10 +58,10 @@ body{
         width: 250px;
         height: 60px;
         margin-top: 2%;
-        background-color: #a7734e;
+        background-color:#48033f;
         font-size: 28px;
         cursor: pointer;
-        color: #773b10;
+        color: #e7b705;
         border: 0px;
         display: flex;
         align-items: center;
@@ -86,7 +86,7 @@ body{
         background-color: rgba(240, 248, 255, 0.797);
         font-size: 28px;
         cursor: pointer;
-        color: #8b4513;
+        color: #48033f;
         border: 0px;
         align-items: center;
         font-family:"Nunito Sans", sans-serif;
@@ -95,7 +95,7 @@ body{
     }
     #btn-Cadastrar:hover{
     
-        color:rgba(189, 131, 102, 0.889); 
+        color:#a50f91;
     }
     
 /*
@@ -130,7 +130,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
     font-size: 45px;
     font-style: italic;
-    color: #8b4513;
+    color:#48033f;
     text-align: center;
 
 }
@@ -142,7 +142,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
     font-size: 35px;
     font-style: italic;
-    color: #8b4513;
+   color:#48033f;
     text-align: center;
 
 
@@ -155,7 +155,7 @@ body{
     font-family: "Nunito Sans", sans-serif;
     font-size: 20px;
     font-style: italic;
-    color: #8b4513;
+    color: #48033f;
     text-align: center;
 
 
@@ -175,7 +175,7 @@ height: 150px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-background-color: #a7734e;;
+background-color:#48033f
 }
 
 
@@ -183,9 +183,10 @@ background-color: #a7734e;;
 img{   /*logotipo*/
     width: 160px;
     height: 140px;
-    display: flex;
-    align-items: center;
-justify-content: space-between;
+    margin-left: 100px;
+
+    
+
 
 }
 
@@ -211,7 +212,7 @@ input{
     font-family: "Nunito Sans", sans-serif;
     font-style: italic;
     border: solid 2px;
-    border-color: #8b4513;
+    border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
     margin-top: 20px;     
     margin-right: 100px;      
@@ -232,7 +233,7 @@ input{
     font-family: "Nunito Sans", sans-serif;
     font-style: italic;
     border: solid 2px;
-    border-color: #8b4513;
+    border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
     margin-right: 300px;    
 
