@@ -30,7 +30,28 @@ body{
     border-color: #8b4513;
 }
 
+@media (max-widh:480px){
+.card{
+    width: 300px;
+    height: 375px;
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0px auto;
+    margin-top: 2%;
+    border-radius: 20px;
+    border: solid 3px;
+    border-color: #8b4513;
 
+
+}
+
+
+
+
+}
 
     
     #btn-ajuda{
@@ -49,6 +70,9 @@ body{
         font-style: italic;
        
     }
+    
+
+
     #btn-ajuda:hover{
     
         color:rgba(189, 131, 102, 0.889); 
