@@ -75,12 +75,9 @@ font-size:  20px;
 
 }
 
-
-
 @media(min-width:100px) and (max-width: 500px ){
 
-    
-    #logo{
+        #logo{
         width: 100px;
         height: 100px;
         display: flex;
