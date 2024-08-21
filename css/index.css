@@ -9,29 +9,13 @@ body{
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
- background-color: hwb(0 94% 6%);
+   background-color:#48033f;
   
 }
 
 
 /*card, borão*/
 
-.card{
-    
-    width: 700px;
-    height: 500px;
-    font-size: 50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin: 0px auto;
-    margin-top: 3%;
-    border-radius: 20px;
-    border: solid 3px;
-    border-color:#48033f;
-    
-}
 
 
     #btn-cadastrar{
@@ -53,7 +37,7 @@ body{
     
     }
     #btn-cadastrar:hover{
-        color:rgba(197, 155, 135, 0.889); 
+        color:#a53095; 
     }
     
     #link-btnCadastrar{
@@ -72,7 +56,7 @@ body{
         border: 0px;
         display: flex;
         align-items: center;
-        justify-content:space-between;
+        justify-content:space-around;
         font-family:"Nunito Sans", sans-serif;
         font-style: italic;
         background-color:#48033f;
@@ -82,47 +66,36 @@ body{
     }
     #btn-ajuda:hover{
     
-        color:rgba(197, 155, 135, 0.889); 
+        color:#a53095; 
     }
     
+#btn-entrar{
 
-
-#btn-acessar{
-        width: 200px;
-        height: 60px;
-        margin-top: 2%;
-        background-color: rgba(240, 248, 255, 0.797);
-        font-size: 30px;
-        font-style: italic;
-        cursor: pointer;
-        color:#48033f;
-        border: 0px;
-        font-family:  "Nunito Sans", sans-serif;
-       
-}
-#btn-acessar:hover{
-
-    color:#a50f91;
-}
-
-
-
-
-
-
-/*textos*/
-
-
-.texto-login{
-    margin-top:70px;
-    margin-bottom: 50px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 45px;
+    height: 60px;
+    margin-top: 0%;
+    background-color: rgba(240, 248, 255, 0.797);
+    font-size: 25px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family:"Nunito Sans", sans-serif;
     font-style: italic;
-    color: #48033f;
-    text-align: center;
+    background-color:#48033f;
+    margin-right: 60px;
+   
 
 }
+
+#btn-entrar:hover{
+
+    color:#a53095; 
+
+}
+
+
 
 
 
@@ -132,7 +105,7 @@ body{
 header{  /*cabeçalho*/
 
 width: 100%;
-height: 150px;
+height: 160px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -159,18 +132,6 @@ img{   /*logotipo*/
 
 /*estão errados mas deram certo*/
 
-#login{
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 25px;
-    font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
-    border: solid 2px;
-    border-color:#48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 20%;
-}
 
 
 
@@ -190,12 +151,22 @@ input{
 }
 
 
+.carrosel{
+
+width:1925px;
+height:700px;
+margin-top:  0px;
 
 
+}
 
+.img-carrossel{
 
+    width:1925px;
+height:700px;
+    margin-left: 0.4px;
 
-
+}
 
 
 
