@@ -86,7 +86,7 @@ height: 300px;
     background-color: #EDA5CA;
     
     }
-@media( max-width: 600px){
+@media (min-width:100px) and ( max-width: 500px){ 
     .cards {
     display:grid ;
     grid-template-columns: 1fr;
