@@ -172,9 +172,14 @@ height:700px;
 
 
 
+
+
+
+
 /*responsividade*/
 
 
+<<<<<<< HEAD
 @media (max-width: 500px)  {
 
   
@@ -191,10 +196,174 @@ height:700px;
     border-radius: 20px;
   
     
+=======
+@media(min-width:100px) and (max-width: 500px ){
+
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color:#48033f;
+       
+     }
+     
+     .carrosel{
+
+        width:100%;
+        height:250px;
+        margin-top: 0px;
+        
+        
+>>>>>>> db278f568580f4c0539b65a4d0bb0b79f95cf44f
         }
+        
+        .img-carrossel{
+        
+            width:100%;
+        height:250px;
+            margin-left: 0.4px;
+        
+        }
+
+
+        header{  
+
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color:#48033f;
+            }
+            
+
+
+            img{   
+                width: 100px;
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            margin-left: 10px;
+            }
+
+
+
+         
+            
+            #btn-cadastrar{
+                width: 50px;
+                height: 50px;
+                margin-top: 0%;
+                background-color:#48033f;
+                font-size: 15px;
+                cursor: pointer;
+                color: #e7b705;
+                border: 0px;
+                display: flex;
+                align-items: center;
+                justify-content:space-between;
+                font-family:"Nunito Sans", sans-serif;
+                font-style: italic;
+                margin-left: 50px;
+             
+                
+                
+            
+            }
+            #btn-cadastrar:hover{
+                color:#a53095; 
+            }
+
+
+                #btn-ajuda{
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 0%;
+                    background-color: rgba(240, 248, 255, 0.797);
+                    font-size: 15px;
+                    cursor: pointer;
+                    color: #e7b705;
+                    border: 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-around;
+                    font-family:"Nunito Sans", sans-serif;
+                    font-style: italic;
+                    background-color:#48033f;
+                    margin-left: 40px;
+                 
+                
+                }
+
+                #btn-ajuda:hover{
+                
+                    color:#a53095; 
+
+
+
+
+}
+
+
+
+#btn-entrar{
+
+    width: 100px;
+     height: 100px;
+    margin-top: 0%;
+    background-color: rgba(240, 248, 255, 0.797);
+    font-size: 15px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    background-color:#48033f;
+    margin-left: 40px;
+   
+
+}
+
+#btn-entrar:hover{
+
+    color:#a53095; 
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
     
+<<<<<<< HEAD
 
 
     }
     
+=======
+        
+
+
+
+       
+>>>>>>> db278f568580f4c0539b65a4d0bb0b79f95cf44f
     
