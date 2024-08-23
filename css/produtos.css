@@ -3,7 +3,7 @@
 
 
 body{
- background-color: hwb(0 94% 6%);
+ background-color:#48033f;
  margin: 0px;
  padding: 0px;
  box-sizing: border-box;
@@ -14,21 +14,15 @@ body{
 
 header{
  
-width: 100%;
-height: 120px;
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-display: flex;
-align-items: center;
-justify-content:space-between;
-color:#8b4513; 
-margin-top: -8px;
-}
-
-
-.caixinha{
+    width: 100%;
+    height: 160px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#48033f;
+    
 }
+
 
     .texto-produtos{
 
@@ -86,29 +80,7 @@ height: 300px;
     background-color: #EDA5CA;
     
     }
-@media (min-width:100px) and ( max-width: 500px){ 
-    .cards {
-    display:grid ;
-    grid-template-columns: 1fr;
-    width: 600px;
-    height: 400px;
-    font-size: 70px;
-    margin-top: 100px;
-    
-    }
-    .card{
-        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 300px;
-        height: 200px;
-        border-radius: 30px;
-        background-color: #EDA5CA;
-        margin-top: 80px;
-        }
-    
-    }
+
 
 
 #card2{
@@ -141,7 +113,6 @@ background-color: #f0baff;
     border-radius: 40px;
     background-color: #A3CAE8;
 }
-   
    
 
 
@@ -275,14 +246,12 @@ color:#f06767;
 
 #logo{
 
-  
-width: 150px;
-height: 121px;
- display: flex;
- align-items: center;
- margin-top: 25px;
-
-
+    width: 200px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
 }
 
 #link-btn-picole{
@@ -293,3 +262,58 @@ height: 121px;
     list-style: none;
     text-decoration: none;
 }
+
+
+
+
+@media (min-width:100px) and ( max-width: 500px){ 
+
+   .cards {
+    display:grid ;
+    grid-template-columns: 1fr;
+    width: 400px;
+    height: 400px;
+    font-size: 70px;
+    margin-top: 100px;
+    
+    }
+    
+    .card{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 200px;
+        border-radius: 30px;
+        background-color: #EDA5CA;
+        margin-top: 80px;
+        }
+    
+
+
+
+
+        
+#logo{
+
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-left: 10px;
+}
+
+
+header{
+ 
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#48033f;
+}
+
+    }
