@@ -199,6 +199,23 @@ transition: 0.5s;
 /*responsividade*/
 
 
+
+@media (max-width: 500px)  {
+
+  
+    .card{
+    width: 500px;
+    height: 400px;
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 0px auto;
+    margin-top: 10%;
+    border-radius: 20px;
+  
+    
 @media(min-width:100px) and (max-width: 500px ){
 
 
@@ -217,6 +234,7 @@ transition: 0.5s;
         margin-top: 0px;
         
         
+
         }
         
         .img-carrossel{
@@ -381,9 +399,16 @@ transition: 0.5s;
 
 
     
+<<<<<<< HEAD
+
+
+    }
+    
+=======
         
 
 
 
        
+>>>>>>> db278f568580f4c0539b65a4d0bb0b79f95cf44f
     
