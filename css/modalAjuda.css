@@ -21,7 +21,7 @@
 .textos{
    
    width: 600px; 
-   color: aliceblue;
+   color: #e7b705;
    text-align: center;
    margin-top: 10px;
    margin-left: 45px;
@@ -38,6 +38,10 @@
     font-size: 25px;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
+    color: #e7b705;
+}
+#btn-FecharModalAjuda:hover{
+    color: #e7b705;
 }
 
 #btn-EnviarMansagem{
@@ -49,6 +53,7 @@
     margin-left: 43%;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
+    color: #e7b705;
 }
 
 #CabMensagem{
