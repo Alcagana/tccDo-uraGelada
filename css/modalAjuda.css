@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*MODAL INTEIRO*/
+
+#modalAjuda{
+
+    
+    background-color: #5c1d53;
+    width: 700px;
+    height: 455px;
+    border-radius: 20px;
+    
+
+}
+#modalAjuda::backdrop{
+    background-color: rgba(31, 30, 30, 0.699);
+}
+
+/*textos*/
+
+.textos{
+   
+   width: 600px; 
+   color: aliceblue;
+   text-align: center;
+   margin-top: 10px;
+   margin-left: 45px;
+   font-family:"Nunito Sans", sans-serif;
+   font-style: italic;
+}
+
+/*Buttons*/
+
+#btn-FecharModalAjuda{
+    background-color: #5c1d53;
+    color: aliceblue;
+    border: 0px;
+    font-size: 25px;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+}
+
+#btn-EnviarMansagem{
+    
+    background-color: #5c1d53;
+    color: aliceblue;
+    border: 0px;
+    font-size: 25px;
+    margin-left: 43%;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+}
+
+#CabMensagem{
+
+    margin-left: 15%;
+    margin-top: 60px;
+    font-size: 25px;
+}

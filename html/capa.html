@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="../css/modal.css">
     <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/modalEntrar.css">
+    <link rel="stylesheet" href="../css/modalLogin.css">
+    <link rel="stylesheet" href="../css/modalAjuda.css">
 
 
 </head>
@@ -39,26 +41,37 @@
 
    <dialog id="modalLogin">
 
-    <div class="texto-login">Insira seu Login.</div> 
-    <div class="card">
-    <input type="text" name="" id= "login" placeholder="Digite seu login">
-    <input type="password" name="" id= "Senha" placeholder="Digite sua senha" >
-    <button onclick="acessar" id="btn-acessar">Acessar</button>
     <button onclick="fechar" id="btn-FecharLogin">Fechar</button>
+    <div class="tudodomodal">
+        
+        <div class="texto-login">Insira seu Login</div> 
+     
+      <div class="cardLogin">
+        <input type="text" name="" id= "Dig-login" placeholder="Digite seu login">
+        <input type="password" name="" id= "Dig-senha" placeholder="Digite sua senha" >
+      </div>
+          <a href="./produtos.html"> 
+          <button onclick="acessar" id="btn-acessar">Acessar</button>
+        </a>
     </div>
+    <img src="../sorvete3.0.png" id="astronauta" alt="astronauta1"> 
 
-   </dialog>
+  </dialog>
 
    <dialog id="modalAjuda">
 
-     <div class="cardModal">
-      <p>Precisa de ajuda? Algum problema?</p>
-      <p>Deixe sua mensagem</p>
-
-      <textarea rows="5" cols="30"></textarea>
-     
-      <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
      <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+      
+     <div class="cardModal">
+       <div class="textos">
+        <H2>Deseja relatar algum problema?</H2>
+        <H3>Deixe sua mensagem</H3>
+       </div>
+
+      <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+      <p></p>
+      <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+    
      </div>
     
 
@@ -68,18 +81,6 @@
 
 
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="carrosel">
 
