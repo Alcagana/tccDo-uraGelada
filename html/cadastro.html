@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/modal.css">    
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="../css/modalAjuda.css">
 </head>
 <body>
 
@@ -16,19 +16,11 @@
 
         <header>
             
-            <div class="img">
-
-                <img src="../logonova.png"alt="logosorveteria">
-             
-               <a href="../html/capa.html">
-                <button onclick="ajudar" id="btn-voltar">voltar</button>
-            </a>
-
-            </div>
+            <div class="img"><img src="../logonova.png"alt="logosorveteria"></div>
     
-            <button onclick="ajudar" id="btn-ajuda">Ajuda</button>
+            <button onclick="acessar" id="btn-ajuda">Ajuda </button>
     
-    </header>
+        </header>
     
     
     <div class="texto-funcionario">Cadastro Funcionários </div> 
@@ -68,22 +60,29 @@
           
 
 
-    <dialog id="ajuda" >
-        <div class="btn-fechar-ajuda">
-            <button id="fechar"> Fechar </button>
-           <button id="enviar" onclick="Enviar">Enviar</button>
-        </div>
+    <dialog id="modalAjuda">
 
-        <h1 id="mensagem1">Precisa de ajuda? Algum erro no site?</h1>
-        <P id="mensagem2">Deixe sua mensagem aqui:</P>
-        <textarea rows="8" cols="50" id="btn-comentario"></textarea>
-        
-    </dialog>
+        <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+         
+        <div class="cardModal">
+          <div class="textos">
+           <H2>Deseja relatar algum problema?</H2>
+           <H3>Deixe sua mensagem</H3>
+          </div>
+   
+         <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+         <p></p>
+         <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+       
+        </div>
+       
+   
+      </dialog>
+
 
     
 
 
-
-    <script src="../js/modal.js"></script>
+   <script src="../js/modalAjuda.js"></script>
 </body>
 </html>

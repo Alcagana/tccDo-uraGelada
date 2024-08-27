@@ -35,11 +35,13 @@ body{
 
     
     #btn-ajuda{
-        width: 250px;
+
+        width: 100px;
         height: 60px;
-        margin-top: 2%;
+        margin-top:0.5%;
+        margin-right: 90px;
         background-color:#48033f;
-        font-size: 28px;
+        font-size: 31px;
         cursor: pointer;
         color: #e7b705;
         border: 0px;
@@ -78,28 +80,6 @@ body{
         color:#a50f91;
     }
     
-/*
-    #btn-voltar{
-
-        width: 250px;
-        height: 60px;
-        background-color: rgba(240, 248, 255, 0.797);
-        font-size: 28px;
-        cursor: pointer;
-        color: #8b4513;
-        border: solid;
-        display: flex;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-
-
-    }
-    #btn-voltar:hover{
-
-        color:rgba(189, 131, 102, 0.889);  
-    }
-
-*/
 
 /*textos*/
 

@@ -80,6 +80,35 @@ border-radius: 5px;
 font-size: 20px;
 
 }
+#btn-ajuda{
+    width: 250px;
+    height: 60px;
+    margin-top:-5.1%;
+    margin-left: 1715px;
+    background-color:#48033f;
+    font-size: 31px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+   
+}
+
+
+
+#btn-ajuda:hover{
+
+    color:rgba(189, 131, 102, 0.889); 
+}
+#logooo{
+
+    width: 200px;
+    height: 200px;
+}
 
 
 
@@ -150,6 +179,8 @@ font-size: 20px;
     font-size: 20px;
     
     }
+    
+    
 
     }
     

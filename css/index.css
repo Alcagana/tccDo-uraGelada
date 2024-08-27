@@ -17,64 +17,12 @@ body{
 /*card, borão*/
 
 
-
-    #btn-cadastrar{
-        width: 250px;
-        height: 60px;
-        margin-top: 0%;
-        background-color:#48033f;
-        font-size: 25px;
-        cursor: pointer;
-        color: #e7b705;
-        border: 0px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        margin-left: 900px;
-        
-    
-    }
-    #btn-cadastrar:hover{
-        color:#a53095; 
-    }
-    
-    #link-btnCadastrar{
-        list-style: none;
-        text-decoration: none;
-    }
-
-    #btn-ajuda{
-        width: 250px;
-        height: 60px;
-        margin-top: 0%;
-        background-color: rgba(240, 248, 255, 0.797);
-        font-size: 25px;
-        cursor: pointer;
-        color: #e7b705;
-        border: 0px;
-        display: flex;
-        align-items: center;
-        justify-content:space-around;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        background-color:#48033f;
-        
-     
-       
-    }
-    #btn-ajuda:hover{
-    
-        color:#a53095; 
-    }
-    
 #btn-entrar{
 
     height: 60px;
     margin-top: 0%;
     background-color: rgba(240, 248, 255, 0.797);
-    font-size: 25px;
+    font-size: 31px;
     cursor: pointer;
     color: #e7b705;
     border: 0px;

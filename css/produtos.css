@@ -20,6 +20,7 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color:#48033f;
+   
     
 }
 
@@ -252,6 +253,7 @@ color:#f06767;
     align-items: center;
     justify-content: space-between;
     margin-left: 100px;
+    border: 0px;
 }
 
 #link-btn-picole{
@@ -263,7 +265,55 @@ color:#f06767;
     text-decoration: none;
 }
 
+#btn-ajuda{
+    width: 200px;
+    height: 50px;
+    margin-top: -0%;
+    margin-left: 130px;
+    background-color:#48033f;
+    font-size: 31px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+   
+}
 
+
+
+#btn-ajuda:hover{
+
+    color:rgba(189, 131, 102, 0.889); 
+}
+
+#btn-cadastrar{
+    width: 300px;
+    height: 60px;
+    margin-top: 0%;
+    background-color:#48033f;
+    font-size: 30px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    margin-left: 1000px;
+    
+
+}
+
+
+#link-btnCadastrar{
+    list-style: none;
+    text-decoration: none;
+}
 
 
 @media (min-width:100px) and ( max-width: 500px){ 
