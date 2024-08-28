@@ -297,46 +297,13 @@ input{
     
     }
 
-
-
-
-    #btn-ajuda{
-        width: 100px;
-        height: 100px;
-        margin-top: 0%;
-        background-color:#48033f;
-        font-size: 15px;
-        cursor: pointer;
-        color: #e7b705;
-        border: 0px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        margin-left: 10px;
-    }
-    
-
-
-    #btn-ajuda:hover{
-        color:#a50f91;
-
-
-
-}
-
-
-
-
-
 img{   
     width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-margin-left: 10px;
+    margin-left: 10px;
 
 
 }
@@ -349,10 +316,97 @@ header{
     align-items: center;
     justify-content: space-between;
     background-color:#48033f
-    }
+}
     
-
+    #btn-ajuda{
+        width: 100px;
+        height: 100px;
+        margin-top: 0%;
+        margin-right: 30px;
+        background-color:#48033f;
+        font-size: 30px;
+        cursor: pointer;
+        color: #e7b705;
+        border: 0px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        
+}
+    
+    #btn-ajuda:hover{
+        color:#a50f91;
 
 
 
 }
+
+
+}
+
+
+@media(min-width:300px) and (max-width: 500px ){
+
+    #modalAjuda{
+
+    
+        background-color: #5c1d53;
+        width: 420px;
+        height: 313px;
+        border-radius: 20px;
+        margin-right: 28px;
+        margin-top: 200px;        
+    
+    }
+    .textos{
+   
+        width: 350px; 
+        color: #e7b705;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 45px;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        font-size: 15px;
+     }
+     #btn-FecharModalAjuda{
+        background-color: #5c1d53;
+        color: aliceblue;
+        border: 0px;
+        font-size: 20px;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        color: #e7b705;
+    }
+     #CabMensagem{
+
+        margin-left: 8%;
+        margin-top: 15px;
+        font-size: 25px;
+        width: 350px;
+        height: 100px;
+    }
+    #btn-EnviarMansagem{
+    
+        background-color: #5c1d53;
+        color: aliceblue;
+        border: 0px;
+        font-size: 22px;
+        margin-left: 43%;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        color: #e7b705;
+    }
+
+    
+
+
+
+}        
+
+
+
+
+

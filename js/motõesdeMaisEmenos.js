@@ -1,4 +1,3 @@
-
 var contador = document.querySelector('#qtd');
 
 document.querySelector('#mais').addEventListener('click', function(){

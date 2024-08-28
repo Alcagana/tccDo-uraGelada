@@ -6,8 +6,8 @@
 
     
     background-color: #5c1d53;
-    width: 700px;
-    height: 455px;
+    width: 680px;
+    height: 460px;
     border-radius: 20px;
     
 
@@ -66,5 +66,3 @@
     margin-top: 60px;
     font-size: 25px;
 }
-
-@media(min-width:100px) and (max-width: 500px ){}

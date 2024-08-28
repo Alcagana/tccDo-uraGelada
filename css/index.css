@@ -121,8 +121,8 @@ height:700px;
 
 width: 500px;
 height: 550px;
-margin-top: 30%;
-margin-left: 70%;
+margin-top: 5%;
+margin-left: 5%;
 -webkit-transform: translateY(0);
 -moz-transform: translateY(0);
 -ms-transform: translateY(0);
@@ -261,10 +261,10 @@ transition: 0.5s;
 #btn-entrar{
 
     width: 100px;
-     height: 100px;
+    height: 100px;
     margin-top: 0%;
     background-color: rgba(240, 248, 255, 0.797);
-    font-size: 15px;
+    font-size: 25px;
     cursor: pointer;
     color: #e7b705;
     border: 0px;
@@ -274,7 +274,7 @@ transition: 0.5s;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
     background-color:#48033f;
-    margin-left: 40px;
+    margin-right: 10px;
    
 
 }
@@ -292,8 +292,8 @@ transition: 0.5s;
 
     width: 200px;
     height: 250px;
-    margin-top: 60%;
-    margin-left: 60%;
+    margin-top: 20%;
+    margin-left: 30%;
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);

@@ -210,4 +210,63 @@ main{
 
 
     }
+
+@media(min-width:300px) and (max-width: 500px ){
+
+        #modalAjuda{
     
+        
+            background-color: #5c1d53;
+            width: 420px;
+            height: 313px;
+            border-radius: 20px;
+            margin-left: 18px;
+            margin-top: 200px;
+            
+        
+        }
+        .textos{
+       
+            width: 350px; 
+            color: #e7b705;
+            text-align: center;
+            margin-top: 0px;
+            margin-left: 45px;
+            font-family:"Nunito Sans", sans-serif;
+            font-style: italic;
+            font-size: 15px;
+         }
+         #btn-FecharModalAjuda{
+            background-color: #5c1d53;
+            color: aliceblue;
+            border: 0px;
+            font-size: 20px;
+            font-family:"Nunito Sans", sans-serif;
+            font-style: italic;
+            color: #e7b705;
+        }
+         #CabMensagem{
+    
+            margin-left: 8%;
+            margin-top: 15px;
+            font-size: 25px;
+            width: 350px;
+            height: 100px;
+        }
+        #btn-EnviarMansagem{
+        
+            background-color: #5c1d53;
+            color: aliceblue;
+            border: 0px;
+            font-size: 22px;
+            margin-left: 43%;
+            font-family:"Nunito Sans", sans-serif;
+            font-style: italic;
+            color: #e7b705;
+        }
+    
+        
+    
+    
+    
+    }    

@@ -7,7 +7,7 @@
    
     background-color: #5c1d53;
     width: 850px;
-    height: 400px;
+    height: 410px;
     border-radius: 20px;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
@@ -79,6 +79,9 @@
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
 }
+
+ /*IMG*/
+ 
 #astronauta{
     
     width: 300px;
@@ -88,4 +91,99 @@
     margin-left: -25px;
     
     
+}
+@media (min-width:100px) and (max-width: 500px ){
+
+    #modalLogin{
+    
+   
+        background-color: #5c1d53;
+        width: 600px;
+        height: 310px;
+        border-radius: 20px;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+    }
+    
+    .texto-login{
+        width: 200px;
+        font-size: 25px;
+        color: aliceblue;
+        margin-left: 180px ;
+        margin-top: -40px;
+        color: #e7b705;
+        
+        
+     }
+     .tudodomodal{
+        margin-left: 0px;
+        width:  0px;
+        
+    
+    }
+     .cardLogin{
+
+       height: 150px;
+       width: 300px;
+       margin-left: 60px;
+       
+       
+
+     }
+     /*IMPUTS*/
+     #Dig-login{
+        width: 250px;
+        height: 45px;
+        font-size: 15px;
+        margin-top: 40px;
+       
+       
+    }
+    #Dig-senha{
+        width: 250px;
+        height: 45px;
+        font-size: 15px;
+       
+    }
+    
+    /*IMG*/
+    #astronauta{
+    
+        width: 150px;
+        height: 150px;
+        display: flex;
+        margin-top: -200px;
+        margin-left: -25px;
+       
+        
+    } 
+    /*BOTOONS*/
+    #btn-acessar{
+
+        width: 100px;
+        height: 50px;
+        margin-left: 200px;
+        margin-top: 25px;
+        color: #e7b705;
+        background-color: #5c1d53;
+        border: solid 0px;
+        font-size: 25px;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        
+    }
+    #btn-FecharLogin{
+        width: 100px;
+        height: 50px;
+        background-color: #5c1d53;
+        border: solid 0px;
+        font-size: 22px;
+        color: #e7b705;
+        margin-left: 0px;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        
+    }
+
+
 }
