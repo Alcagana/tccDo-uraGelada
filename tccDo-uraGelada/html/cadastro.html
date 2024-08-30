@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="../css/modalAjuda.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+<body>
+
+    <main>
+
+        <header>
+            
+            <div class="img"><img src="../logonova.png"alt="logosorveteria"></div>
+    
+            <button onclick="acessar" id="btn-ajuda">Ajuda </button>
+            <dialog id="modalAjuda">
+
+                <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+                 
+                <div class="cardModal">
+                  <div class="textos">
+                   <H2>Deseja relatar algum problema?</H2>
+                   <H3>Deixe sua mensagem</H3>
+                  </div>
+           
+                 <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+                 <p></p>
+                 <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+               
+                </div>
+               
+              </dialog>
+    
+        </header>
+    
+    <div class="texto-funcionario">Cadastro Funcionários </div> 
+    
+    <div class="card"id="card">
+
+        <div class="textocampos">Preencha os campos</div>
+
+        <input type="text" id="nome" placeholder="Nome do funcionário">
+        <input type="text" placeholder="Crie seu login">
+        <input type="text" placeholder="Digite novamente">
+        <input type="password" name="" id="senha" placeholder="Nova senha" >
+        <input type="password" name=""  id="senha" placeholder="Digite novamente" >
+
+         <button onclick="Cadastrar" id="btn-Cadastrar">Cadastrar</button>
+
+        </div>
+    
+    </main>
+          
+   <script src="../js/modalAjuda.js"></script>
+</body>
+</html>
