@@ -32,39 +32,25 @@ main{
     .sorvetes{
     
         display: grid;
-        grid-template-columns: 50% 50% 50%;
+        grid-template-columns: 50% 50%;
         width: 55%;
-        margin-right: 750px;
-        gap: 100px;
-        margin-top: 50px;
-
+        margin-right: 800px;
+        gap: 10px;
+        margin-top: 30px;
     
     
     }
-    
     .produtos{
 
         height: 260px;
-        border: solid 2px #48033f;
+        border: solid;
         display: flex;
         align-items: center;
         margin-top: -350px;
-        
      
     }
-    .container{
-        margin-top: -65px;
-        margin-left: 20px;
-    }
+    
 
-    .maisemenos2{
-        margin-top: 170px;
-        margin-left: 160px;
-    }
-    .maisemenos3{
-        margin-top: 170px;
-        margin-left: 160px;
-    }
 /*ID*/
 
 #logo{
@@ -81,16 +67,15 @@ main{
 
     width: 350px;
     height: 30px;
-    margin-right: 70%;
+    margin-right: 42%;
     border-radius: 5px;
     font-size: 20px;
-    margin-top: -60px;
 
 }
 /*BOTÕES*/
 #btn-ajuda{
 
-    width: 50px;
+    width: 250px;
     height: 60px;
     margin-top: -5.1%;
     margin-left:1715px;
@@ -121,22 +106,6 @@ main{
     height: 260px;
     width: 250px;
 
-}
-
-/*TEXTOS*/
-#tex-casquinha{
-    width: 300px;
-    font-size: 29px;
-    margin-top: -210px;
-    margin-left: -170px;
-   
-}
-#tex-casquinha2{
-    width: 300px;
-    font-size: 29px;
-    margin-top: 190px;
-    margin-left: -170px;
-   
 }
 
 
@@ -178,9 +147,8 @@ main{
     
     #pesquisar{
 
-        width: 800px;
+        width: 500px;
         height: 30px;
-        margin-top: 7px;
         margin-left: 40%;
         border-radius: 5px;
         font-size: 20px;
@@ -207,12 +175,12 @@ main{
     }
     .produtos{
         
-        width: 470px;
+        width: 440px;
         height: 270px;
-        border: solid 2px #48033f;
+        border: solid;
         display: flex;
         align-items: center;
-        margin-left: -25px;
+        margin-left: -20px;
         
         
     
@@ -225,35 +193,16 @@ main{
         display: grid;
         grid-template-columns: 50%;
         width: 75%;
-        margin-right: 50px;
-        gap: 350px;
-        margin-top: 420px;
+       margin-right: 50px;
+        gap: 30px;
+        margin-top: 50px;
         flex-direction: column;
         
-    }
-    .container{
-        
-        margin-top: -67px;
-        margin-left: 40px;
-
     }
     #casquinhamcc{
 
         height: 260px;
         width: 250px;
-    
-    }
-    #tex-casquinha{
-        width: 300px;
-        font-size: 25px;
-        margin-top: -215px;
-        margin-left: -100px;
-    }
-    #tex-casquinha2{
-        width: 300px;
-        font-size: 25px;
-        margin-top: 210px;
-        margin-left: -100px;
     
     }
 
