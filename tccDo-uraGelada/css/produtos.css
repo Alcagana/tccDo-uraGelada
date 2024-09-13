@@ -43,16 +43,17 @@ header{
     /*CARDS*/
 
 
-.cards{
+.botoesimg{
  
 width: 1700px;
 height: 600px;
-margin-top: 300px;
+margin-top: 250px;
 margin-left: 6%;
 display: flex;
 justify-content: center;
 text-align: center;
-gap:70px
+gap:150px
+
 
 }
 
@@ -74,7 +75,7 @@ height: 300px;
 
 
 
-/*botões*/
+/*botões img*/
 
 
 #img-card1{
@@ -87,6 +88,7 @@ height: 300px;
 #img-card1:hover{
     width: 250px;
     height: 250px;
+  
    
 }
 
@@ -94,36 +96,28 @@ height: 300px;
 #img-card2{
     width: 200px;
     height: 200px;
-    transition: all 0.5s;
+    
    
 }
-#img-card2 :hover{
-    width: 200px;
-    height: 200px;
-
-}
-
 
 #img-card3{
     width: 200px;
     height: 200px;
-    transition: all 0.5s;
+   
 }
-#img-card3 :hover{
-    width: 200px;
-    height: 200px;
-}
+
 
 
 #img-card4{
     width: 200px;
     height: 200px;
-    transition: all 0.5s;
+   
 }
-#img-card4 :hover{
-    width: 200px;
-    height: 200px;
-}
+
+
+
+
+
 
 
 #logo{
@@ -233,6 +227,7 @@ a{
     color: aliceblue;
     border: 0px;
     font-size: 25px;
+    margin-right: 600px;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
     color: #e7b705;
@@ -247,10 +242,10 @@ a{
     color: aliceblue;
     border: 0px;
     font-size: 25px;
-    margin-left: 43%;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
     color: #e7b705;
+    margin-left: 280px;
 }
 #btn-EnviarMansagem:hover{
     color: #9c7c07;
@@ -373,8 +368,7 @@ header{
             height: 313px;
             border-radius: 20px;
             margin-right: 270px;
-            margin-bottom: 700px;
-            
+            margin-top: 200px;        
         
         }
         .textos{
@@ -383,7 +377,6 @@ header{
             color: #e7b705;
             text-align: center;
             margin-top: 0px;
-            margin-left: 45px;
             font-family:"Nunito Sans", sans-serif;
             font-style: italic;
             font-size: 15px;
@@ -396,6 +389,7 @@ header{
             font-family:"Nunito Sans", sans-serif;
             font-style: italic;
             color: #e7b705;
+            margin-right: 200px;
         }
          #CabMensagem{
     
@@ -421,4 +415,4 @@ header{
     
     
     
-    }
+    }   

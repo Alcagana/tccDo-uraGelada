@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 
 
@@ -12,8 +11,6 @@ body{
   
 }
 
-
-/*card, borão*/
 
 
 #btn-entrar{
@@ -28,9 +25,9 @@ body{
     display: flex;
     align-items: center;
     justify-content:space-around;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
-    background-color:#48033f;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+    background-color: #48033f;
     margin-right: 60px;
    
 
@@ -43,10 +40,6 @@ body{
 }
 
 
-
-
-
-/*outros*/
 
 
 header{  /*cabeçalho*/
@@ -73,15 +66,6 @@ img{   /*logotipo*/
 
 
 
-
-
-
-
-/*estão errados mas deram certo*/
-
-
-
-
 input{
 
 
@@ -101,7 +85,7 @@ input{
 .carrosel{
 
 width:1903px;
-height:700px;
+height:800px;
 margin-top:  0px;
 
 
@@ -110,7 +94,7 @@ margin-top:  0px;
 .img-carrossel{
 
     width:1903px;
-height:700px;
+height:800px;
     margin-left: 0.4px;
 
 }
@@ -122,25 +106,102 @@ width: 500px;
 height: 550px;
 margin-top: 5%;
 margin-left: 5%;
--webkit-transform: translateY(0);
--moz-transform: translateY(0);
--ms-transform: translateY(0);
--o-transform: translateY(0);
-transform: translateY(0);
--webkit-transition: 0.5s;
--o-transition: 0.5s;
--moz-transition: 0.5s;
-transition: 0.5s;
 
 }
 
-#post-it:hover {
-    -webkit-transform: translateY(-8px);
-    -moz-transform: translateY(-8px);
-    -ms-transform: translateY(-8px);
-    -o-transform: translateY(-8px);
-    transform: translateY(-8px);
+
+
+.cards{
+
+
+width: 100%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 100px;
+margin-top: 20px;
+font-family:  "Playpen Sans", cursive;
+font-weight: 200;
 }
+
+
+.mensagem1{
+    width: 350px;
+    height: 200px;
+ 
+
+}
+
+
+
+.mensagem2{
+    width: 350px;
+    height: 200px;
+    
+}
+
+.mensagem3{
+    width: 350px;
+    height: 200px;
+
+}
+
+.mensagem4{
+    width: 350px;
+    height: 200px;
+   
+}
+
+
+
+#coração{
+
+    width: 15px;
+    height: 15px;
+    margin-top: 80px;
+    margin-left: 15px;
+
+}
+
+.texto1{
+margin-left: 50px;
+color: #e7b705;
+font-size: 15px;
+margin-top: -65px
+
+}
+
+.texto2{
+    margin-left: 50px;
+color: #e7b705;
+font-size: 15px;
+margin-top: -65px
+}
+
+.texto3{
+    margin-left: 50px;
+    color: #e7b705;
+    font-size: 15px;
+    margin-top: -65px
+}
+
+.texto4{
+    margin-left: 50px;
+    color: #e7b705;
+    font-size: 15px;
+    margin-top: -60px
+}
+
+h1{
+    font-size: 20px;
+}
+
+
+
+
+
+
 
 
 /*responsividade*/

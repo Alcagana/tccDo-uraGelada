@@ -49,9 +49,39 @@ main{
         margin-top: -350px;
      
     }
+
+    .container{
+        width: 260px;
+        height: 257px;
+        margin-bottom: 0px;
+       
+    }
     
 
 /*ID*/
+
+#texto-um{
+    font-size: 35px;
+    margin-bottom: 170px;
+    margin-top: -5px;
+   
+    
+}
+
+#texto-dois{
+  font-size: 30px;
+  width: 100px;
+  margin-top: 190px;
+  
+  
+ 
+ 
+}
+#todos-botoes{
+    margin-left: 180px;
+    margin-top: -73px;
+    
+}
 
 #logo{
 

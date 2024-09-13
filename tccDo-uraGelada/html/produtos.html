@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
     <link rel="stylesheet" href="../css/produtos.css">
 
 </head>
@@ -18,7 +17,7 @@
 
     <header>
 
-     <img src="../logonova.png" id="logo" alt="">
+     <img src="../imagens/logonova.png" id="logo" alt="">
 
     <a href="../html/cadastro.html"  id="link-btnCadastrar">
         <button onclick="acessar" id="btn-cadaFun">Cadastro funcionários </button>
@@ -28,18 +27,38 @@
      
     </header>
 
+    <dialog id="modalAjuda">
+
+        <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+         
+        <div class="cardModal">
+          <div class="textos">
+           <H2>Deseja relatar algum problema?</H2>
+           <H3>Deixe sua mensagem</H3>
+          </div>
     
-<div class="cards" >
+         <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+         <p></p>
+         <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+       
+        </div>
+       
+    
+      </dialog>
+    
+
+    
+<div class="botoesimg" >
 
     <a href="./sorvete.html">
-        <img src="../btn-casquinha.svg" alt="" id="img-card1">
+        <img src="../Botões/btn-casquinha.svg" alt="" id="img-card1">
     </a>
 
 
 
 
 <a href="../html/artesanais.html">
-    <img src="../btn-artesanal.svg" alt="" id="img-card2">
+    <img src="../Botões/btn-artesanal.svg" alt="" id="img-card2">
 </a>
 
 
@@ -47,35 +66,17 @@
 
 
    <a href="../html/picole.html" > 
-    <img src="../btn-picole (2).svg" alt="" id="img-card3">
+    <img src="../Botões/btn-picole (2).svg" alt="" id="img-card3">
    
 
    
     <a href="../html/adicionais.html" id="link-btn-Adicionais">
-       <img src="../btn-outros.svg" alt="" id="img-card4">
+       <img src="../Botões/btn-outros.svg" alt="" id="img-card4">
     </a>
       
+</div>
 
 
-
-<dialog id="modalAjuda">
-
-    <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
-     
-    <div class="cardModal">
-      <div class="textos">
-       <H2>Deseja relatar algum problema?</H2>
-       <H3>Deixe sua mensagem</H3>
-      </div>
-
-     <textarea rows="4" cols="40" id="CabMensagem"></textarea>
-     <p></p>
-     <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
-   
-    </div>
-   
-
-  </dialog>
 
 
 
