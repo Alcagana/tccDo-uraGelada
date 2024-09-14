@@ -18,29 +18,40 @@
 
         <div class="cabeçalho">
  
-            <img src="../logonova.png" id="logo" alt="logo" id="logo">
+            <img src="../imagens/logonova.png" id="logo" alt="logo" id="logo">
             <button onclick="acessar" id="btn-ajuda">Ajuda </button>
 
         </div>
 
     </header>
 
-    <main>
-        <input type="text" name="" id= "pesquisar" placeholder="produtos">
+    <form action=""><input type="text" name="" id= "pesquisar" placeholder="produtos"></form>
         
-        <div class="sorvetes">
-            <div class="produtos" >
+    <main>
+
+          <div id="pro-1" >
                 <img src="https://static.fescopan.com.br/public/fescopan/imagens/produtos/casquinha-para-sorvete-biscoito-doce-300unid-marvi-2140.jpeg" alt=""id="casquinhamcc"> 
-                <div class="maisemenos">
+                
                        <div class="container">
-                         <div id="mais" class="botoes" itemid="maiiis"> + </div>
-                         <div id="menos" class="botoes" itemid="menooos"> - </div>
-                         <div class="qtd" id="qtd"> 0 </div></div>
-                       </div>
-                    </div>
-        </div>
+                        <h2 class="texto-um">Casquinha</h2>
+                        <h3 class="texto-dois">R$2,50</h3>
+                          <div class="todos-botoes"> 
+                           <div class="botoess" id="btn++1"> + </div>
+                           <div class="botoes" id="btn--1"> - </div>
+                           <div class="qtd" id="qtd1"> 0 </div></div>
+                         </div>
+          </div>
+                    
+        
+        
+        
+          
+      
+      
+        
 
     </main>
+
     <dialog id="modalAjuda">
 
       <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
@@ -67,7 +78,7 @@
 
 
 
-    <script src="../js/motõesdeMaisEmenos.js"></script>
+    <script src="../js/motoesdeMaisEmenos.js"></script>
     <script src="../js/modalAjuda.js"></script>
 </body>
 </html>

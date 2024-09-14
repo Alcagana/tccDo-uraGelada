@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 /*MODAL INTEIRO*/
 
@@ -9,8 +9,8 @@
     width: 850px;
     height: 410px;
     border-radius: 20px;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
 }
 #modalLogin::backdrop{
  
@@ -65,8 +65,9 @@
     color: #e7b705;
     margin-left: 40%;
     margin-top: 30px;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+    
 }
 #btn-FecharLogin{
     width: 100px;
@@ -76,8 +77,9 @@
     font-size: 25px;
     color: #e7b705;
     margin-left: 0px;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+   
 }
 
  /*IMG*/
@@ -101,8 +103,9 @@
         width: 600px;
         height: 310px;
         border-radius: 20px;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
+        font-family: "Playpen Sans", cursive;
+        font-weight: 200;
+        
     }
     
     .texto-login{
@@ -168,8 +171,9 @@
         background-color: #5c1d53;
         border: solid 0px;
         font-size: 25px;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
+        font-family: "Playpen Sans", cursive;
+        font-weight: 200;
+      
         
     }
     #btn-FecharLogin{
@@ -180,8 +184,9 @@
         font-size: 22px;
         color: #e7b705;
         margin-left: 0px;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
+        font-family: "Playpen Sans", cursive;
+        font-weight: 200;
+  
         
     }
 

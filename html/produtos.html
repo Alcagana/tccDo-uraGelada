@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/modalAjuda.css">
     <link rel="stylesheet" href="../css/produtos.css">
 
 </head>
@@ -18,7 +17,7 @@
 
     <header>
 
-     <img src="../logonova.png" id="logo" alt="">
+     <img src="../imagens/logonova.png" id="logo" alt="">
 
     <a href="../html/cadastro.html"  id="link-btnCadastrar">
         <button onclick="acessar" id="btn-cadaFun">Cadastro funcionários </button>
@@ -28,64 +27,56 @@
      
     </header>
 
+    <dialog id="modalAjuda">
+
+        <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+         
+        <div class="cardModal">
+          <div class="textos">
+           <H2>Deseja relatar algum problema?</H2>
+           <H3>Deixe sua mensagem</H3>
+          </div>
     
-<div class="cards" >
+         <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+         <p></p>
+         <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+       
+        </div>
+       
+    
+      </dialog>
+    
 
-<div class="card" id="card1">
-<a href="../html/sorvete.html">
-    <button onclick="sorvete" id="btn-sorvete">Sorvetes</button>
-</a>
+    
+<div class="botoesimg" >
 
-</div>
+    <a href="./sorvete.html">
+        <img src="../Botões/btn-casquinha.svg" alt="botão-sorvete" id="img-card1">
+    </a>
 
 
-<div class="card" id="card2">
 
 
 <a href="../html/artesanais.html">
-    <button onclick="artesanal" id="btn-artesanal">Artesanais</button>
+    <img src="../Botões/btn-artesanal.svg" alt="botão-artesanais" id="img-card2">
 </a>
 
-</div>
 
-<div class="card" id="card3">
 
-   <a href="../html/picole.html" id="link-btn-picole"> 
-    <button onclick="picole" id="btn-picole">Picolés</button>
-</a>
+
+
+   <a href="../html/picole.html" > 
+    <img src="../Botões/btn-picole (2).svg" alt="botão-picolés" id="img-card3">
    
-</div>
 
-<div class="card" id="card4">
    
     <a href="../html/adicionais.html" id="link-btn-Adicionais">
-        <button onclick="adicionais" id="btn-add">Outros</button>
+       <img src="../Botões/btn-outros.svg" alt="botão-adicionais" id="img-card4">
     </a>
       
 </div>
 
 
-
-</div>
-
-<dialog id="modalAjuda">
-
-    <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
-     
-    <div class="cardModal">
-      <div class="textos">
-       <H2>Deseja relatar algum problema?</H2>
-       <H3>Deixe sua mensagem</H3>
-      </div>
-
-     <textarea rows="4" cols="40" id="CabMensagem"></textarea>
-     <p></p>
-     <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
-   
-    </div>
-   
-
-  </dialog>
 
 
 

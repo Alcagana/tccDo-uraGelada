@@ -3,12 +3,15 @@
 
 body{
 
-    background-color: hwb(0 94% 6%);
+    background-color: hwb(0 100% 0%);
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 
+   
 }
+
+/* cabeçalho */
 header{
  
     height: 150px;
@@ -17,41 +20,6 @@ header{
     background-color: #48033f;
   
 }
-
-main{
-
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    flex-wrap: wrap;
-
-}
-
-   /*CLASSES*/
-    .sorvetes{
-    
-        display: grid;
-        grid-template-columns: 50% 50%;
-        width: 55%;
-        margin-right: 800px;
-        gap: 10px;
-        margin-top: 30px;
-    
-    
-    }
-    .produtos{
-
-        height: 260px;
-        border: solid;
-        display: flex;
-        align-items: center;
-        margin-top: -350px;
-     
-    }
-    
-
-/*ID*/
 
 #logo{
 
@@ -63,22 +31,12 @@ main{
     margin-left: 100px;
 }
 
-#pesquisar{
-
-    width: 350px;
-    height: 30px;
-    margin-right: 42%;
-    border-radius: 5px;
-    font-size: 20px;
-
-}
-/*BOTÕES*/
 #btn-ajuda{
 
-    width: 250px;
+    width: 100px;
     height: 60px;
     margin-top: -5.1%;
-    margin-left:1715px;
+    margin-left:1680px;
     background-color:#48033f;
     font-size: 31px;
     cursor: pointer;
@@ -93,20 +51,87 @@ main{
 }
 
 
-
 #btn-ajuda:hover{
 
     color:rgba(189, 131, 102, 0.889); 
 }
+ /* pesquisa */
 
+#pesquisar{
+
+    width: 350px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
 
 /*TABELA DE PRODUTOS*/
+
+main{
+
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap:wrap;
+    padding: 0px;
+    gap: 50px;
+
+}
+
+#pro-1 , #pro-2 , #pro-3 , #pro-4, #pro-5, #pro-6 , #pro-7{
+        
+    width: 280px;
+    height: 470px;
+    border: solid #75206a 2px;
+    margin-left: 100px;
+      
+   
+
+ 
+}
+
+.container{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 240px;
+    margin-top: -220px;
+}   
+
 #casquinhamcc{
 
     height: 260px;
     width: 250px;
+    margin-bottom: 220px;
 
 }
+
+.texto-um{
+    font-size: 35px;
+   margin-top: -200px;
+ 
+
+}
+
+.texto-dois{
+  font-size: 30px;
+  margin-top: 138px;
+  width: 100px;
+ 
+
+}
+.todos-botoes{
+   
+    margin-left: 200px;
+    margin-top: -76px;
+}
+
+
 
 
 @media(min-width:100px) and (max-width: 500px ){

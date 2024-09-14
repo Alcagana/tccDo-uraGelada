@@ -10,7 +10,10 @@ body{
 
 
 }
-header{
+
+  /*CABEÇALHO*/
+
+   header{
  
 
     height: 150px;
@@ -20,42 +23,6 @@ header{
   
 }
 
-main{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    margin-top: 200px;
-    flex-wrap: wrap;
-
-}
-
-   /*CLASSES*/
-    .sorvetes{
-    
-   
-   
-        display: grid;
-        grid-template-columns: 50% 50%;
-        width: 55%;
-        margin-right: 800px;
-        gap: 10px;
-        margin-top: 30px;
-        
-    }
-    .produtos{
-        height: 260px;
-        border: solid;
-        display: flex;
-        align-items: center;
-        margin-top: -350px;
-    
-    
-        
-    }
-    
-
-
-/*ID*/
 #logo{
     width: 199px;
     height: 150px;
@@ -67,17 +34,6 @@ main{
 }
 
 
-
-
-#pesquisar{
-    width: 350px;
-    height: 30px;
-margin-right: 42%;
-border-radius: 5px;
-font-size: 20px;
-
-}
-/*BOTÕES*/
 #btn-ajuda{
     width: 250px;
     height: 60px;
@@ -103,12 +59,78 @@ font-size: 20px;
     color:rgba(189, 131, 102, 0.889); 
 }
 
+/* pesquisar */
 
+#pesquisar{
+
+    width: 350px;
+    height: 30px;
+    margin-left: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
 /*TABELA DE PRODUTOS*/
-#refrigerante-coca{
+main{
 
-    height: 230px;
-    width: 240px;
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap:wrap;
+    padding: 0px;
+    gap: 50px;
+
+}
+
+#pro-1 , #pro-2 , #pro-3 , #pro-4, #pro-5, #pro-6{
+        
+    width: 280px;
+    height: 470px;
+    border: solid #75206a 2px;
+    margin-left: 100px;
+      
+   
+
+ 
+}
+
+.container{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 250px;
+    height: 240px;
+    margin-top: -220px;
+}   
+
+.texto-um{
+    font-size: 35px;
+   margin-top: -200px;
+ 
+
+}
+
+.texto-dois{
+  font-size: 30px;
+  margin-top: 138px;
+  width: 100px;
+ 
+
+}
+.todos-botoes{
+   
+    margin-left: 200px;
+    margin-top: -76px;
+}
+
+
+#refrigerante-coca{
+    height: 260px;
+    width: 250px;
+    margin-bottom: 220px;
+
 
 }
 
@@ -223,6 +245,7 @@ font-size: 20px;
             height: 313px;
             border-radius: 20px;
             margin-right: 130px;
+            margin-top: 200px;
             
         
         }
