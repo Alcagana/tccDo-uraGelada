@@ -1,11 +1,7 @@
 const contador = document.querySelector('#qtd1');
 const btnMais = document.querySelector('#btn1mais')
 const btnMenos = document.querySelector('#btn1menos')
-
-
-
 const textoPagar = document.querySelector('#total') 
-const qtd = contador.textContent
 
 precos = {
 
@@ -17,15 +13,11 @@ precos = {
 
 function textoCasquinha(){
      
-  const pagarCasquinha = qtd * precos.casquinha
-  textoCasquinha = pagarCasquinha
-  console.log(textoCasquinha.textContent)
+  let quantidade = contador.textContent
+  const total = quantidade * precos.casquinha
+  console.log(total)
+
 }
-
-
-
-
-
 
 btnMais.addEventListener('click',addProduto)
 btnMenos.addEventListener('click', removeProduto)

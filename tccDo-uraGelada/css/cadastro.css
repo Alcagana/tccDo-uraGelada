@@ -17,7 +17,7 @@ body{
 
 .card{
     width: 600px;
-    height: 750px;
+    height: 550px;
     font-size: 50px;
     display:flex;
     flex-direction: column;
@@ -73,6 +73,7 @@ body{
         align-items: center;
         font-family:"Nunito Sans", sans-serif;
         font-style: italic;
+        margin-top: 40px;
        
     }
     #btn-Cadastrar:hover{
@@ -113,7 +114,7 @@ body{
     margin-top:20px;
     margin-bottom: -65px;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     font-style: italic;
     color: #48033f;
     text-align: center;
@@ -178,13 +179,13 @@ input{
     margin-right: 100px;      
 }
 
-#nome{
+#inp-nome{
 
     margin-top: 100px; 
 
 }
 
-#senha{
+#inp-senha{
 
     width: 200px;
     height: 30px;
