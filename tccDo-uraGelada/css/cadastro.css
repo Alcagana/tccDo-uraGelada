@@ -57,7 +57,7 @@ body{
 
     #btn-ajuda:hover{
     
-        color:rgba(189, 131, 102, 0.889); 
+        color:#a50f91;
     }
     
 
@@ -81,6 +81,75 @@ body{
         color:#a50f91;
     }
     
+    #abrirModal{
+
+        width: 250px;
+        height: 60px;
+        background-color:rgba(255, 255, 255, 0.872);
+        font-size: 20px;
+        cursor: pointer;
+        color: #48033f;
+        border: 0px;
+        align-items: center;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        margin-top: -50px;
+    
+    }
+    #abrirModal:hover{
+        color: red;
+      
+    }
+
+
+    #FecharModal{
+     
+        background-color: #48033f;
+        font-size: 20px;
+        cursor: pointer;
+        color: #e7b705;
+        border: 0px;
+        align-items: center;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        margin-top: 5px;
+    }
+
+    #FecharModal:hover{
+
+        color:#a50f91;
+    }
+
+
+
+#modalDelete{
+
+    width: 500px;
+    height: 300px;
+    background-color: #48033f;
+
+}
+
+h1{
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+margin-left: 17%;
+font-style: italic;
+color: #e7b705;
+}
+
+.card-funcionarios{
+    display: flex ;
+    width: 200px;
+    height: 200px;
+  margin-top: 70px;     
+  margin-left: -100px;  
+                       
+    
+}
+
+
+
 
 /*textos*/
 
@@ -201,6 +270,12 @@ input{
 
     
 }
+
+
+
+
+
+
 
 
 

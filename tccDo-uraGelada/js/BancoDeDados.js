@@ -18,7 +18,15 @@ async function  post() {
         'Content-Ttype': 'application/json'
       },
       body: JSON.stringify(newData)
+      
      }) 
+     Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Cadastro concluído com sucesso!!!",
+      showConfirmButton: false,
+      timer: 1500
+    });
    }
 
    btnEnviar.addEventListener('click', post)  

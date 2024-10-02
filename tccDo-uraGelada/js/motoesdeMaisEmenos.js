@@ -3,6 +3,10 @@ const btnMais = document.querySelector('#btn1mais')
 const btnMenos = document.querySelector('#btn1menos')
 const textoPagar = document.querySelector('#total') 
 
+btnMais.addEventListener('click',addProduto)
+btnMenos.addEventListener('click', removeProduto)
+
+
 precos = {
 
   casquinha: 2.50,
@@ -11,25 +15,17 @@ precos = {
 
 }
 
-function textoCasquinha(){  
+function ContaCasquinha(){  
   
   let quantidade = contador.textContent
-  const total =Number(quantidade) * Number(precos.casquinha) 
-  console.log(total)
-
+  const total = Number(quantidade) * Number(precos.casquinha) 
+  textoPagar.textContent = total
 }
-
-
-textoCasquinha()
-
-btnMais.addEventListener('click',addProduto)
-btnMenos.addEventListener('click', removeProduto)
-
 
 function addProduto (){
   const numero = parseInt(contador.textContent) + 1 ;
   contador.textContent = numero ;  
-  textoCasquinha()
+  ContaCasquinha()
   
 }
 
@@ -38,6 +34,7 @@ function removeProduto (){
   if( contador.textContent >= 1){
     var numero = parseInt(contador.textContent) - 1 ;
     contador.textContent = numero
+    ContaCasquinha()
    
   } else{
     contador.textContent = 0
@@ -46,7 +43,3 @@ function removeProduto (){
   }
 
 }
-
-
-
-
