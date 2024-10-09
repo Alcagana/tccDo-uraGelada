@@ -8,8 +8,6 @@ btnAcessar.addEventListener('click', function(){
 
 if ( DigLogin.value === "DDçuragelada" && DigSenha.value === "2060"){
 
-alert ("Bem Vindo!!!");
-
 location.href ="../html/produtos.html"
 
 }else {

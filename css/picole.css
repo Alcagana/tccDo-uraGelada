@@ -2,17 +2,18 @@
 
 
 body{
-    background-color: white;
- margin: 0px;
- padding: 0px;
- box-sizing: border-box;
 
+    background-color: hwb(0 100% 0%);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 
-
+   
 }
+
+/* cabeçalho */
 header{
  
-
     height: 150px;
     width: 100%;
     display: grid;
@@ -20,23 +21,22 @@ header{
   
 }
 
-
-/* cabeçalho */
 #logo{
+
     width: 199px;
     height: 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     margin-left: 100px;
 }
 
 #btn-ajuda{
-    width: 250px;
+
+    width: 100px;
     height: 60px;
     margin-top: -5.1%;
-    margin-left:1715px;
+    margin-left:1680px;
     background-color:#48033f;
     font-size: 31px;
     cursor: pointer;
@@ -50,42 +50,62 @@ header{
    
 }
 
+
 #btn-ajuda:hover{
 
     color:rgba(189, 131, 102, 0.889); 
 }
-/* pesquisa */
+ /* pesquisa */
+
 #pesquisar{
+
     width: 350px;
     height: 30px;
     margin-left: 300px;
     margin-top: 150px;
     border-radius: 5px;
     font-size: 20px;
+
 }
+
+#btn-relatorio{
+    width: 1000px;
+    height: 40px;
+    margin-left: 24%;
+    margin-bottom: 40PX;
+    border-radius: 5px;
+    font-size: 30px;
+    
+}
+#btn-relatorio:hover{
+background-color: red;
+
+}
+
 /*TABELA DE PRODUTOS*/
 
 main{
-    height: 100vh;
+    height: 200vh;
     display: flex;
     margin-top: 100px;
     flex-wrap:wrap;
     padding: 0px;
     gap: 50px;
+    border: solid red;
 
 }
-#pro-1 , #pro-2 , #pro-3 , #pro-4, #pro-5, #pro-6 , #pro-7{
+#pro-1 , #pro-2 , #pro-3 {
         
     width: 280px;
     height: 470px;
     border: solid #75206a 2px;
     margin-left: 100px;
+    
       
    
 
  
 }
-
 .container{
 
     margin: 0px;
@@ -96,32 +116,24 @@ main{
     margin-top: -220px;
 }   
 
-.produtos{
-    height: 260px;
-    border: solid;
-    display: flex;
-    align-items: center;
-    margin-top: -350px;
-  
-}
-
-#picole-chocolate{
+#casquinhamcc{
 
     height: 260px;
-    width: 250px;
+    width: 280px;
     margin-bottom: 220px;
+
 }
 
 .texto-um{
     font-size: 35px;
-   margin-top: 0px;
+   margin-top: -200px;
  
 
 }
 
 .texto-dois{
   font-size: 30px;
-  margin-top: 138px;
+  margin-top: 98px;
   width: 100px;
  
 
@@ -131,6 +143,7 @@ main{
     margin-left: 200px;
     margin-top: -76px;
 }
+
 
 
 

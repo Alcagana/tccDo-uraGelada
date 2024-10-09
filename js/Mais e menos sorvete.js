@@ -1,12 +1,3 @@
-const contador = document.querySelector('#qtd1');
-const btnMais = document.querySelector('#btn1mais')
-const btnMenos = document.querySelector('#btn1menos')
-const textoPagar = document.querySelector('#total1') 
-
-btnMais.addEventListener('click',addProduto)
-btnMenos.addEventListener('click', removeProduto)
-
-
 precos = {
 
   casquinha: 2.50,
@@ -14,6 +5,15 @@ precos = {
   bananaSplit: 20,
 
 }
+
+//BOTÃO CASQUINHA
+const contador = document.querySelector('#qtd1');
+const btnMais = document.querySelector('#btn1mais')
+const btnMenos = document.querySelector('#btn1menos')
+const textoPagar = document.querySelector('#total1') 
+
+btnMais.addEventListener('click',addProduto)
+btnMenos.addEventListener('click', removeProduto)
 
 function ContaCasquinha(){  
   
