@@ -1,0 +1,76 @@
+.maisemenos{
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+ 
+
+.qtd{
+   
+    margin-left: 17px;
+    margin-top: -95px;
+    font-size: 50px;
+   
+}
+.botoess{
+    
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    cursor: pointer;
+      
+    border-radius: 0px 15px 15px 0px ;
+      border: solid #500e47 2px;
+      margin-left: 25px;
+      margin-bottom: -39px;
+      font-size: 30px;
+      color: #500e47;
+
+}
+    
+.botoes{
+
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    cursor: pointer;
+
+
+      border-radius: 15px 0px  0px 15px;
+      border: solid #500e47 2px;
+      margin-left: -25px;
+      font-size: 30px;
+      color: #500e47;
+
+}
+    
+.botoes:hover{
+     
+      background-color: rgb(219, 223, 226);
+      font-size: 35px;
+}
+    
+.botoess:hover{
+        
+      font-size: 35px;
+      background-color: rgb(219, 223, 226);
+}
+    
+
+@media(min-width:100px) and (max-width: 500px ){
+
+    .maisemenos{
+        margin-left: 105px;
+        margin-top: 180px;
+        
+    }
+    
+}

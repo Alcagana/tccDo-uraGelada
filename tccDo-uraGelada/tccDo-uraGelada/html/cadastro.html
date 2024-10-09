@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="../css/modalAjuda.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/modalDeleteFuncionario.css">
+</head>
+<body>
+
+    <main>
+
+        <header>
+            
+            <div class="img"><img src="../imagens/logonova.png"alt="logosorveteria"></div>
+    
+            <button onclick="acessar" id="btn-ajuda">Ajuda </button>
+            <dialog id="modalAjuda">
+
+                <button onclick="fechar" id="btn-FecharModalAjuda">X</button>
+                 
+                <div class="cardModal">
+                  <div class="textos">
+                   <H2>Deseja relatar algum problema?</H2>
+                   <H3>Deixe sua mensagem</H3>
+                  </div>
+           
+                 <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+                 <p></p>
+                 <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+               
+                </div>
+               
+           
+              </dialog>
+    
+        </header>
+    
+    
+    <div class="texto-funcionario">Cadastro Funcionários </div> 
+    
+    <div class="card"id="card">
+        <div class="textocampos">Preencha os campos</div>
+        <input type="text" id="inp-nome" placeholder="Nome do funcionário">
+        <input type="text" id="inp-login" placeholder="Insira um email">
+        <input type="password" name="" id="inp-senha" placeholder="Crie uma senha" >
+        <button onclick="Cadastrar" id="btn-Cadastrar">Cadastrar</button>
+        <button onclick="Cadastrar" id="abrirModal">Deletar funcionário</button>
+       
+        </div>
+    
+    </main>
+          
+    <dialog id="modalDelete" class="ModalInteiro">
+    <button id="FecharModal">Fechar</button>
+    <h1>Qual funcionário deseja deletar?</h1>
+    <div class="card-funcionarios">
+
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario1">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario3">
+    </div>
+  
+    </dialog>
+
+  <script src="../js/modalDeleteFuncionario.js"></script>
+ <script src="../js/ConfigBancoDeDados.js"></script>
+  <script src="../js/cadastrarFuncionários.js"></script>
+  <script src="../js/modalAjuda.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
