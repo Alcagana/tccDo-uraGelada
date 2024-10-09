@@ -25,7 +25,7 @@ async function  post() {
       icon: "success",
       title: "Cadastro concluído com sucesso!!!",
       showConfirmButton: false,
-      timer: 1500
+      timer: 1000
     });
    }
 
