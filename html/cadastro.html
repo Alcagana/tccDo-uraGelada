@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="../css/modalAjuda.css">
     <link rel="stylesheet" href="../css/cadastro.css">
-    <link rel="stylesheet" href="../css/modalDeleteFuncionario.css">
+    <link rel="stylesheet" href="../css/modalDeletar.css">
 </head>
 <body>
 
@@ -50,27 +50,24 @@
         <input type="text" id="inp-login" placeholder="Insira um email">
         <input type="password" name="" id="inp-senha" placeholder="Crie uma senha" >
         <button onclick="Cadastrar" id="btn-Cadastrar">Cadastrar</button>
-        <button onclick="Cadastrar" id="abrirModal">Deletar funcionário</button>
+        <button onclick="Cadastrar" id="btn-deletar">Deletar funcionário</button>
        
         </div>
     
     </main>
           
-    <dialog id="modalDelete" class="ModalInteiro">
-    <button id="FecharModal">Fechar</button>
-    <h1>Qual funcionário deseja deletar?</h1>
-    <div class="card-funcionarios">
-
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario1">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario2">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6fDROFqe6RPQd8Ip1YBcjLHGwfkHsNYcGiAL7OC3F8s6X17C0BW6n7U6zH5sfEFsZFnU&usqp=CAU" alt="funcionario3">
-    </div>
+    <dialog id="modalDelete">
+        
+        <button id="FecharModal">X</button>
+        <h1>Insira o email do funcionário que deseja deletar!</h1>
+        <h2>ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!!!</h2>
+        <input type="text" id="inp-email1" placeholder="Insira o email do funcionário que deseja deletar">
+        <button id="btn-deletar" >DELETAR</button>
   
     </dialog>
 
-  <script src="../js/modalDeleteFuncionario.js"></script>
- <script src="../js/ConfigBancoDeDados.js"></script>
-  <script src="../js/cadastrarFuncionários.js"></script>
+  <script src="../js/modalDelete.js"></script>
+  <script src="../js/cadastrarFuncionários.js" type="module"></script>
   <script src="../js/modalAjuda.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>

@@ -1,0 +1,13 @@
+#modalDelete{
+
+    width: 700px;
+    height: 300px;
+    background-color:#48033f;
+    
+    
+}
+#modalDelete::backdrop{
+     
+        background-color: rgba(0, 0, 0, 0.699);
+    
+}
