@@ -54,35 +54,46 @@ btnEnviar.addEventListener('click', post);
 const btnDeletar = document.querySelector("#btn-deletar");
 const emailInput = document.querySelector("#inp-email1");
 
-const deleteByEmail = async (email) => {
-  const itemsRef = ref(db, 'funcionarios'); // Usando a referência correta
+const deleteByEmail = async (emailInput) => {
+  const itemsRef = ref(db, 'funcionarios'); // Altere 'Alunos' para o caminho desejado
   try {
-    const snapshot = await get(itemsRef);
-    if (snapshot.exists()) {
-      const items = snapshot.val();
-      let foundKey = null;
+      const snapshot = await get(itemsRef);
+      if (snapshot.exists()) {
+          const items = snapshot.val();
+          let foundKey = null;
 
-      // Percorre os funcionários para encontrar pelo EMAIL
-      Object.keys(items).forEach((key) => {
-        if (items[key].email === email) {
-          foundKey = key; // Salva a chave do documento encontrado
-        }
-      });
+          // Percorre os alunos paemailInput encontra pelo email
+          Object.keys(items).forEach((key) => {
 
-      if (foundKey) {
-        const itemRef = ref(db, `funcionarios/${foundKey}`); // Referência ao item encontrado
-        await remove(itemRef); // Remove o item
-        console.log('Documento excluído com sucesso!');
+              if (items[key].email === emailInput) {
+                  foundKey = key; // Salva a chave do documento encontra
+              }
+
+          });
+
+          if (foundKey) {
+              const itemRef = ref(db, `funcionarios/${foundKey}`); // Referência ao item encontra
+              await remove(itemRef); // Remove o item
+              Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Cadastro concluído com sucesso!!!",
+                showConfirmButton: false,
+                timer: 1000
+              });
+          } else {
+              console.log('Nenhum documento encontra com o email:', emailInput);
+          }
       } else {
-        console.log('Nenhum documento encontrado com o email:', email); // Corrigido para "email"
+          console.log('Nenhum documento encontra!');
       }
-    } else {
-      console.log('Nenhum documento encontrado!');
-    }
   } catch (error) {
-    console.error('Erro ao excluir documento: ', error);
+      console.error('Erro ao excluir documento: ', error);
   }
 };
+
+
+
 
 // Adicionando o listener corretamente e chamando a função com o parâmetro 'email'
 btnDeletar.addEventListener('click', () => {
