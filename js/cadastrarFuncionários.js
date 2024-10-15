@@ -77,18 +77,37 @@ const deleteByEmail = async (emailInput) => {
               Swal.fire({
                 position: "top-end",
                 icon: "success",
-                title: "Cadastro concluído com sucesso!!!",
+                title: "Funcionário excluido com sucesso!!!",
                 showConfirmButton: false,
                 timer: 1000
               });
           } else {
-              console.log('Nenhum documento encontra com o email:', emailInput);
+            Swal.fire({
+              position: "top-end",
+              icon: "error",
+              title: "Nenhum documento encontra com o email:",
+              showConfirmButton: false,
+              timer: 1000
+            });
           }
       } else {
-          console.log('Nenhum documento encontra!');
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: "Nenhum documento encontrado!",
+          showConfirmButton: false,
+          timer: 1000
+        });
+    
       }
   } catch (error) {
-      console.error('Erro ao excluir documento: ', error);
+    Swal.fire({
+      position: "top-end",
+      icon: "error",
+      title: "Erro ao excluir documento revise o email inserido:",
+      showConfirmButton: false,
+      timer: 1000
+    });
   }
 };
 
