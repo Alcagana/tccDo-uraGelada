@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/modalAjuda.css">
+    <link rel="stylesheet" href="../css/adicionais.css">
+    <link rel="stylesheet" href="../css/botoesMaisEmenos.css">
+</head>
+<body>
+    
+    <header>
+
+        <div class="cabeçalho">
+ 
+            <img src="../imagens/logonova.png" id="logo" alt="logo" id="logo">
+            <button onclick="acessar" id="btn-ajuda">Ajuda </button>
+            
+
+        </div>
+
+    </header>
+
+    <input type="text" name="" id= "pesquisar" placeholder="produtos">
+
+    <main>
+      <div id="pro-1" >
+        <img src="https://images.tcdn.com.br/img/img_prod/858764/refrigerante_coca_cola_lata_350ml_c_12_359_1_20201021152315.jpg" alt=""id="casquinhamcc"> 
+        <div class="container">
+                <h2 class="texto-um">Coca Cola R$6,00</h2>
+                <h3 class="texto-dois" id="total1">0</h3>
+                  <div class="todos-botoes"> 
+                   <div class="botoess" id="btn1mais"> + </div>
+                   <div class="botoes" id="btn1menos"> - </div>
+                   <div class="qtd" id="qtd1"> 0 </div>
+                  </div>
+     </div>                
+
+  <div id="pro-2" >
+    <img src="https://brutuschicken.com.br/wp-content/uploads/2023/10/refrigerante-fanta-laranja-lata-350ml-6eb.jpg" alt=""id="casquinhamcc"> 
+    <div class="container">
+            <h2 class="texto-um">Fanta Laranja R$4,49</h2>
+            <h3 class="texto-dois" id="total2">0</h3>
+              <div class="todos-botoes"> 
+               <div class="botoess" id="btn2mais"> + </div>
+               <div class="botoes" id="btn2menos"> - </div>
+               <div class="qtd" id="qtd2"> 0 </div>
+              </div>
+            </div>     
+   
+   <div id="pro-3">
+    <img src="https://www.l4limpeza.com.br/image/cache/catalog/911977914_SPRITE_350ML-800x800.jpg" alt=""id="casquinhamcc"> 
+    <div class="container">        
+               <h2 class="texto-um">Sprit R$5,80</h2>
+               <h3 class="texto-dois" id="total3">0</h3>
+              <div class="todos-botoes"> 
+               <div class="botoess" id="btn3mais"> + </div>
+               <div class="botoes" id="btn3menos"> - </div>
+               <div class="qtd" id="qtd3"> 0 </div>
+              </div>
+   </div>     
+      
+    </main>
+
+    <a href="../html/relatorio.html"><button id="btn-relatorio" onclick="abrir">FECHAR RELATÓRIO!!!</button></a>
+
+
+    <dialog id="modalAjuda">
+
+        <button onclick="fechar" id="btn-FecharModalAjuda">Fechar</button>
+         
+        <div class="cardModal">
+          <div class="textos">
+           <H2>Deseja relatar algum problema?</H2>
+           <H3>Deixe sua mensagem</H3>
+          </div>
+   
+         <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+         <p></p>
+         <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+       
+        </div>
+      </dialog>
+
+
+
+     <script src="../js/Mais e menos adicionais.js"></script>
+    <script src="../js/modalAjuda.js"></script>
+</body>
+</html>
