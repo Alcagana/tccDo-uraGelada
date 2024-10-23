@@ -82,38 +82,32 @@ background-color: red;
 
 }
 
+
+.container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+
+
 /*TABELA DE PRODUTOS*/
 
-main{
-    height: 200vh;
-    margin-top: 100px;
-    flex-wrap:wrap;
-    padding: 0px;
-    gap: 50px;
-    border: solid red;
 
-}
+
+
+/*
 #pro-1 , #pro-2 , #pro-3 {
         
     width: 280px;
     height: 470px;
     border: solid #75206a 2px;
-    margin-left: 100px;
+
     
       
    
-
  
 }
-.container{
-
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    width: 250px;
-    height: 240px;
-    margin-top: -220px;
-}   
 
 #casquinhamcc{
 
@@ -137,13 +131,16 @@ main{
  
 
 }
+
 .todos-botoes{
    
-    margin-left: 200px;
-    margin-top: -76px;
+
+    margin-left: 190px;
+   margin-top: 50px;
+  border: solid red;
 }
 
-
+*/
 
 
 @media(min-width:100px) and (max-width: 500px ){
