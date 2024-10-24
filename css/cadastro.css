@@ -1,86 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-
-
-
 body{
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
- background-color: hwb(0 94% 6%);
+   background-color: hwb(0 94% 6%);
   
 }
+    
 
+/*card Adm*/
 
-/*card, botão*/
-
-.card{
+.cardAdm{
     width: 600px;
-    height: 550px;
+    height: 450px;
     font-size: 50px;
     display:flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin: 0px auto;
     margin-top: 2%;
     border-radius: 20px;
     border: solid 3px;
     border-color: #48033f;
+    margin-left: 250px;
+
+    
 }
 
 
+.texto-Administrador{
 
-  #deletarFuncionario{
-    width: 300px;
-    height: 30px;
-    background-color: rgba(240, 248, 255, 0.797);
-    font-size: 24px;
-    cursor: pointer;
-    color: #48033f;
-    border: 0px;
-    align-items: center;
-    font-family:"Nunito Sans", sans-serif;
+    margin-top:35px;
+    margin-bottom: 50px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 35px;
     font-style: italic;
-    margin-top: -28px;
+    color:#48033f;
+    margin-left: 20%;
 
-  }
 
-  #deletarFuncionario:hover{
+}
 
-    color:#cc0a0a;
+.inp-loginAdm{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    border: solid 2px;
+    border-color: #48033f;
+    background-color: rgba(255, 255, 255, 0.872);
+    margin-top: 150px;     
+    margin-right: 100px;    
 
-  }
-      #btn-ajuda{
+   
 
-        width: 100px;
-        height: 60px;
-        margin-top:0.5%;
-        margin-right: 90px;
-        background-color:#48033f;
-        font-size: 31px;
-        cursor: pointer;
-        color: #e7b705;
-        border: 0px;
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-       
-    }
+}
+
+.inp-senhaAdm{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    border: solid 2px;
+    border-color: #48033f;
+    background-color: rgba(255, 255, 255, 0.872);
+    margin-right: 300px;    
+
+
     
+}
 
 
-    #btn-ajuda:hover{
-    
-        color:#a50f91;
-    }
-    
-
-
-    #btn-Cadastrar{
+.btn-CadastrarAdm{
         width: 250px;
         height: 60px;
         background-color: rgba(240, 248, 255, 0.797);
@@ -94,44 +91,21 @@ body{
         margin-top: 60px;
        
     }
-    #btn-Cadastrar:hover{
+    .btn-CadastrarAdm:hover{
     
         color:#a50f91;
+
     }
 
-/*textos*/
 
 
-.texto-login{
-    margin-top:35px;
-    margin-bottom: 50px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 45px;
-    font-style: italic;
-    color:#48033f;
-    text-align: center;
-
-}
-
-.texto-funcionario{
-
-    margin-top:35px;
-    margin-bottom: 50px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 35px;
-    font-style: italic;
-   color:#48033f;
-    text-align: center;
-
-
-}
 
 .textocampos{
 
     margin-top:20px;
     margin-bottom: -65px;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
     color: #48033f;
     text-align: center;
@@ -139,14 +113,171 @@ body{
 
 }
    
+/*card Fun*/
+
+.cardFun{
+    width: 600px;
+    height: 550px;
+    font-size: 50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 2%;
+    border-radius: 20px;
+    border: solid 3px;
+    border-color: #48033f;
+    margin-left: 52%;
+
+    
+}
+
+
+.texto-Funcionarios{
+
+    margin-left: 60%;
+    margin-top: -550px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 35px;
+    font-style: italic;
+    color:#48033f;
+    
+
+
+}
+
+.inp-nomeFun{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    border: solid 2px;
+    border-color: #48033f;
+    background-color: rgba(255, 255, 255, 0.872);
+    margin-top: 150px;     
+    margin-right: 100px;    
+
+   
+
+}
+
+.inp-loginFun{
+
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    border: solid 2px;
+    border-color: #48033f;
+    background-color: rgba(255, 255, 255, 0.872);
+    margin-right: 105px;    
+
+
+    
+}
+
+.inp-senhaFun{
+
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-style: italic;
+    border: solid 2px;
+    border-color: #48033f;
+    background-color: rgba(255, 255, 255, 0.872);
+    margin-right: 300px;    
+
+
+    
+}
+
+
+.btn-CadastrarFun{
+        width: 250px;
+        height: 60px;
+        background-color: rgba(240, 248, 255, 0.797);
+        font-size: 28px;
+        cursor: pointer;
+        color: #48033f;
+        border: 0px;
+        align-items: center;
+        font-family:"Nunito Sans", sans-serif;
+        font-style: italic;
+        margin-top: 40px;
+        margin-left: 20px;
+       
+    }
+    .btn-CadastrarFun:hover{
+    
+        color:#a50f91;
+
+    }
+
+
+#Botoes-cardFun{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#deletarFuncionario{
+    width: 300px;
+    height: 30px;
+    background-color: rgba(240, 248, 255, 0.797);
+    font-size: 24px;
+    cursor: pointer;
+    color: #48033f;
+    border: 0px;
+    align-items: center;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+    margin-top: -5px;
+
+  }
+
+  #deletarFuncionario:hover{
+
+    color:#cc0a0a;
+
+  }
+
+/*CABEÇALHO*/
+
+  #btn-ajuda{
+
+    width: 100px;
+    height: 60px;
+    margin-top:0.5%;
+    margin-right: 90px;
+    background-color:#48033f;
+    font-size: 31px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+   
+}
 
 
 
+#btn-ajuda:hover{
 
-/*outros*/
+    color:#a50f91;
+}
 
 
-header{  /*cabeçalho*/
+
+header{ 
 
 width: 100%;
 height: 150px;
@@ -167,64 +298,6 @@ img{   /*logotipo*/
 
 
 }
-
-
-
-
-
-
-
-/*estão errados mas deram certo*/
-
-
-
-
-
-input{
-
-
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 20px;     
-    margin-right: 100px;      
-}
-
-#inp-nome{
-
-    margin-top: 100px; 
-
-}
-
-#inp-senha{
-
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 300px;    
-
-
-    
-}
-
-
-
-
-
-
-
 
 
 
