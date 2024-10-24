@@ -96,7 +96,8 @@ background-color: red;
     display:flex;
     align-items: center;;
     margin-top: 10%;
-    gap: 50px;
+    gap: 60px;
+    margin-left: 15%;
     }
     
      .container2{
@@ -104,8 +105,8 @@ background-color: red;
         display:flex;
         align-items: center;;
         margin-top: 2%;
-        margin-left: 16%;
-        gap: 50px;
+        margin-left: 15%;
+        gap: 60px;
       
      }
     
@@ -139,11 +140,15 @@ background-color: red;
     .sabor{
       font-size: 20px; 
       margin-top: 10px;
-      font-style:normal;
+   
     }
     
     
+.preço{
 
+margin-top: 110px;
+font-size: 20px; 
+}
 
 
 /*

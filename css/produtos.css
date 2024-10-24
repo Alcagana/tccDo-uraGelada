@@ -34,25 +34,6 @@ header{
 
 
 
-    .texto-produtos{
-
-
-
-
- 
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-       color: #8b4513;
-       margin-right: 1900px;
-       font-size: 35px;
-       margin-top: 60px;
-   
-
-
-    }
-
-
-
 
     /*CARDS*/
 
@@ -130,9 +111,10 @@ height: 300px;
 #img-card2{
     width: 200px;
     height: 200px;
-   
+    transition: all 0.5s;
    
 }
+
 
 
 #img-card3{
@@ -205,6 +187,9 @@ height: 300px;
    
 }
 
+#btn-ajuda :hover{
+    color: #b30c9c;
+}
 
 
 
@@ -213,7 +198,7 @@ height: 300px;
 #btn-ajuda:hover{
 
 
-    color:rgba(189, 131, 102, 0.889);
+    color:#b30c9c(189, 131, 102, 0.889);
 }
 
 
