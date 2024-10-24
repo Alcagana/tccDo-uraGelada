@@ -11,7 +11,7 @@ body{
    
 }
 
-/* cabeçalho */
+/*CABEÇALHO*/
 header{
  
     height: 150px;
@@ -55,7 +55,12 @@ header{
 
     color:rgba(189, 131, 102, 0.889); 
 }
- /* pesquisa */
+
+
+
+/*CORPO*/
+
+
 
 #pesquisar{
 
@@ -82,40 +87,47 @@ background-color: red;
 
 }
 
-/*TABELA DE PRODUTOS*/
 
-main{
-    height: 200vh;
-    margin-top: 100px;
-    flex-wrap:wrap;
-    padding: 0px;
-    gap: 50px;
-    border: solid red;
-
+.container{
+    width: 100%;
+    display: flex;
+align-items: center;
+gap: 5px;
+margin-top: 10%;
 }
-#pro-1 , #pro-2 , #pro-3 {
-        
-    width: 280px;
-    height: 470px;
-    margin-top: 10px;
-    border: solid #75206a 2px;
-    margin-left: 100px;
-    
-      
+ 
+#card1 , #card2 , #card3 , #card4 {
+    width: 650px;
+    height: 450px;
+    border: solid pink;
+    margin-left: 7%;
+    align-items: center;
+
    
 
- 
+   
 }
-.container{
 
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    width: 250px;
-    height: 240px;
-    margin-top: -220px;
-}   
+#img1 , #img2 , #img3 , #img4{
 
+    width: 300px;
+    height: 300px;
+}
+
+.texto-card{
+    font-family:"Nunito Sans", sans-serif;
+    
+    
+}
+
+.sabor{
+  margin-left: 35%;
+  font-size: 25px; 
+  margin-top: 10px;
+}
+
+
+/*
 #casquinhamcc{
 
     height: 260px;
@@ -144,7 +156,7 @@ main{
     margin-top: -76px;
 }
 
-
+*/
 
 
 @media(min-width:100px) and (max-width: 500px ){
