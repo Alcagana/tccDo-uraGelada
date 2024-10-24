@@ -88,15 +88,17 @@ background-color: red;
 }
 
 
-.container{
-    width: 100%;
-    display: flex;
+.container , .container2{
+width: 100%;
+display:flex;
 align-items: center;
 gap: 5px;
-margin-top: 10%;
+margin-top: 15%;
 }
- 
-#card1 , #card2 , #card3 , #card4 {
+ .container2{
+    margin-top: 5%;
+ }
+#card1 , #card2 , #card3 , #card4 , #card5 , #card6 , #card7 , #card8 {
     width: 650px;
     height: 450px;
     border: solid pink;
