@@ -13,11 +13,11 @@ body{
 
 /*CABEÇALHO*/
 
-#btn-entrar{
+.botao , #btn-entrar{
 
     height: 60px;
     margin-top: 0%;
-    background-color: rgba(240, 248, 255, 0.797);
+
     font-size: 31px;
     cursor: pointer;
     color: #e7b705;
@@ -29,7 +29,7 @@ body{
     font-weight: 200;
     background-color: #48033f;
     margin-right: 60px;
-   
+   gap: 10px;
 
 }
 
@@ -108,7 +108,7 @@ height:800px;
 
 width: 550px;
 height: 550px;
-margin-top: 200px;
+/* margin-top: 200px; */
 margin-left: 5%;
 
 }
