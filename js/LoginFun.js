@@ -38,7 +38,7 @@ document.querySelector('#btn-acessar').addEventListener('click', async function(
                     }
                 });
 
-                if (foundItem) {
+                if (foundItem) {""
                     window.location.href = "produtos.html"; // Redireciona para produtos.html
                 } else {
                     alert('Nenhum documento encontrado com o email e senha fornecidos.');
