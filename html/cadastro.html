@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/modalAjuda.css">
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="stylesheet" href="../css/modalDeletar.css">
+    
 </head>
 <body>
 
@@ -35,7 +36,7 @@
                  <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
                
                 </div>
-               
+            
            
               </dialog>
     
@@ -47,7 +48,7 @@
     <div class="cardAdm">
         <div class="textocampos">Preencha os campos</div>
         <input type="text" class="inp-loginAdm" id="inp-login" placeholder="Insira um email">
-        <input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha" >
+        <label><input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha"><br> **SENHA COM MÍNIMO DE 6 CARACTERES**</label>
         <button class="btn-CadastrarAdm" id="btn-Cadastrar">Cadastrar</button>
                                                                                     
 
@@ -60,7 +61,7 @@
             <div class="textocampos">Preencha os campos</div>
             <input type="text" class="inp-nomeFun" id="inp-nomeFun" placeholder="Insira o nome">
             <input type="text" class="inp-loginFun" id="inp-loginFun" placeholder="Insira um email">
-            <input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha" >
+            <label><input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha"><br> **SENHA COM MÍNIMO DE 6 CARACTERES**</label> 
             <div id="Botoes-cardFun">
             <button class="btn-CadastrarFun" id="btn-CadastrarFun">Cadastrar</button>
             <button id="deletarFuncionario">Deletar funcionário</button>                                                                            
@@ -76,18 +77,18 @@
         <button id="FecharModal">X</button>
         <h1 id="t-1">Insira o email do funcionário que deseja deletar!</h1>
         <h2 id="t-2">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!!!</h2>
-        <input type="text" id="inp-email1" placeholder="Insira o email do funcionário que deseja deletar">
+        <input id="inp-email1" placeholder="Insira o email do funcionário que deseja deletar">
         <br>
         <button id="btn-deletar" >DELETAR</button>
   
     </dialog>
-
+  
   <script src="../js/modalDelete.js"></script>
-  <script src="../js/cadastrarAdm.js" type="module"></script>
-  <script src="../js/cadastrarFuncionarios.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+  <script src="../js/cadastrarAdm.js"></script>
   <script src="../js/modalAjuda.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="../js/cadastrarFuncionarios.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

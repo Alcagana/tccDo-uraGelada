@@ -50,74 +50,75 @@ async function post() {
 
 btnEnviar.addEventListener('click', post);
 
-// // DELETE (deletando dados do banco de dados)
-// const btnDeletar = document.querySelector("#btn-deletar");
-// const emailInput = document.querySelector("#inp-email1");
+// DELETE (deletando dados do banco de dados)
+const btnDeletar = document.querySelector("#btn-deletar");
+const emailInput = document.querySelector("#inp-email1");
 
-// const deleteByEmail = async (emailInput) => {
-//   const itemsRef = ref(db, 'funcionarios'); // Altere 'Alunos' para o caminho desejado
-//   try {
-//       const snapshot = await get(itemsRef);
-//       if (snapshot.exists()) {
-//           const items = snapshot.val();
-//           let foundKey = null;
+const deleteByEmail = async (emailInput) => {
+  const itemsRef = ref(db, 'funcionarios'); // Altere 'Alunos' para o caminho desejado
+  try {
+      const snapshot = await get(itemsRef);
+      if (snapshot.exists()) {
+          const items = snapshot.val();
+          let foundKey = null;
 
-//           // Percorre os alunos paemailInput encontra pelo email
-//           Object.keys(items).forEach((key) => {
+          // Percorre os alunos paemailInput encontra pelo email
+          Object.keys(items).forEach((key) => {
 
-//               if (items[key].email === emailInput) {
-//                   foundKey = key; // Salva a chave do documento encontra
-//               }
+              if (items[key].email === emailInput) {
+                  foundKey = key; // Salva a chave do documento encontra
+              }
 
-//           });
+          });
 
-//           if (foundKey) {
-//               const itemRef = ref(db, `funcionarios/${foundKey}`); // Referência ao item encontra
-//               await remove(itemRef); // Remove o item
-//               Swal.fire({
-//                 position: "top-end",
-//                 icon: "success",
-//                 title: "Funcionário excluido com sucesso!!!",
-//                 showConfirmButton: false,
-//                 timer: 1000
-//               });
-//           } else {
-//             Swal.fire({
-//               position: "top-end",
-//               icon: "error",
-//               title: "Nenhum documento encontra com o email:",
-//               showConfirmButton: false,
-//               timer: 1000
-//             });
-//           }
-//       } else {
-//         Swal.fire({
-//           position: "top-end",
-//           icon: "error",
-//           title: "Nenhum documento encontrado!",
-//           showConfirmButton: false,
-//           timer: 1000
-//         });
+          if (foundKey) {
+              const itemRef = ref(db, `funcionarios/${foundKey}`); // Referência ao item encontra
+              await remove(itemRef); // Remove o item
+              Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Funcionário excluido com sucesso!!!",
+                showConfirmButton: false,
+                timer: 1000
+              });
+          } else {
+            Swal.fire({
+              position: "top-end",
+              icon: "error",
+              title: "Nenhum documento encontra com o email:",
+              showConfirmButton: false,
+              timer: 1000
+            });
+          }
+      } else {
+        Swal.fire({
+          position: "top-end",
+          icon: "error",
+          title: "Nenhum documento encontrado!",
+          showConfirmButton: false,
+          timer: 1000
+        });
     
-//       }
-//   } catch (error) {
-//     Swal.fire({
-//       position: "top-end",
-//       icon: "error",
-//       title: "Erro ao excluir documento revise o email inserido:",
-//       showConfirmButton: false,
-//       timer: 1000
-//     });
-//   }
-// };
+      }
+  } catch (error) {
+    Swal.fire({
+      position: "top-end",
+      icon: "error",
+      title: "Erro ao excluir documento revise o email inserido:",
+      showConfirmButton: false,
+      timer: 1000
+    });
+  }
+};
 
 
 
 
-// // Adicionando o listener corretamente e chamando a função com o parâmetro 'email'
-// btnDeletar.addEventListener('click', () => {
-//   const email = emailInput.value; // Obtendo valor do input
-//   deleteByEmail(email); // Chama a função com o email correto
-//   console.log("CLICOU EM DELETAR");
-// });
+// Adicionando o listener corretamente e chamando a função com o parâmetro 'email'
+btnDeletar.addEventListener('click', () => {
+  const email = emailInput.value; // Obtendo valor do input
+  deleteByEmail(email); // Chama a função com o email correto
+  console.log("CLICOU EM DELETAR");
+});
+  
   
