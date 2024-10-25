@@ -10,15 +10,6 @@ const btn = document.querySelector("#link-btnCadastrar")
 
 
 
-
-
-
-
-
-
-
-
-
     // Verifica se o Firebase foi inicializado corretamente
 firebase.auth().onAuthStateChanged(function(usuario) {
     if (usuario) { // Usuário está logado
@@ -47,3 +38,15 @@ function desativarLink(event) {
     event.preventDefault();
     console.log("Ação não permitida para esse usuário.");
 }
+
+
+
+
+
+
+
+
+<!-- 
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="../js/LoginAdm.js"></script> -->

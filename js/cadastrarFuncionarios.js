@@ -112,13 +112,13 @@ const deleteByEmail = async (emailInput) => {
 };
 
 
-
-
 // Adicionando o listener corretamente e chamando a função com o parâmetro 'email'
 btnDeletar.addEventListener('click', () => {
   const email = emailInput.value; // Obtendo valor do input
   deleteByEmail(email); // Chama a função com o email correto
   console.log("CLICOU EM DELETAR");
 });
-  
-  
+
+
+
+
