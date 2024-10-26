@@ -92,100 +92,18 @@ background-color: red;
 
 
 
-
-
- 
-.container {
-    width: 100%;
-    display:flex;
-    align-items: center;;
-    margin-top: 10%;
-    gap: 60px;
-    margin-left: 15%;
-    }
-    
-     .container2{
-        width: 100%;
-        display:flex;
-        align-items: center;;
-        margin-top: 2%;
-        margin-left: 15%;
-        gap: 60px;
-      
+.card-produtos{
+    align-items: center;
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 10%;
      }
-    
-   
-    #card1 , #card2 , #card3 , #card4 , #card5 , #card6 , #card7 , #card8 {
-
-        width: 550px;
-        height: 450px;
-        border: solid pink;
-        align-items: center;
-      
-       
-    
-       
-    }
-    
-    
-    #img1 , #img2 , #img3 , #img4 , #img5 , #img6 , #img7 , #img8{
-    
-        width: 250px;
-        height: 250px;
-    
-    }
-    
-    .texto-card{
-        font-family:"Nunito Sans", sans-serif;
-        align-items: center;
-        
-    }
-    
-    .sabor{
-      font-size: 20px; 
-      margin-top: 10px;
-   
-    }
-    
-    
-.preço{
-
-margin-top: 110px;
-font-size: 20px; 
-}
 
 
-/*
-#casquinhamcc{
 
-    height: 260px;
-    width: 280px;
-    margin-bottom: 220px;
 
-}
 
-.texto-um{
-    font-size: 35px;
-   margin-top: -200px;
  
-
-}
-
-.texto-dois{
-  font-size: 30px;
-  margin-top: 98px;
-  width: 100px;
- 
-
-}
-.todos-botoes{
-   
-    margin-left: 200px;
-    margin-top: -76px;
-}
-
-*/
-
 
 @media(min-width:100px) and (max-width: 500px ){
 
