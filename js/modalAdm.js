@@ -1,14 +1,14 @@
-const modalEntrar = document.querySelector("#modalLogin")
-const btnEntrar = document.querySelector("#btn-entrar")
-const btnFechar = document.querySelector("#btn-FecharLogin")
+const modalEntrarAdm = document.querySelector("#modalLoginAdm")
+const btnEntrarAdm = document.querySelector("#btn-entrarAdm")
+const btnFecharAdm = document.querySelector("#btn-FecharLoginAdm")
 
-btnEntrar.onclick = function(){
+btnEntrarAdm.onclick = function(){
     
-    modalEntrar.showModal()
+    modalEntrarAdm.showModal()
 } 
-btnFechar.onclick = function(){
+btnFecharAdm.onclick = function(){
 
-    modalEntrar.close()
+    modalEntrarAdm.close()
 
 }
 

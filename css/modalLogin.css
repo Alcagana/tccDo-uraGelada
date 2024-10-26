@@ -2,7 +2,7 @@
 
 /*MODAL INTEIRO*/
 
-#modalLogin{
+#modalLoginAdm{
     
    
     background-color: #5c1d53;
@@ -12,7 +12,23 @@
     font-family: "Playpen Sans", cursive;
     font-weight: 200;
 }
-#modalLogin::backdrop{
+#modalLoginAdm::backdrop{
+ 
+    background-color: rgba(31, 30, 30, 0.699);
+
+}
+
+#modalLoginFun{
+    
+   
+    background-color: #5c1d53;
+    width: 850px;
+    height: 410px;
+    border-radius: 20px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+}
+#modalLoginFun::backdrop{
  
     background-color: rgba(31, 30, 30, 0.699);
 
@@ -39,13 +55,26 @@
 
 /*CAMPOS DE PREENCHER*/
 
-#Dig-login{
+#Dig-loginAdm{
     width: 450px;
     font-size: 25px;
     margin-top: 80px;
     margin-left: 80px;
 }
-#Dig-senha{
+#Dig-senhaAdm{
+    width: 450px;
+    font-size: 25px;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+#Dig-loginFun{
+    width: 450px;
+    font-size: 25px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#Dig-senhaFun{
     width: 450px;
     font-size: 25px;
     margin-left: 80px;
@@ -55,7 +84,7 @@
 
 /*BUTTONS*/
 
-#btn-acessar{
+#btn-acessarAdm{
 
     width: 100px;
     height: 50px;
@@ -69,7 +98,33 @@
     font-weight: 200;
     
 }
-#btn-FecharLogin{
+#btn-acessarFun{
+
+    width: 100px;
+    height: 50px;
+    background-color: #5c1d53;
+    border: solid 0px;
+    font-size: 25px;
+    color: #e7b705;
+    margin-left: 40%;
+    margin-top: 30px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+    
+}
+#btn-FecharLoginAdm{
+    width: 100px;
+    height: 50px;
+    background-color: #5c1d53;
+    border: solid 0px;
+    font-size: 25px;
+    color: #e7b705;
+    margin-left: 0px;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+   
+}
+#btn-FecharLoginFun{
     width: 100px;
     height: 50px;
     background-color: #5c1d53;

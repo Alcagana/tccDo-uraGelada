@@ -18,9 +18,9 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 // Função de login
-document.querySelector('#btn-acessar').addEventListener('click', async function() {
-    const email = document.getElementById('Dig-login').value; // Obtém o valor do email
-    const senha = document.getElementById('Dig-senha').value; // Obtém o valor da senha
+document.querySelector('#btn-acessarFun').addEventListener('click', async function() {
+    const email = document.getElementById('Dig-loginFun').value; // Obtém o valor do email
+    const senha = document.getElementById('Dig-senhaFun').value; // Obtém o valor da senha
 
     // Verifica os dados no Realtime Database na coleção "funcionarios"
     const getItemByEmailAndPassword = async (email, senha) => {
@@ -38,7 +38,7 @@ document.querySelector('#btn-acessar').addEventListener('click', async function(
                     }
                 });
 
-                if (foundItem) {""
+                if (foundItem) {
                     window.location.href = "produtos.html"; // Redireciona para produtos.html
                 } else {
                     alert('Nenhum documento encontrado com o email e senha fornecidos.');

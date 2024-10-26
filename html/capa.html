@@ -35,29 +35,47 @@
 
 
    <div class="botao">
-    <button onclick="acessar" id="btn-entrar">Administrador </button>
-    <button onclick="acessar" id="btn-entrar">Funcionário </button>
+    <button id="btn-entrarAdm">Administrador </button>
+    <button id="btn-entrarFun">Funcionário </button>
    </div>
     
 
 
-   <dialog id="modalLogin">
+   <dialog id="modalLoginAdm">
 
-    <button onclick="fechar" id="btn-FecharLogin">X</button>
+    <button id="btn-FecharLoginAdm">X</button>
     <div class="tudodomodal">
         
         <div class="texto-login">Insira seu Login</div> 
      
       <div class="cardLogin">
-        <input type="text" id= "Dig-login" placeholder="Digite seu login">
-        <input type="password" id= "Dig-senha" placeholder="Digite sua senha" >
+        <input type="text" id= "Dig-loginAdm" placeholder="Digite seu login">
+        <input type="password" id= "Dig-senhaAdm" placeholder="Digite sua senha" >
       </div>
-      <button id="btn-acessar">Acessar</button>
+      <button id="btn-acessarAdm">Acessar</button>
     </div>
     <img src="../imagens/sorvete3.0.png" id="astronauta" alt="astronauta1"> 
 
   </dialog>
 
+
+
+  <dialog id="modalLoginFun">
+
+    <button id="btn-FecharLoginFun">X</button>
+    <div class="tudodomodal">
+        
+        <div class="texto-login">Insira seu Login</div> 
+     
+      <div class="cardLogin">
+        <input type="text" id= "Dig-loginFun" placeholder="Digite seu login">
+        <input type="password" id= "Dig-senhaFun" placeholder="Digite sua senha" >
+      </div>
+      <button id="btn-acessarFun">Acessar</button>
+    </div>
+    <img src="../imagens/sorvete3.0.png" id="astronauta" alt="astronauta1"> 
+
+  </dialog>
    
 
 
@@ -161,9 +179,10 @@ R. Francisco Pachêco Machado, 256- Jardim Irene, Iperó - Sp.
 
 
 
-
-<script type="module" src="../js/LoginFun.js"></script>
-<script src="../js/modalEntrar.js"></script>      
+<script src="../js/modalAdm.js"></script>
+<script src="../js/modalFun.js"></script>
+<script type="module" src="../js/LoginFun.js"></script> 
+<script type="module" src="../js/LoginAdm.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
