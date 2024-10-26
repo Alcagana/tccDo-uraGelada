@@ -88,57 +88,17 @@ background-color: red;
 }
 
 
-.container {
-width: 100%;
-display:flex;
-align-items: center;;
-margin-top: 10%;
-gap: 5px;
-}
 
- .container2{
-    width: 100%;
-    display:flex;
-    align-items: center;;
-    margin-top: 2%;
-    gap: 5px;
-  
- }
-
-
-
-
-#card1 , #card2 , #card3 , #card4 , #card5 , #card6 , #card7 , #card8 {
-    width: 100px;
-    height: 450px;
-    border: solid pink;
-    margin-left: 7.2%;
+.card-produtos{
     align-items: center;
-  
-   
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 10%;
+     }
 
-   
-}
 
 
-#img1 , #img2 , #img3 , #img4 , #img5 , #img6 , #img7 , #img8{
 
-    width: 250px;
-    height: 250px;
-
-}
-
-.texto-card{
-    font-family:"Nunito Sans", sans-serif;
-    
-    
-}
-
-.sabor{
-  margin-left: 35%;
-  font-size: 25px; 
-  margin-top: 10px;
-}
 
 
 /*
