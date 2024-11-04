@@ -120,4 +120,69 @@ btnDeletar.addEventListener('click', () => {
   deleteByEmail(email); // Chama a função com o email correto
   console.log("CLICOU EM DELETAR");
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+teste de bloquear botões:
+
+const firebaseConfig = {
+    apiKey: "AIzaSyAIQ_gs6JfrAtIugERsfQY2GEhstt1C6gc",
+    authDomain: "tccdocuragelada-ef726.firebaseapp.com",
+    databaseURL: "https://tccdocuragelada-ef726-default-rtdb.firebaseio.com",
+    projectId: "tccdocuragelada-ef726",
+    storageBucket: "tccdocuragelada-ef726.appspot.com",
+    messagingSenderId: "739246134035",
+    appId: "1:739246134035:web:603f9914afc49ce83f00e6"
+};
+
+// Inicializa o Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Obtém o botão de cadastro
+const cadastrarFuncionario = document.querySelector("#btn-cadaFun");
+
+// Evento de clique para cadastrar funcionário
+cadastrarFuncionario.addEventListener('click', function() {
+
+    // Verifica se o usuário está autenticado
+    firebase.auth().onAuthStateChanged(function(user) {
+        if (user && user.email === "cleidetejano1504@gmail.com") {
+            // Usuário autorizado
+            window.location.href = "cadastro.html";
+
+            // Exemplo de dados do funcionário que serão cadastrados
+            const funcionario = {
+                nome: "Nome do Funcionário",
+                cargo: "Cargo do Funcionário",
+                salario: 3000
+            };
+
+            // Envia os dados para a coleção 'funcionarios' no Realtime Database
+            firebase.database().ref('funcionarios').push(funcionario)
+                .then(() => {
+                    alert("Funcionário cadastrado com sucesso!");
+                })
+                .catch((error) => {
+                    console.error("Erro ao cadastrar funcionário: ", error);
+                    alert("Erro ao cadastrar funcionário.");
+                });
+        } else {
+            // Usuário não autorizado
+            alert("Você não está autorizado a entrar nessa página");
+        }
+    });
+});
+
   
