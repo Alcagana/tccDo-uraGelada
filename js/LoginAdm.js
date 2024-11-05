@@ -25,7 +25,7 @@ document.querySelector('#btn-acessarAdm').addEventListener('click', function() {
     // AUTENTICAÇÃO DO USUÁRIO
     signInWithEmailAndPassword(auth, email, senha) // Função do Firebase que autentica o usuário
         .then(response => {
-            window.location.href = "produtos.html"; // Redireciona para produtos.html
+            window.location.href = "./html/produtos.html"; // Redireciona para produtos.html
         })
         .catch(error => {
             alert("Usuário não encontrado | email ou senha incorretos"); // Mostra erro em um alert!
