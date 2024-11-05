@@ -1,15 +1,4 @@
-/* <dialog id="modalDelete">
-        
-        <button id="FecharModal">X</button>
-        <h1 class="t-1">Insira o email do funcionário que deseja deletar!</h1>
-        <h2 class="t-1">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!!!</h2>
-        <input type="text" id="inp-email1" placeholder="Insira o email do funcionário que deseja deletar">
-        <button id="btn-deletar" >DELETAR</button>
-  
-    </dialog> */
-
-
- #modalDelete{
+#modalDelete{
     width: 800px;
     height: 320px;
     background-color: #48033f;
@@ -17,15 +6,15 @@
 #t-1{
     
     margin-left: 10%;
-    color: antiquewhite;
+    color: #e7b705;
 }
 #t-2{
     
     margin-left: 15%;
-    color: antiquewhite;
+    color: #e7b705;
 }
 #FecharModal{
-    color: antiquewhite;
+    color: #e7b705;
     background-color: #46053d;
     border: 0px;
 }
@@ -45,7 +34,7 @@
     background-color:  #48033f;
     font-size: 24px;
     cursor: pointer;
-    color: rgba(240, 248, 255, 0.797);
+    color: #e7b705;
     border: 0px;
     align-items: center;
     font-family:"Nunito Sans", sans-serif;

@@ -17,7 +17,6 @@ body{
 
     height: 60px;
     margin-top: 0%;
-
     font-size: 31px;
     cursor: pointer;
     color: #e7b705;
@@ -210,144 +209,66 @@ h1{
 /*responsividade*/
   
     
-@media(min-width:100px) and (max-width: 500px ){
+@media(min-width:400px) and (max-width: 500px ){
 
 
-    body{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        background-color:#48033f;
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:#48033f;
        
-     }
+}
      
-     .carrosel{
+.carrosel{
 
-        width:100%;
-        height:250px;
-        margin-top: 0px;
+    width:100%;
+    height:250px;
+    margin-top: 0px;
         
         
 
-        }
+}
         
-        .img-carrossel{
+.img-carrossel{
         
-            width:100%;
-        height:250px;
-            margin-left: 0.4px;
+    width:100%;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 0.4px;
         
-        }
-
-
-        header{  
-
-            width: 100%;
-            height: 100px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color:#48033f;
-            }
-            
-
-
-            img{   
-                width: 100px;
-                height: 100px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-            margin-left: 10px;
-            }
-
-
-
-         
-            
-            #btn-cadastrar{
-                width: 50px;
-                height: 50px;
-                margin-top: 0%;
-                background-color:#48033f;
-                font-size: 15px;
-                cursor: pointer;
-                color: #e7b705;
-                border: 0px;
-                display: flex;
-                align-items: center;
-                justify-content:space-between;
-                font-family:"Nunito Sans", sans-serif;
-                font-style: italic;
-                margin-left: 50px;
-             
-                
-                
-            
-            }
-            #btn-cadastrar:hover{
-                color:#a53095; 
-            }
-
-
-                #btn-ajuda{
-                    width: 100px;
-                    height: 100px;
-                    margin-top: 0%;
-                    background-color: rgba(240, 248, 255, 0.797);
-                    font-size: 15px;
-                    cursor: pointer;
-                    color: #e7b705;
-                    border: 0px;
-                    display: flex;
-                    align-items: center;
-                    justify-content:space-around;
-                    font-family:"Nunito Sans", sans-serif;
-                    font-style: italic;
-                    background-color:#48033f;
-                    margin-left: 40px;
-                 
-                
-                }
-
-                #btn-ajuda:hover{
-                
-                    color:#a53095; 
-
-
-
-
 }
 
 
+header{  
 
-#btn-entrar{
-
-    width: 100px;
+    width: 100%;
     height: 100px;
-    margin-top: 0%;
-    background-color: rgba(240, 248, 255, 0.797);
-    font-size: 25px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
     display: flex;
     align-items: center;
-    justify-content:space-around;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    justify-content: space-between;
     background-color:#48033f;
-    margin-right: 10px;
-   
+}
+            
+#logotipo{
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
 
 }
 
-#btn-entrar:hover{
+#btn-entrarAdm{
 
-    color:#a53095; 
-
+    font-size: 22px;
+    margin-right: -8px;
 }
 
+
+#btn-entrarFun{
+
+    font-size: 22px;
+    margin-right: -40px;
+}
 
 
 
@@ -367,27 +288,14 @@ h1{
     -moz-transition: 0.5s;
     transition: 0.5s;
     
-    }
+}
     
-    #post-it:hover {
-        -webkit-transform: translateY(-8px);
-        -moz-transform: translateY(-8px);
-        -ms-transform: translateY(-8px);
-        -o-transform: translateY(-8px);
-        transform: translateY(-8px);
-    }
-
-
-
-
-
-
-
+#post-it:hover {
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    -o-transform: translateY(-8px);
+    transform: translateY(-8px);
 }
 
-
-
-
-
-
-    
+}
