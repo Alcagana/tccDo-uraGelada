@@ -96,17 +96,23 @@ background-color: red;
 
 
 
-/*.todos-botoes{
-   
 
-    margin-left: 190px;
-   margin-top: 50px;
-  border: solid red;
+#total1 , #total2 , #total3 , #total4 , #total5 , #total6 , #total7 ,#total8 {
+    margin-left: 270px;
 }
 
-*/
+#btn1mais ,#btn1menos , #btn2mais , #btn2menos , #btn3mais , #btn3menos , #btn4mais , #btn4menos , #btn5mais , #btn5menos , #btn6mais , #btn6menos , #btn7mais , #btn7menos , #btn8mais , #btn8menos{
+   margin-top: 12px;
+   
+   width: 25px;
+   height: 25px;
+}
 
 
+#qtd1 , #qtd2 , #qtd3 , #qtd4 , #qtd5 , #qtd6 , #qtd7 , #qtd8 {
+    font-size: 30px;
+
+}
 
 
 .card-produtos{
