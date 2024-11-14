@@ -14,13 +14,14 @@
 </head>
 <body>
 
-    <main>
+    
 
         <header>
             
-            <div class="img"><img src="../imagens/logonova.png"alt="logosorveteria"></div>
+            <img src="../imagens/logonova.png"alt="logosorveteria">
     
             <button onclick="acessar" id="btn-ajuda">Ajuda </button>
+            <!-- AJUDA -->
             <dialog id="modalAjuda">
 
                 <button onclick="fechar" id="btn-FecharModalAjuda">X</button>
@@ -38,13 +39,12 @@
                 </div>
             
            
-              </dialog>
+            </dialog>
     
         </header>
    
-    
-    <div class="texto-Administrador">Cadastro Administrador </div> 
-    
+<main id="main-adm">
+    <div class="texto-Administrador">Cadastro Administrador </div>     
     <div class="cardAdm">
         <div class="textocampos">Preencha os campos</div>
         <input type="text" class="inp-loginAdm" id="inp-login" placeholder="Insira um email">
@@ -53,11 +53,12 @@
                                                                                     
 
        
-        </div>
-
-        <div class="texto-Funcionarios">Cadastro Funcionários </div> 
-    
-        <div class="cardFun">
+    </div>
+</main>
+   
+<main id="main-fun">
+    <div class="texto-Funcionarios">Cadastro Funcionários </div> 
+    <div class="cardFun">
             <div class="textocampos">Preencha os campos</div>
             <input type="text" class="inp-nomeFun" id="inp-nomeFun" placeholder="Insira o nome">
             <input type="text" class="inp-loginFun" id="inp-loginFun" placeholder="Insira um email">
@@ -67,11 +68,9 @@
             <button id="deletarFuncionario">Deletar funcionário</button>                                                                            
             </div>
            
-            </div>
-
+    </div>
     
-    </main>
-          
+    <!-- MODAL -->
     <dialog id="modalDelete">
         
         <button id="FecharModal">X</button>
@@ -82,6 +81,11 @@
         <button id="btn-deletar" >DELETAR</button>
   
     </dialog>
+</main>
+    
+    
+          
+   
   
   <script src="../js/modalDelete.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
