@@ -39,7 +39,7 @@ document.querySelector('#btn-acessarFun').addEventListener('click', async functi
                 });
 
                 if (foundItem) {
-                    window.location.href = "./html/produtos.html"; // Redireciona para produtos.html
+                    window.location.href = "./html/produtosFun.html"; // Redireciona para produtos.html
                 } else {
                     alert('Nenhum documento encontrado com o email e senha fornecidos.');
                 }
