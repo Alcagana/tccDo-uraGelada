@@ -52,43 +52,30 @@ height: 300px;
 /*botões img*/
 
 #img-card1{
-    width: 200px;
-    height: 200px;
-    transition: all 0.5s;
-}
-
-
-
-
-#img-card1:hover{
     width: 250px;
     height: 250px;
- 
-   
 }
-
 
 
 
 #img-card2{
-    width: 200px;
-    height: 200px;
-    transition: all 0.5s;
+    width: 250px;
+    height: 250px;
    
 }
 
 
 
 #img-card3{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
    
 }
 
 
 #img-card4{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
    
 }
 
@@ -96,29 +83,13 @@ height: 300px;
 
 #logo{
 
-
-
- 
-        width: 200px;
-        height: 150px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-left: 100px;
-        border-radius: 60% 60% 60% 60% ;
-      
-     
-   
-}
-
-
-#link-btn-picole{
-    list-style: none;
-    text-decoration: none;
-}
-#link-btn-Adicionais{
-    list-style: none;
-    text-decoration: none;
+width: 200px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 100px;
+border-radius: 60% 60% 60% 60% ;   
 }
 
 
@@ -169,11 +140,6 @@ height: 300px;
     justify-content:space-between;
     font-family:"Nunito Sans", sans-serif;
     font-style: italic;
-   
-   
-   
-
-
 }
 
 
@@ -181,6 +147,91 @@ a{
     list-style: none;
     text-decoration: none;
 }
+
+/*PRODUTOS SORVETES*/
+.card-produtosSor{
+    align-items: center;
+    width: 1450px;
+    margin-top: 150px;
+    margin-left: 12%;
+        }
+
+#tex-sorvete{
+
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+
+}
+
+
+/*PRODUTOS PICOLÉS*/
+
+
+#tex-picoles{
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+    margin-top: 400px;
+
+}
+.cards2{
+    gap: 12px;
+
+}
+
+
+.card-produtosPic{
+    align-items: center;
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 5%;
+     }
+
+
+
+#chocolate, #limao , #morango , #coco ,#tangerina , #frutas , #manga , #melancia ,#abacaxi{
+
+    width: 325px;
+    height: 250px;
+
+
+}
+
+/*PRODUTOS ADICIONAIS*/
+
+
+#tex-adicionais{
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+    margin-top: 250px;
+
+}
+
+.card-produtosAdi{
+    align-items: center;
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 5%;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*MODAL AJUDA INTEIRO*/
@@ -201,7 +252,6 @@ a{
 #modalAjuda::backdrop{
     background-color: rgba(31, 30, 30, 0.699);
 }
-
 
 /*modal textos*/
 

@@ -1,4 +1,4 @@
-precos = {
+PIprecos = {
 
     picoleChocolate: 3,
     picoleLimão: 2.51,
@@ -11,10 +11,10 @@ precos = {
   }
   
   //BOTÃO PICOLÉ-CHOCOLATE
-  const contador = document.querySelector('#qtd1');
-  const btnMais = document.querySelector('#btn1mais')
-  const btnMenos = document.querySelector('#btn1menos')
-  const textoPagar = document.querySelector('#total1') 
+  const contador = document.querySelector('#PIqtd1');
+  const btnMais = document.querySelector('#PIbtn1mais')
+  const btnMenos = document.querySelector('#PIbtn1menos')
+  const textoPagar = document.querySelector('#PItotal1') 
   
   btnMais.addEventListener('click',addProduto)
   btnMenos.addEventListener('click', removeProduto)
@@ -49,10 +49,10 @@ precos = {
   }
 
   //BOTÃO PICOLÉ-LIMÃO
-  const contador2 = document.querySelector('#qtd2');
-  const btnMais2 = document.querySelector('#btn2mais')
-  const btnMenos2 = document.querySelector('#btn2menos')
-  const textoPagar2 = document.querySelector('#total2') 
+  const contador2 = document.querySelector('#PIqtd2');
+  const btnMais2 = document.querySelector('#PIbtn2mais')
+  const btnMenos2 = document.querySelector('#PIbtn2menos')
+  const textoPagar2 = document.querySelector('#PItotal2') 
   
   btnMais2.addEventListener('click',addProduto2)
   btnMenos2.addEventListener('click', removeProduto2)
@@ -86,11 +86,11 @@ precos = {
   
   }
 
-  //BOTÃO PICOLÉ-MORANGO
-  const contador3 = document.querySelector('#qtd3');
-  const btnMais3 = document.querySelector('#btn3mais')
-  const btnMenos3 = document.querySelector('#btn3menos')
-  const textoPagar3 = document.querySelector('#total3') 
+  //BOTÃO PICOLÉ-MORANGOPI
+  const contador3 = document.querySelector('#PIqtd3');
+  const btnMais3 = document.querySelector('#PIbtn3mais')
+  const btnMenos3 = document.querySelector('#PIbtn3menos')
+  const textoPagar3 = document.querySelector('#PItotal3') 
   
   btnMais3.addEventListener('click',addProduto3)
   btnMenos3.addEventListener('click', removeProduto3)
@@ -124,10 +124,10 @@ precos = {
   
   }
   //BOTÃO PICOLÉ-COCO
-  const contador4 = document.querySelector('#qtd4');
-  const btnMais4 = document.querySelector('#btn4mais')
-  const btnMenos4 = document.querySelector('#btn4menos')
-  const textoPagar4 = document.querySelector('#total4') 
+  const contador4 = document.querySelector('#PIPIqtd4');
+  const btnMais4 = document.querySelector('#PIbtn4mais')
+  const btnMenos4 = document.querySelector('#PIbtn4menos')
+  const textoPagar4 = document.querySelector('#PItotal4') 
   
   btnMais4.addEventListener('click',addProduto4)
   btnMenos4.addEventListener('click', removeProduto4)
@@ -162,10 +162,10 @@ precos = {
   }
 
   //BOTÃO PICOLÉ-MANGA
-  const contador5 = document.querySelector('#qtd5');
-  const btnMais5 = document.querySelector('#btn5mais')
-  const btnMenos5 = document.querySelector('#btn5menos')
-  const textoPagar5 = document.querySelector('#total5') 
+  const contador5 = document.querySelector('#PIqtd5');
+  const btnMais5 = document.querySelector('#PIbtn5mais')
+  const btnMenos5 = document.querySelector('#PIbtn5menos')
+  const textoPagar5 = document.querySelector('#PItotal5') 
   
   btnMais5.addEventListener('click',addProduto5)
   btnMenos5.addEventListener('click', removeProduto5)
@@ -200,10 +200,10 @@ precos = {
   }
 
    //BOTÃO PICOLÉ-FRUTAS VERMELHAS
-   const contador6 = document.querySelector('#qtd6');
-   const btnMais6 = document.querySelector('#btn6mais')
-   const btnMenos6 = document.querySelector('#btn6menos')
-   const textoPagar6 = document.querySelector('#total6') 
+   const contador6 = document.querySelector('#PIqtd6');
+   const btnMais6 = document.querySelector('#PIbtn6mais')
+   const btnMenos6 = document.querySelector('#PIbtn6menos')
+   const textoPagar6 = document.querySelector('#PItotal6') 
    
    btnMais6.addEventListener('click',addProduto6)
    btnMenos6.addEventListener('click', removeProduto6)
@@ -236,12 +236,12 @@ precos = {
      }
    
    }
-
+PI
     //BOTÃO PICOLÉ-Melancia
-    const contador7 = document.querySelector('#qtd7');
-    const btnMais7 = document.querySelector('#btn7mais')
-    const btnMenos7 = document.querySelector('#btn7menos')
-    const textoPagar7 = document.querySelector('#total7') 
+    const contador7 = document.querySelector('#PIqtd7');
+    const btnMais7 = document.querySelector('#PIbtn7mais')
+    const btnMenos7 = document.querySelector('#PIbtn7menos')
+    const textoPagar7 = document.querySelector('#PItotal7') 
     
     btnMais7.addEventListener('click',addProduto7)
     btnMenos7.addEventListener('click', removeProduto7)
@@ -274,10 +274,10 @@ precos = {
     }
 
     //BOTÃO PICOLÉ-Abacaxi
-    const contador8 = document.querySelector('#qtd8');
-    const btnMais8 = document.querySelector('#btn8mais')
-    const btnMenos8 = document.querySelector('#btn8menos')
-    const textoPagar8 = document.querySelector('#total8') 
+    const contador8 = document.querySelector('#PIqtd8');
+    const btnMais8 = document.querySelector('#PIbtn8mais')
+    const btnMenos8 = document.querySelector('#PIbtn8menos')
+    const textoPagar8 = document.querySelector('#PItotal8') 
     
     btnMais8.addEventListener('click',addProduto8)
     btnMenos8.addEventListener('click', removeProduto8)
