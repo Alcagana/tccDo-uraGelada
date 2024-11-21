@@ -22,7 +22,7 @@ if (email === "" || senha === "") {
   Swal.fire({
     position: "top-end",
     icon: "warning",
-    title: "Por favor, preencha todos os campos.",
+    title: "Por favor, verefique todos os campos.",
     showConfirmButton: false,
     timer: 1500
   });

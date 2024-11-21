@@ -30,7 +30,20 @@ async function post() {
     email: login.value,
     senha: senha.value
   };
+ 
 
+  if( nome === '' || login === '' || senha){
+
+    Swal.fire({
+      position: "top-end",
+      icon: "warning",
+      title: "Por favor, verefique todos os campos.",
+      showConfirmButton: false,
+      timer: 1800
+    });
+    return;
+  }
+  
   const response = await fetch(url, {
     method: 'POST',
     headers: {
