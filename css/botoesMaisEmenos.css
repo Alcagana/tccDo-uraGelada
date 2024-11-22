@@ -3,7 +3,9 @@
     margin-top: 170px;
 }
 
- 
+.texto-dois{
+    font-size: 40px;
+} 
 
 .qtd{
    
@@ -22,13 +24,12 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
     cursor: pointer;
-      
     border-radius: 0px 15px 15px 0px ;
-      border: solid #500e47 2px;
-      margin-left: 25px;
-      margin-bottom: -35px;
-      font-size: 30px;
-      color: #500e47;
+    border: solid #500e47 2px;
+    margin-left: 25px;
+    margin-bottom: -35px;
+    font-size: 30px;
+    color: black;
 
 }
     
@@ -42,13 +43,11 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
     cursor: pointer;
-
-
-      border-radius: 15px 0px  0px 15px;
-      border: solid #500e47 2px;
-      margin-left: -25px;
-      font-size: 30px;
-      color: #500e47;
+    border-radius: 15px 0px  0px 15px;
+    border: solid #500e47 2px;
+    margin-left: -25px;
+    font-size: 30px;
+    color: black;
 
 }
     
@@ -64,17 +63,6 @@
       background-color: rgb(219, 223, 226);
 }
     
-
-
-
-
-
-
-
-
-
-
-
 
 @media(min-width:100px) and (max-width: 500px ){
 

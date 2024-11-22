@@ -148,6 +148,22 @@ a{
     text-decoration: none;
 }
 
+/*BOTÕES*/
+
+.todos-botoes{
+
+    margin-left: 210px;
+
+}
+
+.sabor{
+    font-size: 25px;
+}
+.preço{
+    font-size: 22px;
+}
+
+
 /*PRODUTOS SORVETES*/
 .card-produtosSor{
     align-items: center;

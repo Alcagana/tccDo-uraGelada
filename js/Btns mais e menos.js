@@ -939,3 +939,55 @@ function ADremoveProduto5 (){
   
   }
   
+/*BANCO DE DADOS*/
+
+// Importações corretas
+import { getDatabase, ref, set, push, get, remove } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-database.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+
+// Configuração do Firebase
+const firebaseConfig = {
+  apiKey: "AIzaSyAIQ_gs6JfrAtIugERsfQY2GEhstt1C6gc",
+  authDomain: "tccdocuragelada-ef726.firebaseapp.com",
+  databaseURL: "https://tccdocuragelada-ef726-default-rtdb.firebaseio.com",
+  projectId: "tccdocuragelada-ef726",
+  storageBucket: "tccdocuragelada-ef726.appspot.com",
+  messagingSenderId: "739246134035",
+  appId: "1:739246134035:web:603f9914afc49ce83f00e6"
+};
+
+// Inicialização do app Firebase
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(); // Obtendo a instância do banco de dados
+
+// POST (enviando dados para o banco de dados)
+const btnEnviar = document.querySelector("#btn-relatorio");
+
+
+async function post() {
+  const url = "https://tccdocuragelada-ef726-default-rtdb.firebaseio.com/produtos.json";
+  const newData = {
+  /* UMA VARIÁVEL PARA CADA PRODUTO? */
+
+  };
+ 
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'  // Corrigido Content-Type
+    },
+    body: JSON.stringify(newData)
+  });
+
+  Swal.fire({
+    position: "top-end",
+    icon: "success",
+    title: "Relátorio concluido com sucesso",
+    showConfirmButton: false,
+    timer: 1000
+  });
+}
+
+btnEnviar.addEventListener('click', post);
+
+

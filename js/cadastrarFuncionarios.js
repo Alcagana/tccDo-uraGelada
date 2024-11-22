@@ -32,7 +32,7 @@ async function post() {
   };
  
 
-  if( nome === '' || login === '' || senha){
+  /*if( nome === '' || login === '' || senha){
 
     Swal.fire({
       position: "top-end",
@@ -42,7 +42,7 @@ async function post() {
       timer: 1800
     });
     return;
-  }
+  }*/
   
   const response = await fetch(url, {
     method: 'POST',
