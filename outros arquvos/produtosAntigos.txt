@@ -1,0 +1,685 @@
+<h2 id="tex-sorvete">Sorvetes:</h2>
+
+  <div class="card-produtosSor">
+
+    <div class="card-group d-flex gap-5 " >
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/caquinha.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Casquinha</h5>
+          <p class="preço">R$3,00.</p>
+          <h3 class="texto-dois" id="total1">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn1mais"> + </div>
+                   <div class="botoes" id="btn1menos"> - </div>
+                   <div class="qtd" id="qtd1"> 0 </div>
+                 </div>
+           </div>
+           
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/cascão.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Cascão</h5>
+          <p class="preço">R$4,50.</p>
+          <h3 class="texto-dois" id="total2">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn2mais"> + </div>
+                   <div class="botoes" id="btn2menos"> - </div>
+                   <div class="qtd" id="qtd2"> 0 </div>
+                 </div>
+          </div>
+          
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://http2.mlstatic.com/D_NQ_NP_823167-MLB76339047515_052024-O.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Milk Shake</h5>
+          <p class="preço">R$10,00.</p>
+          <h3 class="texto-dois" id="total3">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn3mais"> + </div>
+                   <div class="botoes" id="btn3menos"> - </div>
+                   <div class="qtd" id="qtd3"> 0 </div>
+                 </div>
+             </div>
+             
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://www.receitasnestle.com.br/sites/default/files/srh_recipes/6527be00a1ed2e4c876d03a0348b2bbe.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Banana Split</h5>
+          <p class="preço">R$20,00.</p>
+          <h3 class="texto-dois" id="total4">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn4mais"> + </div>
+                   <div class="botoes" id="btn4menos"> - </div>
+                   <div class="qtd" id="qtd4"> 0 </div>
+                 </div>
+            </div>
+            
+      </div>
+  
+    <div class="card-group d-flex gap-5" >
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/sundae-kids.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Sundae Kids</h5>
+          <p class="preço">R$5,00.</p>
+          <h3 class="texto-dois" id="total5">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn5mais"> + </div>
+                   <div class="botoes" id="btn5menos"> - </div>
+                   <div class="qtd" id="qtd5"> 0 </div>
+                 </div>
+           </div>
+           
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/sundae-especial.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Sundae especial</h5>
+          <p class="preço">R$6,00.</p>
+          <h3 class="texto-dois" id="total6">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="btn6mais"> + </div>
+            <div class="botoes" id="btn6menos"> - </div>
+            <div class="qtd" id="qtd6"> 0 </div>
+          </div>
+        </div>
+          
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://alloydeliveryimages.s3.sa-east-1.amazonaws.com/item_images/11849/664e444f801b73kgwz.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Cupuaçu</h5>
+          <p class="preço">R$10,00.</p>
+          <h3 class="texto-dois" id="total7">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn7mais"> + </div>
+                   <div class="botoes" id="btn7menos"> - </div>
+                   <div class="qtd" id="qtd7"> 0 </div>
+                 </div>
+          </div>
+          
+      </div>
+  
+        <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://st2.depositphotos.com/17524768/45085/i/450/depositphotos_450859562-stock-photo-brazilian-frozen-plastic-cup-condensed.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Açaí</h5>
+          <p class="preço">R$10,00.</p>
+          <h3 class="texto-dois" id="total8">0</h3>
+          <div class="todos-botoes"> 
+                   <div class="botoess" id="btn8mais"> + </div>
+                   <div class="botoes" id="btn8menos"> - </div>
+                   <div class="qtd" id="qtd8"> 0 </div>
+                 </div>
+           </div>
+      </div>
+  
+    </div>
+  </div>
+  
+  
+  </div>
+
+  <h2 id="tex-picoles">Picolés:</h2>
+
+  <div class="card-produtosPic">
+
+    <div class="card-group d-flex gap-5 " >
+        
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="  https://www.mococa.com.br/wp-content/uploads/2022/03/Sorvete-de-chocolate-caseiro-facil.jpeg" id="chocolate" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de chocolate</h5>
+          <p class="preço">R$3,00.</p>
+          <h3 class="texto-dois" id="PItotal1">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="PIbtn1mais"> + </div>
+            <div class="botoes" id="PIbtn1menos"> - </div>
+            <div class="qtd" id="PIqtd1"> 0 </div>
+          </div>
+         </div>
+      
+         
+      </div>
+    
+  
+     <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://i1.wp.com/www.acozinhaintolerante.com/wp-content/uploads/2019/02/picole-low-carb.jpg?resize=2592%2C3888&ssl=1" id="limao" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Limão</h5>
+          <p class="preço">R$2,51.</p>
+          <h3 class="texto-dois" id="PItotal2">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="PIbtn2mais"> + </div>
+            <div class="botoes" id="PIbtn2menos"> - </div>
+            <div class="qtd" id="PIqtd2"> 0 </div>
+          </div>
+         </div>
+      
+         
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://static1.minhavida.com.br/recipes/22/1f/0f/80/picole-morango-orig-1.jpg" id="morango" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Morango</h5>
+          <p class="preço">R$2,52.</p>
+          <h3 class="texto-dois" id="PItotal3">0</h3>
+         <div class="todos-botoes"> 
+          <div class="botoess" id="PIbtn3mais"> + </div>
+          <div class="botoes" id="PIbtn3menos"> - </div>
+          <div class="qtd" id="PIqtd3"> 0 </div>
+        </div>
+      </div>
+      </div>
+   
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://cdn.awsli.com.br/1866/1866581/produto/94714305/750044089f.jpg"   id="coco" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Coco</h5>
+          <p class="preço">R$2,53.</p>
+          <h3  class="texto-dois" id="PItotal4">0</h3>
+         <div class="todos-botoes"> 
+          <div class="botoess" id="PIbtn4mais"> + </div>
+          <div class="botoes" id="PIbtn4menos"> - </div>
+          <div class="qtd" id="PIqtd4"> 0 </div>
+        </div>
+         </div>
+       
+      </div>
+  
+  
+  
+    <div class="card-group d-flex gap-5" >
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://diariodocomercio.com.br/wp-content/uploads/2023/10/picole-setor-faturamento-sorvete-sorvetes.jpg" id="manga" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Manga</h5>
+          <p class="preço">R$2,54.</p>
+          <h3 class="texto-dois" id="PItotal5">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="PIbtn5mais"> + </div>
+            <div class="botoes" id="PIbtn5menos"> - </div>
+            <div class="qtd" id="PIqtd5"> 0 </div>
+          </div>
+         </div>
+    
+       
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://www.adrianalauffer.com.br/wp-content/uploads/2016/03/receita-de-picoles-de-frutas-e1651689764469-1024x612.jpg" id="frutas" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Frutas Vermelhas</h5>
+          <p class="preço">R$2,55.</p>
+          <h3 class="texto-dois" id="PItotal6">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="PIbtn6mais"> + </div>
+            <div class="botoes" id="PIbtn6menos"> - </div>
+            <div class="qtd" id="PIqtd6"> 0 </div>
+          </div>
+         </div>
+  
+       
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://pennacchi.com.br/image/jpg/0c84f8a180600c48171786183ad421b8.jpg" id="melancia" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Melancia</h5>
+          <p class="preço">R$2,56.</p>
+          <h3 class="texto-dois"  id="PItotal7">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="PIbtn7mais"> + </div>
+            <div class="botoes" id="PIbtn7menos"> - </div>
+            <div class="qtd" id="PIqtd7"> 0 </div>
+          </div>
+         </div>
+  
+      </div>
+  
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="https://minhasreceitinhas.com.br/wp-content/uploads/2017/10/Depositphotos_162484652_l-2015-1200x916.jpg" id="abacaxi" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Picolé de Abacaxi</h5>
+          <p class="preço">R$2,57.</p>
+          <h3 class="texto-dois" id="PItotal8">0</h3>
+         <div class="todos-botoes"> 
+          <div class="botoess" id="PIbtn8mais"> + </div>
+          <div class="botoes" id="PIbtn8menos"> - </div>
+          <div class="qtd" id="PIqtd8"> 0 </div>
+        </div>
+      </div>
+      </div>
+  
+  
+    </div>
+    </div>
+  
+  
+  </div>
+  
+  <h2 id="tex-adicionais">Adicionais:</h2>
+
+  <div class="card-produtosAdi">
+
+    <div class="card-group d-flex gap-5 " >
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/chiclete.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Chiclete Blong</h5>
+          <p class="preço">R$0,50.</p>
+          <h3 class="texto-dois" id="ADtotal1">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn1mais"> + </div>
+            <div class="botoes" id="ADbtn1menos"> - </div>
+            <div class="qtd" id="ADqtd1"> 0 </div>
+          </div>
+           </div>
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/Bala7.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Bala 7Belo</h5>
+          <p class="preço">R$0,25</p>
+          <h3 class="texto-dois" id="ADtotal2">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn2mais"> + </div>
+            <div class="botoes" id="ADbtn2menos"> - </div>
+            <div class="qtd" id="ADqtd2"> 0 </div>
+          </div>
+          </div>
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/balayou.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Bala Yogurte</h5>
+          <p class="preço">R$0,25.</p>
+          <h3 class="texto-dois" id="ADtotal3">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn3mais"> + </div>
+            <div class="botoes" id="ADbtn3menos"> - </div>
+            <div class="qtd" id="ADqtd3"> 0 </div>
+          </div>
+           </div>
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/agua.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Água</h5>
+          <p class="preço">R$2,50.</p>
+          <h3 class="texto-dois" id="ADtotal4">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn4mais"> + </div>
+            <div class="botoes" id="ADbtn4menos"> - </div>
+            <div class="qtd" id="ADqtd4"> 0 </div>
+          </div>
+          </div>
+      </div>
+  
+    <div class="card-group d-flex gap-5" >
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/monster.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Monster</h5>
+          <p class="preço">R$12,00.</p>
+          <h3 class="texto-dois" id="ADtotal5">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn5mais"> + </div>
+            <div class="botoes" id="ADbtn5menos"> - </div>
+            <div class="qtd" id="ADqtd5"> 0 </div>
+          </div>
+          </div>
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/kuat.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Kuat em lata</h5>
+          <p class="preço">R$5,00.</p>
+          <h3 class="texto-dois" id="ADtotal6">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn6mais"> + </div>
+            <div class="botoes" id="ADbtn6menos"> - </div>
+            <div class="qtd" id="ADqtd6"> 0 </div>
+          </div>
+             </div>
+      </div>
+  
+      <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/fanta.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Fanta em lata</h5>
+          <p class="preço">R$5,50.</p>
+          <h3 class="texto-dois" id="ADtotal7">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn7mais"> + </div>
+            <div class="botoes" id="ADbtn7menos"> - </div>
+            <div class="qtd" id="ADqtd7"> 0 </div>
+          </div>
+           </div>
+      </div>
+  
+        <div class="card border border-dark" style="height: 500px;"  >
+        <img src="../imagens/coca-cola.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="sabor">Coca-Cola em lata</h5>
+          <p class="preço">R$6,00.</p>
+          <h3 class="texto-dois" id="ADtotal8">0</h3>
+          <div class="todos-botoes"> 
+            <div class="botoess" id="ADbtn8mais"> + </div>
+            <div class="botoes" id="ADbtn8menos"> - </div>
+            <div class="qtd" id="ADqtd8"> 0 </div>
+          </div>
+          </div>
+      </div>
+  
+    </div>
+    </div>
+  
+  
+  </div>
+
+---------------------------------------------------------------------------------------------------------
+CSS=ESTILO DOS BOTÕES
+  class.maisemenos{
+    margin-left: 170px;
+    margin-top: 170px;
+}
+
+.texto-dois{
+    font-size: 40px;
+} 
+
+.qtd{
+   
+    margin-left: 17px;
+    margin-top: -95px;
+    font-size: 50px;
+   
+}
+.botoess{
+    
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 0px 15px 15px 0px ;
+    border: solid #500e47 2px;
+    margin-left: 25px;
+    margin-bottom: -35px;
+    font-size: 30px;
+    color: black;
+
+}
+    
+.botoes{
+
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    cursor: pointer;
+    border-radius: 15px 0px  0px 15px;
+    border: solid #500e47 2px;
+    margin-left: -25px;
+    font-size: 30px;
+    color: black;
+
+}
+    
+.botoes:hover{
+     
+      background-color: rgb(219, 223, 226);
+      font-size: 35px;
+}
+    
+.botoess:hover{
+        
+      font-size: 35px;
+      background-color: rgb(219, 223, 226);
+}
+    
+
+@media(min-width:100px) and (max-width: 500px ){
+
+    .maisemenos{
+        margin-left: 105px;
+        margin-top: 180px;
+        
+    }
+    
+}
+----------------------------------------------------------------------------
+CSS-DO HTML
+
+/*CARDS*/
+.botoesimg{
+ 
+width: 1700px;
+height: 600px;
+margin-top: 250px;
+margin-left: 6%;
+display: flex;
+justify-content: center;
+text-align: center;
+gap:150px
+
+}
+
+.card{
+
+
+height: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width:600px;
+border-radius: 40px;
+height: 300px;
+
+}
+
+/*botões img*/
+
+#img-card1{
+    width: 250px;
+    height: 250px;
+}
+
+
+
+#img-card2{
+    width: 250px;
+    height: 250px;
+   
+}
+
+
+
+#img-card3{
+    width: 250px;
+    height: 250px;
+   
+}
+
+
+#img-card4{
+    width: 250px;
+    height: 250px;
+   
+}
+
+
+
+#logo{
+
+width: 200px;
+height: 150px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 100px;
+border-radius: 60% 60% 60% 60% ;   
+}
+
+
+#btn-ajuda{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    background-color:#48033f;
+    font-size: 31px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+   
+}
+
+#btn-ajuda :hover{
+    color: #b30c9c;
+}
+
+
+
+
+
+#btn-ajuda:hover{
+
+
+    color:#b30c9c(189, 131, 102, 0.889);
+}
+
+
+#btn-cadaFun{
+    width: 350px;
+    height: 60px;
+    margin-bottom: 0%;
+    margin-left: 1000px;
+    background-color:#48033f;
+    font-size: 30px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
+}
+
+
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/*BOTÕES*/
+
+.todos-botoes{
+
+    margin-left: 210px;
+
+}
+
+.sabor{
+    font-size: 25px;
+}
+.preço{
+    font-size: 22px;
+}
+
+
+/*PRODUTOS SORVETES*/
+.card-produtosSor{
+    align-items: center;
+    width: 1450px;
+    margin-top: 150px;
+    margin-left: 12%;
+        }
+
+#tex-sorvete{
+
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+
+}
+
+
+/*PRODUTOS PICOLÉS*/
+
+
+#tex-picoles{
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+    margin-top: 400px;
+
+}
+.cards2{
+    gap: 12px;
+
+}
+
+
+.card-produtosPic{
+    align-items: center;
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 5%;
+     }
+
+
+
+#chocolate, #limao , #morango , #coco ,#tangerina , #frutas , #manga , #melancia ,#abacaxi{
+
+    width: 325px;
+    height: 250px;
+
+
+}
+
+/*PRODUTOS ADICIONAIS*/
+
+
+#tex-adicionais{
+    color: white;
+    font-size: 70px;
+    margin-left: 250px;
+    margin-top: 250px;
+
+}
+
+.card-produtosAdi{
+    align-items: center;
+       width: 1450px;
+       margin-left: 12%;
+       margin-top: 5%;
+     }
