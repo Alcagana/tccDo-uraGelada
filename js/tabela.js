@@ -1,5 +1,4 @@
-
-    const precos = {
+const precos = {
       "Casquinha": 3.00,
       "Cascão": 4.50,
       "Milk Shake": 10.00,
@@ -152,3 +151,4 @@
 
     // Inicializar a tabela
     createTableRows();
+ 
