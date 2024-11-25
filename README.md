@@ -1,15 +1,25 @@
 DIÁRIO DE CONTROLE🤖
 
 
+
+
+
 🚀DESCRIÇÃO: 
 
 Com o Diário de Controle, microempreendedores podem acompanhar de perto as suas vendas e o desempenho do negócio. A ferramenta automatiza o registro das saídas de produtos e oferece relatórios personalizados para auxiliar na tomada de decisões.
 Com o objetivo de atender a todos os tipos de usuários, o Diário de Controle foi desenvolvido com uma interface intuitiva e visualmente agradável. Cores vibrantes e fontes grandes garantem uma experiência de uso confortável, mesmo para quem não tem experiência com tecnologia.
 
 
-👇🏼FUNCIONALIDADES: clique no link e tenha uma pré-experiencia.
+
+
+
+👇🏼FUNCIONALIDADES: clique no link para uma pré-experiencia.
 
 https://www.figma.com/proto/qVWyXVRsxs0I95aLcsW5Wr/Untitled?node-id=1-2&node-type=frame&t=Hh2gApGZhJGE6ztj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
+
+no software temos dois acessor, funcionários onde nos leva apara atela de produtos e é possivel gerar um pdf 
+
+
 
 
 
@@ -19,12 +29,20 @@ https://www.figma.com/proto/qVWyXVRsxs0I95aLcsW5Wr/Untitled?node-id=1-2&node-typ
 
 
 
+
+
 📄PRÉ-REQUISITOS:
 
-tenha os paranaue
+Para acesso ao software, é necéssario :
+
+. Ter acesso a internet
+. Ter acesso a algum aparelho eletronico, celular ou computador.
 
 
-ESTRUTURA DE PASTAS DO PROJETO:
+
+
+
+🗂️ESTRUTURA DE PASTAS DO PROJETO:
 
 tccDo-uraGelada/
 │
@@ -54,6 +72,20 @@ tccDo-uraGelada/
 │
 ├── imagens/
 │   └── (aqui vão as imagens, conforme necessário)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
