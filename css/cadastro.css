@@ -292,7 +292,7 @@ background-color:#48033f
 
 
 
-img{   /*logotipo*/
+#logo{   /*logotipo*/
     width: 160px;
     height: 140px;
     margin-left: 100px;
@@ -304,10 +304,11 @@ img{   /*logotipo*/
 
 
 
-@media(min-width:500px) and (max-width: 500px ){
+@media(min-width:400px) and (max-width: 500px ){
  
 header{
     width: 860px;
+    height: 210px;
 }
 
 img{
@@ -330,9 +331,22 @@ img{
 }
 #main-fun{
     margin-top: 700px;
-    margin-left: -300px;
+    margin-left: -200px;
+}
+#logo{
+    width: 210px;
+    height: 210px;
+    margin-left: -5px;
 }
 
+#btn-ajuda{
+
+    width: 100px;
+    height: 70px;
+    font-size: 45px;
+    margin-left: -5px;
+
+}
 }
 
 @media(min-width:400px) and (max-width: 500px ){
@@ -340,13 +354,10 @@ img{
     #modalAjuda{
 
     
-        background-color: #5c1d53;
-        width: 420px;
-        height: 313px;
-        border-radius: 20px;
-        margin-right: 28px;
-        margin-top: 200px;        
-    
+        width: 500px;
+        height: 400px;
+        margin-left: 200px;
+        margin-top: 450px;
     }
     .textos{
    

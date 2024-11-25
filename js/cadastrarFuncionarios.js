@@ -32,17 +32,16 @@ async function post() {
   };
  
 
-  /*if( nome === '' || login === '' || senha){
-
+  if (nome.value === '' || login.value === '' || senha.value === '') {
     Swal.fire({
-      position: "top-end",
-      icon: "warning",
-      title: "Por favor, verefique todos os campos.",
-      showConfirmButton: false,
-      timer: 1800
+        position: "top-end",
+        icon: "warning",
+        title: "Por favor, verifique todos os campos.",
+        showConfirmButton: false,
+        timer: 1800
     });
     return;
-  }*/
+}
   
   const response = await fetch(url, {
     method: 'POST',
