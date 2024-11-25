@@ -100,63 +100,88 @@ const precos = {
       }
     }
 
-
+    /* RESETA A TABELA */
+    function resetTable() {
+      for (const product of Object.keys(precos)) {
+        const quantityElement = document.getElementById(`quantity-${product}`);
+        const totalElement = document.getElementById(`total-${product}`);
+    
+        if (quantityElement && totalElement) {
+          quantityElement.textContent = '0';
+          totalElement.textContent = 'R$ 0.00';
+        }
+      }
+      
+      // Zerar o total geral
+      grandTotal = 0;
+      updateGrandTotal();
+    }
+    
 
 
 
     // Gerar PDF
     async function generatePDF() {
-  const { jsPDF } = window.jspdf;
-  const doc = new jsPDF();
-
-  const date = document.getElementById('date')?.value || 'Sem data';
-
-  // Adiciona título
-  doc.setFontSize(18);
-  doc.text('Relatório de Vendas', 105, 20, null, null, 'center');
-  doc.setFontSize(12);
-  doc.text(`Data: ${date}`, 10, 30);
-  
-  // Adiciona cabeçalho da tabela
-  let y = 40;
-  doc.setFontSize(10);
-  const startX = 10;
-
-  doc.line(startX, y, 200, y); // Linha do cabeçalho
-  doc.text('Produto', startX, y - 3);
-  doc.text('Preço Unitário', 70, y - 3);
-  doc.text('Quantidade', 120, y - 3);
-  doc.text('Total', 160, y - 3);
-  y += 10;
-
-  // Adicionar linhas da tabela
-  for (const [product, price] of Object.entries(precos)) {
-    const quantityElement = document.getElementById(`quantity-${product}`);
-    if (quantityElement) {
-      const quantity = parseInt(quantityElement.textContent);
-      const total = quantity * price;
-
-      if (quantity > 0) {
-        doc.line(startX, y, 200, y); // Linha horizontal
-        doc.text(product, startX, y - 3);
-        doc.text(`R$ ${price.toFixed(2)}`, 70, y - 3);
-        doc.text(quantity.toString(), 120, y - 3);
-        doc.text(`R$ ${total.toFixed(2)}`, 160, y - 3);
-        y += 10;
+      const { jsPDF } = window.jspdf;
+      const doc = new jsPDF();
+    
+      // Captura a data selecionada
+      const date = document.getElementById('date')?.value || 'Sem data';
+    
+      // Captura automaticamente a hora atual
+      const now = new Date();
+      const time = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+    
+      // Adiciona título
+      doc.setFontSize(18);
+      doc.text('Relatório de Vendas', 105, 20, null, null, 'center');
+      doc.setFontSize(12);
+      doc.text(`Data: ${date} Hora: ${time}`, 10, 30);
+    
+      // Adiciona cabeçalho da tabela
+      let y = 40;
+      doc.setFontSize(10);
+      const startX = 10;
+    
+      doc.line(startX, y, 200, y); // Linha do cabeçalho
+      doc.text('Produto', startX, y - 3);
+      doc.text('Preço Unitário', 70, y - 3);
+      doc.text('Quantidade', 120, y - 3);
+      doc.text('Total', 160, y - 3);
+      y += 10;
+    
+      // Adicionar linhas da tabela
+      for (const [product, price] of Object.entries(precos)) {
+        const quantityElement = document.getElementById(`quantity-${product}`);
+        if (quantityElement) {
+          const quantity = parseInt(quantityElement.textContent);
+          const total = quantity * price;
+    
+          if (quantity > 0) {
+            doc.line(startX, y, 200, y); // Linha horizontal
+            doc.text(product, startX, y - 3);
+            doc.text(`R$ ${price.toFixed(2)}`, 70, y - 3);
+            doc.text(quantity.toString(), 120, y - 3);
+            doc.text(`R$ ${total.toFixed(2)}`, 160, y - 3);
+            y += 10;
+          }
+        }
       }
+      doc.line(startX, y, 200, y); // Linha final
+      y += 5;
+    
+      // Total geral
+      doc.setFontSize(12);
+      doc.text(`Total Geral: R$ ${grandTotal.toFixed(2)}`, startX, y + 5);
+    
+      // Salvar PDF
+      doc.save('relatorio_vendas.pdf');
+    
+      // Zerar a tabela
+      resetTable();
     }
-  }
-  doc.line(startX, y, 200, y); // Linha final
-  y += 5;
-
-  // Total geral
-  doc.setFontSize(12);
-  doc.text(`Total Geral: R$ ${grandTotal.toFixed(2)}`, startX, y + 5);
-
-  // Salvar PDF
-  doc.save('relatorio_vendas.pdf');
-}
-
+    
+    
 
     // Inicializar a tabela
     createTableRows();
