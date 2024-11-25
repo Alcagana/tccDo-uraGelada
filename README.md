@@ -1,39 +1,61 @@
 DIÁRIO DE CONTROLE🤖
 
 
-🚀Descrição: 
+🚀DESCRIÇÃO: 
 
 Com o Diário de Controle, microempreendedores podem acompanhar de perto as suas vendas e o desempenho do negócio. A ferramenta automatiza o registro das saídas de produtos e oferece relatórios personalizados para auxiliar na tomada de decisões.
 Com o objetivo de atender a todos os tipos de usuários, o Diário de Controle foi desenvolvido com uma interface intuitiva e visualmente agradável. Cores vibrantes e fontes grandes garantem uma experiência de uso confortável, mesmo para quem não tem experiência com tecnologia.
 
 
-👇🏼Funcionalidades: clique no link e tenha uma pré-experiencia.
+👇🏼FUNCIONALIDADES: clique no link e tenha uma pré-experiencia.
+
+https://www.figma.com/proto/qVWyXVRsxs0I95aLcsW5Wr/Untitled?node-id=1-2&node-type=frame&t=Hh2gApGZhJGE6ztj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 
 
 
-
-
-
-
-👩‍💻Tecnologias usadas:
+👩‍💻TECNOLOGIAS USADAS:
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)  ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 
-ESTRUTURA DE PASTAS DO PROJETO
 
-- TCC DOÇURA GELADA
-- - PAGINAS
-- - - CSS
-
-
-
-📄Pré-requisitos:
+📄PRÉ-REQUISITOS:
 
 tenha os paranaue
 
 
-estrutura de pastas
+ESTRUTURA DE PASTAS DO PROJETO:
+
+tccDo-uraGelada/
+│
+├── html/
+│   ├── cadastro/
+│   ├── produtos/
+│   ├── cadastroFun/
+│
+├── css/
+│   ├── cadastro/
+│   ├── capa/
+│   ├── modalAjuda/
+│   ├── modalDeletar/
+│   ├── modalLogin/
+│   ├── produtos/
+│
+├── js/
+│   ├── cadastrarAdm/
+│   ├── cadastrarFuncionarios/
+│   ├── loginAdm/
+│   ├── loginFun/
+│   ├── modalAdm/
+│   ├── modalAjuda/
+│   ├── modalDelete/
+│   ├── modalFun/
+│   ├── tabela/
+│
+├── imagens/
+│   └── (aqui vão as imagens, conforme necessário)
+
+
 
 
 
