@@ -23,7 +23,7 @@ header{
     }
     
 /*CARDS*/
-.botoesimg{
+/* .botoesimg{
  
 width: 1700px;
 height: 600px;
@@ -34,7 +34,7 @@ justify-content: center;
 text-align: center;
 gap:150px
 
-}
+} */
 
 
 
@@ -207,82 +207,7 @@ label{
   #div-fecharRe{
     margin-left: 40%;
   }
-/*MODAL AJUDA INTEIRO*/
 
-
-#modalAjuda{
-
-
-   
-    background-color: #5c1d53;
-    width: 680px;
-    height: 460px;
-    border-radius: 20px;
-   
-
-
-}
-#modalAjuda::backdrop{
-    background-color: rgba(31, 30, 30, 0.699);
-}
-
-/*modal textos*/
-
-
-.textos{
-   
-   width: 600px;
-   color: #e7b705;
-   text-align: center;
-   margin-top: 10px;
-   margin-left: 45px;
-   font-family:"Nunito Sans", sans-serif;
-   font-style: italic;
-   font-size: 22px;
-}
-
-
-/*modal Buttons*/
-
-
-#btn-FecharModalAjuda{
-    background-color: #5c1d53;
-    color: aliceblue;
-    border: 0px;
-    font-size: 25px;
-    margin-right: 600px;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
-    color: #e7b705;
-}
-#btn-FecharModalAjuda:hover{
-    color: #9c7c07;
-}
-
-
-#btn-EnviarMansagem{
-   
-    background-color: #5c1d53;
-    color: aliceblue;
-    border: 0px;
-    font-size: 25px;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
-    color: #e7b705;
-    margin-left: 280px;
-}
-#btn-EnviarMansagem:hover{
-    color: #9c7c07;
-}
-
-
-#CabMensagem{
-
-
-    margin-left: 8%;
-    margin-top: 60px;
-    font-size: 25px;
-}
 
 @media (min-width:400px) and ( max-width: 500px){
    
@@ -371,63 +296,4 @@ header{
     }
 
 
-@media(min-width:400px) and (max-width: 500px ){
-
-
-        #modalAjuda{
-   
-       
-            background-color: #5c1d53;
-            width: 420px;
-            height: 313px;
-            border-radius: 20px;
-            margin-top: 200px;    
-            margin-left: 10px;    
-       
-        }
-        .textos{
-       
-            width: 350px;
-            color: #e7b705;
-            text-align: center;
-            margin-top: 0px;
-            font-family:"Nunito Sans", sans-serif;
-            font-style: italic;
-            font-size: 15px;
-         }
-         #btn-FecharModalAjuda{
-            background-color: #5c1d53;
-            color: aliceblue;
-            border: 0px;
-            font-size: 20px;
-            font-family:"Nunito Sans", sans-serif;
-            font-style: italic;
-            color: #e7b705;
-            margin-right: 200px;
-        }
-         #CabMensagem{
-   
-            margin-left: 8%;
-            margin-top: 15px;
-            font-size: 25px;
-            width: 350px;
-            height: 100px;
-        }
-        #btn-EnviarMansagem{
-       
-            background-color: #5c1d53;
-            color: aliceblue;
-            border: 0px;
-            font-size: 22px;
-            margin-left: 43%;
-            font-family:"Nunito Sans", sans-serif;
-            font-style: italic;
-            color: #e7b705;
-        }
-   
-       
-    /*COMENT´RIO*/
-   
-   
-    }  
 
