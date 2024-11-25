@@ -17,7 +17,7 @@ Com o objetivo de atender a todos os tipos de usuários, o Diário de Controle f
 
 https://www.figma.com/proto/qVWyXVRsxs0I95aLcsW5Wr/Untitled?node-id=1-2&node-type=frame&t=Hh2gApGZhJGE6ztj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 
-no software temos dois acessor, funcionários onde nos leva apara atela de produtos e é possivel gerar um pdf 
+No software temos dois acessos, funcionários que nos leva para a tela de produtos onde é possivel acompanhar por meio de uma tebela os produtos que sairam e o seu total, e administrador que nos leva para uma tela de produtos identica a anterior, porém com a opção de cadastros de novos adm's e funcionários. 
 
 
 
