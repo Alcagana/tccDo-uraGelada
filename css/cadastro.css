@@ -301,6 +301,10 @@ background-color:#48033f
 
 
 }
+#btn-sair:hover{
+ color: #cc0a0a;
+ border: 1px solid red;
+}
 
 
 

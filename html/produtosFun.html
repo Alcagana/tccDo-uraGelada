@@ -39,7 +39,7 @@
     
          <textarea rows="4" cols="40" id="CabMensagem"></textarea>
          <p></p>
-         <button onclick="enviar" id="btn-EnviarMansagem">Enviar</button>
+         <button id="btn-EnviarMansagem">Enviar</button>
        
         </div>
        
@@ -87,15 +87,23 @@
     </tbody>
   </table>
 </div>
+<dialog id="modal-fechar">
+  <button id="btn-fechar">X</button>
+  <h1>ceteza que deseja fechar relatório?</h1>
+  <h2>Não esqueça de corrigir antes os dados insiridos!!!</h2>
+
+  <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
+
+</dialog>
 
   <div id="div-fecharRe">
    <div id="grand-total">Total Geral: R$ 0.00</div>
-   <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
-  </div>
-  
+   <button id="btn-fecharRe">Fechar relatório!</button>
+    </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
 <script src="../js/modalAjuda.js"></script>
 <script src="../js/tabela.js"></script>
+<script src="../js/modalRelatorio.js"></script>
 </body>
 </html>

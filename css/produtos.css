@@ -209,6 +209,15 @@ label{
   }
 
 
+  /*Modal fechar relatótio*/
+ 
+#modal-fechar::backdrop{
+ 
+    background-color: rgba(31, 30, 30, 0.699);
+
+}
+
+
 @media (min-width:400px) and ( max-width: 500px){
    
 #logo{
