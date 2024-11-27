@@ -25,14 +25,14 @@ header{
 /*CARDS*/
  .botoesimg{
  
-width: 700px;
-height: 350px;
-margin-left: 30%;
-margin-top: 100px;
+width: 100px;
+height: 30px;
+margin-left: 19%;
+margin-top: 190px;
 display: flex;
 justify-content: center;
 text-align: center;
-gap:150px
+gap:50px
 
 } 
 
@@ -41,15 +41,15 @@ gap:150px
 /*botões img*/
 
 #img-card1{
-    width: 150px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
     transition-duration: 0.3s;
 }
 
 #img-card1:hover{
 
-    width: 160px;
-    height: 200px;
+    width: 65px;
+    height: 65px;
    
 }
 
@@ -57,29 +57,31 @@ gap:150px
 
 
 #img-card2{
-    width: 150px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
     transition-duration: 0.3s;
 
    
 }
 
 #img-card2:hover{
-    width: 160px;
-    height: 200px;
+    width: 65px;
+    height: 65px;
 }
 
 
 #img-card3{
-    width: 150px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
     transition-duration: 0.3s;
+
    
 }
 #img-card3:hover{
-    width: 160px;
-    height: 200px;
+    width: 65px;
+    height: 65px;
 }
+
 
 
 
@@ -115,6 +117,25 @@ border-radius: 60% 60% 60% 60% ;
 
 #btn-ajuda :hover{
     color: #b30c9c;
+}
+
+
+
+
+#btn-fecharRe{
+    width: 200px;
+    height: 50px;
+    margin-left: 79%;
+    background-color:#48033f;
+    font-size: 25px;
+    cursor: pointer;
+    color: #e7b705;
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family:"Nunito Sans", sans-serif;
+    font-style: italic;
 }
 
 
@@ -173,9 +194,10 @@ label{
 }
 
 #tabela{
-    width: 1000px;
-    height: 1000px;
-    margin-left: 480px;
+    width: 1500px;
+    height: 1500px;
+    margin-left: 200px;
+    margin-top: 5px;
     
 }
 
