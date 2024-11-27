@@ -23,50 +23,64 @@ header{
     }
     
 /*CARDS*/
-/* .botoesimg{
+ .botoesimg{
  
-width: 1700px;
-height: 600px;
-margin-top: 250px;
-margin-left: 6%;
+width: 700px;
+height: 350px;
+margin-left: 30%;
+margin-top: 100px;
 display: flex;
 justify-content: center;
 text-align: center;
 gap:150px
 
-} */
+} 
 
 
 
 /*botões img*/
 
 #img-card1{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
+    transition-duration: 0.3s;
 }
+
+#img-card1:hover{
+
+    width: 160px;
+    height: 200px;
+   
+}
+
 
 
 
 #img-card2{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
+    transition-duration: 0.3s;
+
    
 }
 
+#img-card2:hover{
+    width: 160px;
+    height: 200px;
+}
 
 
 #img-card3{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 200px;
+    transition-duration: 0.3s;
    
 }
-
-
-#img-card4{
-    width: 250px;
-    height: 250px;
-   
+#img-card3:hover{
+    width: 160px;
+    height: 200px;
 }
+
 
 
 
@@ -162,6 +176,7 @@ label{
     width: 1000px;
     height: 1000px;
     margin-left: 480px;
+    
 }
 
   table {
@@ -169,7 +184,7 @@ label{
     border-collapse: collapse;
   }
   table, th, td {
-    border: 1px solid rgb(170, 166, 166);
+    border: 1px solid #e7b705;
    }
   th, td {
     padding: 10px;
