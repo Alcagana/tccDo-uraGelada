@@ -46,7 +46,7 @@ async function post() {
   const response = await fetch(url, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json'  // Corrigido Content-Type
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify(newData)
   });

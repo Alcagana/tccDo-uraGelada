@@ -52,6 +52,6 @@ document.querySelector('#btn-acessarFun').addEventListener('click', async functi
         }
     };
 
-    // Chama a função passando os valores de email e senha
+    // Chama a função
     await getItemByEmailAndPassword(email, senha);
 });
