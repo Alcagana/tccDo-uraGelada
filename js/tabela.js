@@ -1,139 +1,119 @@
 const precos = {
-      "Casquinha": 3.00,
-      "Cascão": 4.50,
-      "Milk Shake": 10.00,
-      "Banana Split": 20.00,
-      "Sundae Kids": 5.00,
-      "Sundae Especial": 6.00,
-      "Cupuaçu": 10.00,
-      "Açaí": 10.00,
-      "Picolé Chocolate": 3.00,
-      "Picolé Limão": 2.51,
-      "Picolé Morango": 2.52,
-      "Picolé Coco": 2.53,
-      "Picolé Manga": 2.54,
-      "Picolé Frutas Vermelhas": 2.55,
-      "Picolé Melancia": 2.56,
-      "Picolé Abacaxi": 2.57,
-      "Chicletes": 0.50,
-      "Balas": 0.25,
-      "Água": 2.50,
-      "Monster": 12.00,
-      "Kuat": 5.00,
-      "Fanta": 5.50,
-      "Coca-Cola": 6.00,
-      };
+  "Casquinha": 3.00,
+  "Cascão": 4.50,
+  "Milk Shake": 10.00,
+  "Banana Split": 20.00,
+  "Sundae Kids": 5.00,
+  "Sundae Especial": 6.00,
+  "Cupuaçu": 10.00,
+  "Açaí": 10.00,
+  "Picolé Chocolate": 3.00,
+  "Picolé Limão": 2.51,
+  "Picolé Morango": 2.52,
+  "Picolé Coco": 2.53,
+  "Picolé Manga": 2.54,
+  "Picolé Frutas Vermelhas": 2.55,
+  "Picolé Melancia": 2.56,
+  "Picolé Abacaxi": 2.57,
+  "Chicletes": 0.50,
+  "Balas": 0.25,
+  "Água": 2.50,
+  "Monster": 12.00,
+  "Kuat": 5.00,
+  "Fanta": 5.50,
+  "Coca-Cola": 6.00,
+};
 
-    const tableBody = document.querySelector('#price-table tbody');
-    const grandTotalElement = document.getElementById('grand-total');
-    let grandTotal = 0;
+const tableBody = document.querySelector('#price-table tbody');
+const grandTotalElement = document.getElementById('grand-total');
+let grandTotal = 0;
 
-    // Criar as linhas da tabela
-    function createTableRows() {
-      for (const [product, price] of Object.entries(precos)) {
-        const row = document.createElement('tr');
+// Criar as linhas da tabela
+function createTableRows() {
+  for (const [product, price] of Object.entries(precos)) {
+    const row = document.createElement('tr');
 
-        row.innerHTML = `
-          <td class="date"></td>
-          <td>${product}</td>
-          <td>R$ ${price.toFixed(2)}</td>
-          <td id="quantity-${product}">0</td>
-          <td id="total-${product}">R$ 0.00</td>
-          <td class="actions">
-            <button onclick="increment('${product}')">+</button>
-            <button onclick="decrement('${product}')">-</button>
-          </td>
-        `;
+    row.innerHTML = `
+      <td>${product}</td>
+      <td>R$ ${price.toFixed(2)}</td>
+      <td id="quantity-${product}">0</td>
+      <td id="total-${product}">R$ 0.00</td>
+      <td class="actions">
+        <button class="increment">+</button>
+        <button class="decrement">-</button>
+      </td>
+    `;
 
-        tableBody.appendChild(row);
-      }
+    // Adicionar os event listeners aos botões
+    row.querySelector('.increment').addEventListener('click', () => increment(product));
+    row.querySelector('.decrement').addEventListener('click', () => decrement(product));
+
+    tableBody.appendChild(row);
+  }
+}
+
+// Atualizar o total geral
+function updateGrandTotal() {
+  grandTotalElement.textContent = `Total Geral: R$ ${grandTotal.toFixed(2)}`;
+}
+
+// Botão de mais
+function increment(product) {
+  const quantityElement = document.getElementById(`quantity-${product}`);
+  const totalElement = document.getElementById(`total-${product}`);
+
+  const currentQuantity = parseInt(quantityElement.textContent);
+  const newQuantity = currentQuantity + 1;
+  const total = newQuantity * precos[product];
+
+  quantityElement.textContent = newQuantity;
+  totalElement.textContent = `R$ ${total.toFixed(2)}`;
+
+  grandTotal += precos[product];
+  updateGrandTotal();
+}
+
+// Botão de menos
+function decrement(product) {
+  const quantityElement = document.getElementById(`quantity-${product}`);
+  const totalElement = document.getElementById(`total-${product}`);
+
+  const currentQuantity = parseInt(quantityElement.textContent);
+  if (currentQuantity > 0) {
+    const newQuantity = currentQuantity - 1;
+    const total = newQuantity * precos[product];
+
+    quantityElement.textContent = newQuantity;
+    totalElement.textContent = `R$ ${total.toFixed(2)}`;
+
+    grandTotal -= precos[product];
+    updateGrandTotal();
+  }
+}
+
+// Resetar a tabela
+function resetTable() {
+  for (const product of Object.keys(precos)) {
+    const quantityElement = document.getElementById(`quantity-${product}`);
+    const totalElement = document.getElementById(`total-${product}`);
+  
+    if (quantityElement && totalElement) {
+      quantityElement.textContent = '0';
+      totalElement.textContent = 'R$ 0.00';
     }
+  }
+  
+  // Zerar o total geral
+  grandTotal = 0;
+  updateGrandTotal();
+}
 
-    // Atualizar o total geral
-    function updateGrandTotal() {
-      grandTotalElement.textContent = `Total Geral: R$ ${grandTotal.toFixed(2)}`;
-    }
-
-    // Atualizar data
-    function updateDate() {
-      const date = document.getElementById('date').value;
-      document.querySelectorAll('.date').forEach(cell => {
-        cell.textContent = date || 'Sem data';
-      });
-    }
-
-    // Botão de mais
-    function increment(product) {
-      updateDate();
-
-      const quantityElement = document.getElementById(`quantity-${product}`);
-      const totalElement = document.getElementById(`total-${product}`);
-
-      const currentQuantity = parseInt(quantityElement.textContent);
-      const newQuantity = currentQuantity + 1;
-      const total = newQuantity * precos[product];
-
-      quantityElement.textContent = newQuantity;
-      totalElement.textContent = `R$ ${total.toFixed(2)}`;
-
-      grandTotal += precos[product];
-      updateGrandTotal();
-    }
-
-    //Botão de menos
-    function decrement(product) {
-      updateDate();
-
-      const quantityElement = document.getElementById(`quantity-${product}`);
-      const totalElement = document.getElementById(`total-${product}`);
-
-      const currentQuantity = parseInt(quantityElement.textContent);
-      if (currentQuantity > 0) {
-        const newQuantity = currentQuantity - 1;
-        const total = newQuantity * precos[product];
-
-        quantityElement.textContent = newQuantity;
-        totalElement.textContent = `R$ ${total.toFixed(2)}`;
-
-        grandTotal -= precos[product];
-        updateGrandTotal();
-      }
-    }
-
-    /* RESETA A TABELA */
-    function resetTable() {
-      for (const product of Object.keys(precos)) {
-        const quantityElement = document.getElementById(`quantity-${product}`);
-        const totalElement = document.getElementById(`total-${product}`);
-    
-        if (quantityElement && totalElement) {
-          quantityElement.textContent = '0';
-          totalElement.textContent = 'R$ 0.00';
-        }
-      }
-      
-      // Zerar o total geral
-      grandTotal = 0;
-      updateGrandTotal();
-    }
-    
-
-
-
-
-
-
-
-
-
-    
-
-    // Gerar PDF
+// Gerar PDF
 async function generatePDF() {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF();
 
-  // coloca automaticamente a data atual
+  // Coloca automaticamente a data atual
   const now = new Date();
   const date = now.toLocaleDateString('pt-BR'); // Formato: dd/mm/aaaa
   const time = now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
@@ -156,10 +136,10 @@ async function generatePDF() {
   doc.text('Total', 160, y - 3);
   y += 10;
 
-  // Coloca as linhas na tabela pra ficar bonitinho
+  // Coloca as linhas na tabela
   for (const [product, price] of Object.entries(precos)) {
     const quantityElement = document.getElementById(`quantity-${product}`);
-    
+  
     if (quantityElement) {
       const quantity = parseInt(quantityElement.textContent);
       const total = quantity * price;
@@ -188,8 +168,5 @@ async function generatePDF() {
   resetTable();
 }
 
-    
-
-    // Inicializar a tabela
-    createTableRows();
- 
+// Inicializar a tabela
+createTableRows();
