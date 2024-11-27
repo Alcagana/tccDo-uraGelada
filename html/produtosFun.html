@@ -29,22 +29,25 @@
 
     <dialog id="modalAjuda">
 
-        <button onclick="fechar" id="btn-FecharModalAjuda">X</button>
-         
-        <div class="cardModal">
-          <div class="textos">
-           <H2>Deseja relatar algum problema?</H2>
-           <H3>Deixe sua mensagem</H3>
-          </div>
-    
-         <textarea rows="4" cols="40" id="CabMensagem"></textarea>
-         <p></p>
-         <button id="btn-EnviarMansagem">Enviar</button>
+      <button onclick="fechar" id="btn-FecharModalAjuda">X</button>
        
+      <div class="cardModal">
+        <div class="textos">
+         <H2>Deseja relatar algum problema?</H2>
+         <H3>Deixe sua mensagem</H3>
         </div>
+  
+        <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+          <input type="text" name="name" required>
+          <textarea type="text" rows="4" cols="40" id="CabMensagem" required></textarea>
+          <button type="submit">Send</button>
+     </form>
+       <p></p>
        
-    
-      </dialog>
+      </div>
+     
+  
+  </dialog>
     
 
     

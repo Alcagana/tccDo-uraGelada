@@ -6,7 +6,7 @@
     <title>cadastro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/modalAjuda.css">
     <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="stylesheet" href="../css/modalDeletar.css">
@@ -31,25 +31,30 @@
                    <H2>Deseja relatar algum problema?</H2>
                    <H3>Deixe sua mensagem</H3>
                   </div>
-           
-                 <textarea rows="4" cols="40" id="CabMensagem"></textarea>
+            
+                  <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+                    <input type="text" name="name" required>
+                    <textarea type="text" rows="4" cols="40" id="CabMensagem" required></textarea>
+                    <button type="submit">Send</button>
+               </form>
                  <p></p>
-                 <button id="btn-EnviarMansagem">Enviar</button>
-               
+                 
                 </div>
+               
+            
             </dialog>
 
     
         </header>
-       <a href="../index.html"><button id="btn-sair">SAIR PARA A PÁGINA INICIAL</button></a>
+       <a href="../index.html"><button id="btn-sair">  Tela inicial </button></a>
  
    
 <main id="main-adm">
     <div class="texto-Administrador">Cadastro Administrador </div>     
     <div class="cardAdm">
-        <div class="textocampos">Preencha os campos</div>
+        <div class="textocampos">Preencha todos os campos</div>
         <input type="text" class="inp-loginAdm" id="inp-login" placeholder="Insira um email">
-        <label><input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha"><br> **SENHA COM MÍNIMO DE 6 CARACTERES**</label>
+        <label><input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha"><br> **MÍNIMO 6 CARACTERES**</label>
         <button class="btn-CadastrarAdm" id="btn-Cadastrar">Cadastrar</button>
                                                                                     
 
@@ -60,10 +65,10 @@
 <main id="main-fun">
     <div class="texto-Funcionarios">Cadastro Funcionários </div> 
     <div class="cardFun">
-            <div class="textocampos">Preencha os campos</div>
+            <div class="textocampos">Preencha todos os campos</div>
             <input type="text" class="inp-nomeFun" id="inp-nomeFun" placeholder="Insira o nome">
             <input type="text" class="inp-loginFun" id="inp-loginFun" placeholder="Insira um email">
-            <label><input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha"><br> **SENHA COM MÍNIMO DE 6 CARACTERES**</label> 
+            <label><input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha"><br> **MÍNIMO 6 CARACTERES**</label> 
             <div id="Botoes-cardFun">
             <button class="btn-CadastrarFun" id="btn-CadastrarFun">Cadastrar</button>
             <button id="deletarFuncionario">Deletar funcionário</button>                                                                            
@@ -75,9 +80,9 @@
     <dialog id="modalDelete">
         
         <button id="FecharModal">X</button>
-        <h1 id="t-1">Insira o email do funcionário que deseja deletar!</h1>
-        <h2 id="t-2">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!!!</h2>
-        <input id="inp-email1" placeholder="Insira o email do funcionário que deseja deletar">
+        <h1 id="t-1">Insira o email do funcionário que deseja deletar.</h1>
+        <h2 id="t-2">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!</h2>
+        <input id="inp-email1" placeholder="Insira o email que deseja deletar">
         <br>
         <button id="btn-deletar" >DELETAR</button>
   

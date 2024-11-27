@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 body{
    margin: 0px;
@@ -20,7 +20,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-top: 2%;
+   margin-top: 2%;
     border-radius: 20px;
     border: solid 3px;
     border-color: #48033f;
@@ -34,16 +34,17 @@ body{
 
     margin-top:35px;
     margin-bottom: 50px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 35px;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-size: 30px;
     color:#48033f;
     margin-left: 18%;
 
 
 }
 label{
-    font-size: 15px;
+    font-size: 12px;
+    font-family: "Nunito Sans", sans-serif;
+font-weight: bold;
 }
 .inp-loginAdm{
     width: 400px;
@@ -51,12 +52,11 @@ label{
     border-radius: 5px;
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
     border: solid 2px;
     border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 150px;     
-    margin-right: 100px;    
+    margin-top: 120px;     
+    margin-right: 40px;    
 
    
 
@@ -69,11 +69,10 @@ label{
     border-radius: 5px;
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
     border: solid 2px;
     border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 100px;    
+    margin-right: 40px;     
 
 
     
@@ -84,14 +83,14 @@ label{
         width: 250px;
         height: 60px;
         background-color: rgba(240, 248, 255, 0.797);
-        font-size: 28px;
+        font-size: 25px;
         cursor: pointer;
         color: #48033f;
         border: 0px;
         align-items: center;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
+        font-family: "Playpen Sans", cursive;
         margin-top: 0px;
+        margin-right: 50px;
        
     }
     .btn-CadastrarAdm:hover{
@@ -107,26 +106,25 @@ label{
 
     margin-top:20px;
     margin-bottom: -65px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 30px;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-size: 20px;
     color: #48033f;
     text-align: center;
-
+font-weight: bold;
 
 }
    
 /*card Fun*/
 
 .cardFun{
-    width: 600px;
-    height: 550px;
+    width: 550px;
+    height: 450px;
     font-size: 50px;
     display:flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    margin-top: 2%;
+    margin-top: 2.5%;
     border-radius: 20px;
     border: solid 3px;
     border-color: #48033f;
@@ -140,9 +138,8 @@ label{
 
     margin-left: 59%;
     margin-top: -550px;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 35px;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-size: 30px;
     color:#48033f;
     
 
@@ -155,12 +152,11 @@ label{
     border-radius: 5px;
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
     border: solid 2px;
     border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 150px;     
-    margin-right: 100px;    
+    margin-top: 100px;       
+    margin-right: 40px;    
 
    
 
@@ -173,11 +169,10 @@ label{
     border-radius: 5px;
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
     border: solid 2px;
     border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 105px;    
+    margin-right: 40px;      
 
 
     
@@ -190,11 +185,10 @@ label{
     border-radius: 5px;
     font-size: 20px;
     font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
     border: solid 2px;
     border-color: #48033f;
     background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 100px;    
+    margin-right: 40px;      
 
 
     
@@ -205,15 +199,14 @@ label{
         width: 250px;
         height: 60px;
         background-color: rgba(240, 248, 255, 0.797);
-        font-size: 28px;
+        font-size: 25px;
         cursor: pointer;
         color: #48033f;
         border: 0px;
         align-items: center;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        margin-top: 40px;
-        margin-left: 20px;
+        font-family: "Playpen Sans", cursive;
+        margin-top: -30px;
+        margin-left: 15px;
        
     }
     .btn-CadastrarFun:hover{
@@ -233,14 +226,13 @@ label{
     width: 300px;
     height: 30px;
     background-color: rgba(240, 248, 255, 0.797);
-    font-size: 24px;
+    font-size: 20px;
     cursor: pointer;
     color: #48033f;
     border: 0px;
     align-items: center;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
-    margin-top: -5px;
+    font-family: "Playpen Sans", cursive;
+    margin-top: -9px;
 
   }
 
@@ -266,12 +258,11 @@ label{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
+    font-weight: 200;
+
    
 }
-
-
 
 #btn-ajuda:hover{
 
@@ -301,9 +292,19 @@ background-color:#48033f
 
 
 }
+#btn-sair{
+    color: #48033f;
+ border: 0px;
+ background-color: hwb(0 94% 6%);
+ margin-top: 50px;
+ margin-left: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+}
 #btn-sair:hover{
- color: #cc0a0a;
- border: 1px solid red;
+   color: #cc0a0a;
+
 }
 
 
