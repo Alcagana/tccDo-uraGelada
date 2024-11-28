@@ -6,7 +6,7 @@
     <title>TELA PRODUTOS </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/produtos.css">
     <link rel="stylesheet" href="../css/botoesMaisEmenos.css">
     <link rel="stylesheet" href="../css/modalAjuda.css">
@@ -54,22 +54,29 @@
 
   
   
-  <h1 id="tex-tabela">Tabela de Produtos e Preços</h1>
-  <h2>data e horario do relatorio seram gerado automaticamente no pdf</h2>
+  <h1 >Tabela de Produtos </h1>
+  <h2>Data e hora serão gerados automaticamente pelo formulário.</h2>
 
 
   <div class="botoesimg" >
     
-    <a href="#tex-sorvete"><img src="../Botões/btn-casquinha.svg" alt="botão-sorvete" id="img-card1"></a>
+    <a href="#tex-sorvete"><img src="../Botões/btn-casquinha.svg" alt="botão-sorvete" id="imgs"></a>
 
-    <a href="#tex-picoles"><img src="../Botões/btn-picole (2).svg" alt="botão-picolés" id="img-card2"></a>
+    <a href="#tex-picoles"><img src="../Botões/btn-picole (2).svg" alt="botão-picolés" id="imgs"></a>
 
-    <a href="#tex-adicionais" id="link-btn-Adicionais"><img src="../Botões/btn-outros.svg" alt="botão-adicionais" id="img-card3"></a>
+    <a href="#tex-adicionais" id="link-btn-Adicionais"><img src="../Botões/btn-outros.svg" alt="botão-adicionais" id="imgs" ></a>
       
   </div> 
 
 
+<div class="relatorio-e-total">
   <button id="btn-fecharRe">Gerar Relatório</button>
+  <div id="grand-total">Total: R$ 0.00</div>
+
+</div>
+
+ 
+
 
 
 
@@ -83,27 +90,32 @@
         <th>Quantidade</th>
         <th>Total (R$)</th>
         <th>Ações</th>
-      </tr>
+ </tr>
+
     </thead>
     <tbody>
-      <!-- Linhas geradas dinamicamente -->
+
     </tbody>
-  </table>
+  </table>  
  </div>
 
-<dialog id="modal-fechar">
-  <button id="btn-fechar">X</button>
-  <h1>ceteza que deseja fechar relatório?</h1>
-  <h2>Não esqueça de corrigir antes os dados insiridos!!!</h2>
 
+
+
+
+<dialog id="modal-fechar">
+
+ <p> Aqui estará seu fechamento do dia.</p>
+   <p>Lembre-se, o pdf depois de gerado não poderá ser restaurado pelo sistema</p>
+  <button id="btn-fechar">cancelar</button>
   <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
 
 </dialog>
 
-  <div id="div-fecharRe">
-   <div id="grand-total">Total Geral: R$ 0.00</div>
  
-  </div>
+
+ 
+
   
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>

@@ -54,7 +54,7 @@ function createTableRows() {
 
 // Atualizar o total geral
 function updateGrandTotal() {
-  grandTotalElement.textContent = `Total Geral: R$ ${grandTotal.toFixed(2)}`;
+  grandTotalElement.textContent = `Total: R$ ${grandTotal.toFixed(2)}`;
 }
 
 // Botão de mais
@@ -159,7 +159,7 @@ async function generatePDF() {
 
   // Total geral
   doc.setFontSize(12);
-  doc.text(`Total Geral: R$ ${grandTotal.toFixed(2)}`, startX, y + 5);
+  doc.text(`Total: R$ ${grandTotal.toFixed(2)}`, startX, y + 5);
 
   // Salvar PDF
   doc.save('relatorio_vendas.pdf');
