@@ -4,25 +4,27 @@
 
 
 #modalDelete{
-    width: 800px;
+    width: 600px;
     height: 320px;
     background-color: #48033f;
  
  }   
-
+ #modalDelete::backdrop{
+    background-color: rgba(31, 30, 30, 0.582);
+ }
 #t-1{
     
-    margin-left: 150px;
+    margin-left: 90px;
     color: #e7b705;
     font-weight: 200;
     font-family: "Playpen Sans", cursive;
-font-size:20px ;
+    font-size:20px ;
 }
     
 
 #t-2{
     
-    margin-left: 145px;
+    margin-left: 80px;
     color: #e7b705;
     font-family: "Playpen Sans", cursive;
     font-size:20px ;
@@ -49,7 +51,7 @@ font-size:20px ;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-size: 20px;
-    margin-left: 19%;
+    margin-left: 13%;
     margin-top: 40px;
     border-radius: 8px;
  
@@ -68,7 +70,7 @@ font-size:20px ;
     align-items: center;
     font-family: "Playpen Sans", cursive;
     margin-top: 40px;
-    margin-left: 38%;
+    margin-left: 34%;
 
 }
 #btn-deletar:hover{
