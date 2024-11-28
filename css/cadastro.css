@@ -309,7 +309,7 @@ background-color:#48033f
 
 
 
-@media(min-width:400px) and (max-width: 500px ){
+@media(max-width: 400px ){
  
 header{
     width: 860px;
@@ -354,7 +354,7 @@ img{
 }
 }
 
-@media(min-width:400px) and (max-width: 500px ){
+/* @media(max-width: 400px ){
 
     #modalAjuda{
 
@@ -408,7 +408,7 @@ img{
 
 
 
-}        
+}         */
 
 
 

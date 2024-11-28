@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pompiere&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
+/* <dialog id="modalAjuda">
+                <button id="btn-FecharModalAjuda">X</button>
+                             
+                <div class="cardModal">
+                    <div class="textos">
+                        <h2>Deseja relatar algum problema?</h2>
+                        <h3>Deixe sua mensagem</h3>
+                    </div>
+                        
+                    <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+
+                        <div id="inputs">
+                          <input id="inp-usuario" type="text" name="name" placeholder="Insira seu Nome*" required>
+                          <input id="inp-email" type="email" name="email" placeholder="Insira seu email*" required>
+                         </div>
+                        <textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*" required  ></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <p></p>
+                </div>
+            </dialog>
+ 
+</div> */
+
+
+
+
+
 /*MODAL INTEIRO*/
 
 #modalAjuda{
