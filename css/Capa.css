@@ -85,7 +85,7 @@ input{
 }
 
 
-.carrosel{
+#carrosel{
 
 width:1903px;
 height:800px;
@@ -97,7 +97,7 @@ margin-top:  0px;
 .img-carrossel{
 
     width:1903px;
-height:800px;
+    height:800px;
     margin-left: 0.4px;
 
 }
@@ -129,32 +129,13 @@ font-weight: 200;
 }
 
 
-.mensagem1{
+.mensagem{
     width: 350px;
     height: 200px;
  
 
 }
 
-
-
-.mensagem2{
-    width: 350px;
-    height: 200px;
-    
-}
-
-.mensagem3{
-    width: 350px;
-    height: 200px;
-
-}
-
-.mensagem4{
-    width: 350px;
-    height: 200px;
-   
-}
 
 
 
@@ -167,7 +148,7 @@ font-weight: 200;
 
 }
 
-.texto1{
+.texto{
 margin-left: 50px;
 color: #e7b705;
 font-size: 19px;
@@ -175,26 +156,7 @@ margin-top: -65px
 
 }
 
-.texto2{
-    margin-left: 50px;
-color: #e7b705;
-font-size: 19px;
-margin-top: -65px
-}
 
-.texto3{
-    margin-left: 50px;
-    color: #e7b705;
-    font-size: 19px;
-    margin-top: -65px
-}
-
-.texto4{
-    margin-left: 50px;
-    color: #e7b705;
-    font-size: 19px;
-    margin-top: -60px
-}
 
 h1{
     font-size: 20px;
@@ -213,7 +175,8 @@ h1{
 /*responsividade*/
   
     
-@media(min-width:400px) and (max-width: 500px ){
+@media (max-width: 700px ){
+
 
 
 body{
@@ -238,13 +201,15 @@ header{
     margin-top: 80px;
    
 }
-.carrosel{
+#carrosel{
     margin-top: 80px;
+    width: 1700px;
+    height: 200px;
     
 }
 .img-carrossel{
         
-    width: 1380px;
+    width: 1450px;
     height: 500px;
         
 }
@@ -258,4 +223,20 @@ header{
 font-size: 50px;
 
 }
+
+.img-video{
+    margin-bottom: -200px;
+    
+}
+.mensagem{          
+   
+}
+.texto{
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+    color: #e7b705;
+    font-size: 19px;
+    
+    }
 }

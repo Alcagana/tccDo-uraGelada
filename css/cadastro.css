@@ -30,14 +30,14 @@ body{
 }
 
 
-.texto-Administrador{
+#texto-Administrador{
 
-    margin-top:35px;
+    margin-top: 35px;
     margin-bottom: 50px;
     font-family: "Playpen Sans", cursive;
     font-size: 30px;
     color:#48033f;
-    margin-left: 18%;
+    margin-left: 19%;
 
 
 }
@@ -134,9 +134,9 @@ font-weight: bold;
 }
 
 
-.texto-Funcionarios{
+#texto-Funcionarios{
 
-    margin-left: 59%;
+    margin-left: 58%;
     margin-top: -550px;
     font-family: "Playpen Sans", cursive;
     font-size: 30px;
@@ -309,106 +309,59 @@ background-color:#48033f
 
 
 
-@media(max-width: 400px ){
+@media(max-width: 700px ){
  
 header{
-    width: 860px;
-    height: 210px;
+    width: 821px;
+    height: 150px;
 }
 
 img{
     margin-left: 10px;
 }
+#btn-ajuda{
 
-.texto-Administrador{
+    width: 100px;
+    height: 70px;
+    font-size: 40px;
+    margin-left: -5px;
+
+}
+#btn-sair{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+#texto-Administrador{
     text-align: center;
     width: 500px;
     margin-left: 280px;
+    margin-top: 100px;
 }
 #main-adm{
     margin-top: 50px;
     margin-left: -120px;
 }
 
-.texto-Funcionarios{
+#texto-Funcionarios{
     width: 500px;
     text-align: center;
+    margin-left: 55%;
 }
 #main-fun{
-    margin-top: 700px;
-    margin-left: -200px;
+    margin-top: 650px;
+    margin-left: -490px;
 }
 #logo{
-    width: 210px;
-    height: 210px;
+    width: 150px;
+    height: 150px;
     margin-left: -5px;
 }
 
-#btn-ajuda{
-
-    width: 100px;
-    height: 70px;
-    font-size: 45px;
-    margin-left: -5px;
 
 }
-}
 
-/* @media(max-width: 400px ){
-
-    #modalAjuda{
-
-    
-        width: 500px;
-        height: 400px;
-        margin-left: 200px;
-        margin-top: 450px;
-    }
-    .textos{
-   
-        width: 350px; 
-        color: #e7b705;
-        text-align: center;
-        margin-top: 0px;
-        margin-left: 45px;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        font-size: 15px;
-     }
-     #btn-FecharModalAjuda{
-        background-color: #5c1d53;
-        color: aliceblue;
-        border: 0px;
-        font-size: 20px;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        color: #e7b705;
-    }
-     #CabMensagem{
-
-        margin-left: 8%;
-        margin-top: 15px;
-        font-size: 25px;
-        width: 350px;
-        height: 100px;
-    }
-    #btn-EnviarMansagem{
-    
-        background-color: #5c1d53;
-        color: aliceblue;
-        border: 0px;
-        font-size: 22px;
-        margin-left: 43%;
-        font-family:"Nunito Sans", sans-serif;
-        font-style: italic;
-        color: #e7b705;
-    }
-
-    
-
-
-
-}         */
 
 
 
