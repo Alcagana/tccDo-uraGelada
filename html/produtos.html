@@ -55,7 +55,10 @@
   
   
   <h1 >Tabela de Produtos </h1>
-  <h2>Data e hora serão gerados automaticamente pelo formulário.</h2>
+  <div id="textinho">
+    <h2>Data e hora serão gerados automaticamente pelo formulário.</h2> 
+  </div>
+
 
 
   <div class="botoesimg" >
@@ -105,10 +108,13 @@
 
 <dialog id="modal-fechar">
 
- <p> Aqui estará seu fechamento do dia.</p>
+ <p> fechamento do dia.</p>
    <p>Lembre-se, o pdf depois de gerado não poderá ser restaurado pelo sistema</p>
-  <button id="btn-fechar">cancelar</button>
-  <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
+   <div class="botoes-modalpdf">
+    <button id="btn-fechar">Cancelar</button>
+    <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
+  
+   </div>
 
 </dialog>
 

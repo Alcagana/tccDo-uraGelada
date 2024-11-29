@@ -110,9 +110,9 @@ a{
 
 
 #btn-fecharRe{
-    width: 200px;
-    height: 10px;
-    margin-left: 79%;
+    width: 230px;
+    height: 55px;
+    margin-left: 78.5%;
     background-color:#48033f;
     font-size: 25px;
     cursor: pointer;
@@ -121,9 +121,9 @@ a{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    font-family:"Nunito Sans", sans-serif;
-    font-style: italic;
+    font-family: "Playpen Sans", cursive;
     margin-top: 0px;
+    borde
     
 }
 
@@ -133,19 +133,42 @@ a{
 
 
 #btn-pdf{
+    margin-left: 70%;
     width: 120px;
-    height: 50px;
+    height: 20px;
     background-color:#48033f;
     font-size: 20px;
     color: #e7b705;
-    margin-top: 100px;
-   gap: ;
+    margin-top: 90px;
+    border: 0px;
+    cursor: pointer;
+   
+  }
+
+  #btn-fechar{
+    width: 20px;
+    height: 20px;
+    background-color:#48033f;
+    font-size: 20px;
+    color: #e7b705;
+    margin-top: 90px;
+    border: 0px;
+    cursor: pointer;
   }
 
 
 
+.increment, .decrement {
+    width: 30px;
+    height: 30px; 
+   background-color:#e7b705;
+   color: #48033f;
+  border-radius: 5px;
+  border: solid #e7b705 1px;
+  font-size: 25px;
 
 
+}
 
 
 
@@ -153,22 +176,23 @@ a{
 
 /*Textos*/
 
-h2{
-margin-left: 32%;
-color: red;
-font-family: "Playpen Sans", cursive;
-font-weight: 300;
-margin-top: 60px;
+#textinho{
+    margin-left: 35%;
+    color:rgb(233, 7, 45);
+    font-family: "Playpen Sans", cursive;
+    font-size: 12px;
+  
 
-}
-
+    
+    }
+    
 h1{
     color: rgb(255, 255, 255) ;
     font-size: 40px;
     margin-left: 40%;
     font-family: "Playpen Sans", cursive;
     font-weight: 300;
-    margin-top: 150px; 
+    margin-top: 100px; 
 }
 
 
@@ -179,47 +203,17 @@ h1{
     width: 290px;
     height: 50px;
     font-size: 28px;
-    color: #e7b705;
+    color:aliceblue;
     margin-top: 20px;
     font-family: "Playpen Sans", cursive;
  margin-left: 78.5%;
+
 
     
 
  
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  #div-fecharRe{
-    margin-left: 40%;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -249,9 +243,15 @@ h1{
     padding: 10px;
     text-align: center;
     color: rgb(255, 255, 255) ;
+    font-weight:300;
+ 
   }
 
-
+  th{
+    background-color:#48033f;
+    color:#e7b705;
+    font-weight: 800;
+  }
 
 
 
