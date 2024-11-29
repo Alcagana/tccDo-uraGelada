@@ -15,19 +15,20 @@
 </head>
 <body>
     
-
     <header>
 
      <img src="../imagens/logonova.png" id="logo" alt="">
 
+     
        <a href="../html/cadastro.html"><button id="btn-cadaFun">Cadastro funcionários</button></a> 
         
     
 
     <button onclick="acessar" id="btn-ajuda">Ajuda </button>
-     
+    
     </header>
-
+    <button id="btn-sair"> Sair</button>
+ 
     <dialog id="modalAjuda">
       <button id="btn-FecharModalAjuda">X</button>
                    
@@ -125,6 +126,9 @@
   
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="../js/BtnSair.js"></script>
 <script src="../js/tabela.js"></script>
 <script src="../js/modalRelatorio.js"></script>
 <script src="../js/modalAjuda.js"></script>

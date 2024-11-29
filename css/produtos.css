@@ -107,7 +107,20 @@ a{
     color: #b30c9c;
 }
 
+#btn-sair{
+background-color: #48033f;
+ border: 0px;
+ color: #e7b705;
+ margin-top: 50px;
+ margin-left: 50px;
+ font-size: 20px;
+ font-weight: bold;
+ cursor: pointer;
+}
+#btn-sair:hover{
+   color: #cc0a0a;
 
+}   
 
 #btn-fecharRe{
     width: 230px;
@@ -123,7 +136,7 @@ a{
     justify-content:space-between;
     font-family: "Playpen Sans", cursive;
     margin-top: 0px;
-    borde
+    
     
 }
 
