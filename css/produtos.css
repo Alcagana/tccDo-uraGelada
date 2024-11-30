@@ -49,8 +49,8 @@ transition-duration: 0.3s;
 
 #logo{
 
-width: 200px;
-height: 150px;
+    width: 160px;
+    height: 140px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -171,17 +171,6 @@ background-color: #48033f;
 
 
 
-.increment, .decrement {
-    width: 30px;
-    height: 30px; 
-   background-color:#e7b705;
-   color: #48033f;
-  border-radius: 5px;
-  border: solid #e7b705 1px;
-  font-size: 25px;
-
-
-}
 
 
 
@@ -209,8 +198,6 @@ h1{
 }
 
 
-
-
 #grand-total{
 
     width: 290px;
@@ -219,21 +206,24 @@ h1{
     color:aliceblue;
     margin-top: 20px;
     font-family: "Playpen Sans", cursive;
- margin-left: 78.5%;
+    margin-left: 78.5%;
 
-
-    
-
- 
 
 }
 
-
-
-
-
 /*TABELA*/
 
+.increment, .decrement {
+    width: 30px;
+    height: 30px; 
+   background-color:#e7b705;
+   color: #48033f;
+  border-radius: 5px;
+  border: solid #e7b705 1px;
+  font-size: 25px;
+
+
+}
 
 #tabela{
     width: 1500px;
