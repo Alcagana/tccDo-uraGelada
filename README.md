@@ -1,6 +1,6 @@
 DIÁRIO DE CONTROLE🤖
 
-
+ https://alcagana.github.io/tccDo-uraGelada/
 
 
 
@@ -13,11 +13,11 @@ Com o objetivo de atender a todos os tipos de usuários, o Diário de Controle f
 
 
 
-👇🏼FUNCIONALIDADES: clique no link para uma pré-experiencia.
+👇🏼FUNCIONALIDADES: clique no link para acessar o protótipo.
 
 https://www.figma.com/proto/qVWyXVRsxs0I95aLcsW5Wr/Untitled?node-id=1-2&node-type=frame&t=Hh2gApGZhJGE6ztj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2&show-proto-sidebar=1
 
-No software temos dois acessos, funcionários que nos leva para a tela de produtos onde é possivel acompanhar por meio de uma tebela os produtos que sairam e o seu total, e administrador que nos leva para uma tela de produtos identica a anterior, porém com a opção de cadastros de novos adm's e funcionários. 
+No software, temos dois tipos de acesso: um para funcionários, que nos leva a uma tela de produtos onde é possível acompanhar, através de uma tabela, os produtos que saíram e seu total; e outro para administradores, que nos direciona a uma tela de produtos idêntica à anterior, mas com a opção de cadastrar novos administradores e funcionários.
 
 
 
@@ -26,7 +26,7 @@ No software temos dois acessos, funcionários que nos leva para a tela de produt
 👩‍💻TECNOLOGIAS USADAS:
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)  ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
+![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)
 
 
 
