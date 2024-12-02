@@ -1,27 +1,27 @@
 const precos = {
-  "Casquinha": 3.00,
-  "Cascão": 4.50,
-  "Milk Shake": 10.00,
-  "Banana Split": 20.00,
-  "Sundae Kids": 5.00,
-  "Sundae Especial": 6.00,
-  "Cupuaçu": 10.00,
-  "Açaí": 10.00,
-  "Picolé Chocolate": 3.00,
-  "Picolé Limão": 2.51,
-  "Picolé Morango": 2.52,
-  "Picolé Coco": 2.53,
-  "Picolé Manga": 2.54,
-  "Picolé Frutas Vermelhas": 2.55,
-  "Picolé Melancia": 2.56,
-  "Picolé Abacaxi": 2.57,
-  "Chicletes": 0.50,
-  "Balas": 0.25,
-  "Água": 2.50,
-  "Monster": 12.00,
-  "Kuat": 5.00,
-  "Fanta": 5.50,
-  "Coca-Cola": 6.00,
+  "CASQUINHA": 3.00,
+  "CASCÃO": 4.50,
+  "MILK SHAKE": 10.00,
+  "BANANA SPLIT": 20.00,
+  "SUNDAE KIDS": 5.00,
+  "SUNDAE ESPECIAL": 6.00,
+  "CUPUAÇU": 10.00,
+  "AÇAÍ": 10.00,
+  "PICOLÉ CHOCOLATE": 3.00,
+  "PICOLÉ LIMÃO": 2.51,
+  "PICOLÉ MORANGO": 2.52,
+  "PICOLÉ COCO": 2.53,
+  "PICOLÉ MANGA": 2.54,
+  "PICOLÉ FRUTAS VERMELHAS": 2.55,
+  "PICOLÉ MELANCIA": 2.56,
+  "PICOLÉ ABACAXI": 2.57,
+  "CHICLETES": 0.50,
+  "BALAS": 0.25,
+  "ÁGUA": 2.50,
+  "ENERGÉTICO": 12.00,
+  "KUAT": 5.00,
+  "FANTA": 5.50,
+  "COCA-COLA": 6.00,
 };
 
 const tableBody = document.querySelector('#price-table tbody');
@@ -96,13 +96,13 @@ function resetTable() {
   for (const product of Object.keys(precos)) {
     const quantityElement = document.getElementById(`quantity-${product}`);
     const totalElement = document.getElementById(`total-${product}`);
-  
+
     if (quantityElement && totalElement) {
       quantityElement.textContent = '0';
       totalElement.textContent = 'R$ 0.00';
     }
   }
-  
+
   // Zerar o total geral
   grandTotal = 0;
   updateGrandTotal();
@@ -139,7 +139,7 @@ async function generatePDF() {
   // Coloca as linhas na tabela
   for (const [product, price] of Object.entries(precos)) {
     const quantityElement = document.getElementById(`quantity-${product}`);
-  
+
     if (quantityElement) {
       const quantity = parseInt(quantityElement.textContent);
       const total = quantity * price;
