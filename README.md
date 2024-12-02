@@ -76,7 +76,7 @@ tccDo-uraGelada/
 │   └── (aqui vão as imagens, conforme necessário)
 ```
 
-
+[![meu projeto](https://github.com/user-attachments/assets/0cb65ada-986c-46a4-a336-20bf7201d957/)]( https://alcagana.github.io/tccDo-uraGelada/)
 
 
 
