@@ -1,7 +1,8 @@
 DIÁRIO DE CONTROLE🤖
-```
- https://alcagana.github.io/tccDo-uraGelada/
-```
+
+
+<img src="https://github.com/user-attachments/assets/45490382-003d-4208-b8a7-f036796e88cc" alt="clique" width="50">
+
 
 
 🚀DESCRIÇÃO: 
