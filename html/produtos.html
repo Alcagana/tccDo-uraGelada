@@ -1,136 +1,140 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TELA PRODUTOS </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/produtos.css">
-    <link rel="stylesheet" href="../css/botoesMaisEmenos.css">
-    <link rel="stylesheet" href="../css/modalAjuda.css">
-   
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TELA PRODUTOS </title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/produtos.css">
+  <link rel="stylesheet" href="../css/botoesMaisEmenos.css">
+  <link rel="stylesheet" href="../css/modalAjuda.css">
+
+
 </head>
+
 <body>
-    
-    <header>
 
-     <img src="../imagens/logonova.png" id="logo" alt="">
+  <header>
 
-     
-       <a href="../html/cadastro.html"><button id="btn-cadaFun">Cadastro funcionários</button></a> 
-        
-    
+    <img src="../imagens/logonova.png" id="logo" alt="">
+
+
+    <a href="../html/cadastro.html"><button id="btn-cadaFun">Cadastro funcionários</button></a>
+
+
 
     <button onclick="acessar" id="btn-ajuda">Ajuda </button>
-    
-    </header>
-    <button id="btn-sair"> Sair</button>
- 
-    <dialog id="modalAjuda">
-      <button id="btn-FecharModalAjuda">X</button>
-                   
-      <div class="cardModal">
-          <div class="textos">
-              <h2>Deseja relatar algum problema?</h2>
-             </div>
-              
-          <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
 
-              <div id="inputs">
-                <input class="inpts" type="text" name="name" placeholder="Insira seu Nome*" required>
-                <input class="inpts" type="email" name="email" placeholder="Insira seu email*" required>
-               </div>
-              <textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*" required  ></textarea>
-              <button id="btn-EnviarMansagem" type="submit">Enviar</button>
-          </form>
-          <p></p>
+  </header>
+  <button id="btn-sair"> Sair</button>
+
+  <dialog id="modalAjuda">
+    <button id="btn-FecharModalAjuda">X</button>
+
+    <div class="cardModal">
+      <div class="textos">
+        <h2>Deseja relatar algum problema?</h2>
       </div>
+
+      <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+
+        <div id="inputs">
+          <input class="inpts" type="text" name="name" placeholder="Insira seu Nome*" required>
+          <input class="inpts" type="email" name="email" placeholder="Insira seu email*" required>
+        </div>
+        <textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*"
+          required></textarea>
+        <button id="btn-EnviarMansagem" type="submit">Enviar</button>
+      </form>
+      <p></p>
+    </div>
   </dialog>
-    
 
-    
 
-  
-  
-  <h1 >Tabela de Produtos </h1>
+
+
+
+
+  <h1>Tabela de Produtos </h1>
   <div id="textinho">
-    <h2>Data e hora serão gerados automaticamente pelo formulário.</h2> 
+    <h2>Data e hora serão gerados automaticamente pelo formulário.</h2>
   </div>
 
 
 
-  <div class="botoesimg" >
-    
-   <img src="../Botões/btn-casquinha.svg" alt="botão-sorvete" id="imgs">
+  <div class="botoesimg">
 
-   <img src="../Botões/btn-picole (2).svg" alt="botão-picolés" id="imgs">
+    <img src="../Botões/btn-casquinha.svg" alt="botão-sorvete" id="imgs">
 
-   <img src="../Botões/btn-outros.svg" alt="botão-adicionais" id="imgs" >    
-  
-  </div> 
+    <img src="../Botões/btn-picole (2).svg" alt="botão-picolés" id="imgs">
+
+    <img src="../Botões/btn-outros.svg" alt="botão-adicionais" id="imgs">
+
+  </div>
 
 
-<div class="relatorio-e-total">
-  <button id="btn-fecharRe">Gerar Relatório</button>
-  <div id="grand-total">Total: R$ 0.00</div>
+  <div class="relatorio-e-total">
+    <button id="btn-fecharRe">Gerar Relatório</button>
+    <div id="grand-total">Total: R$ 0.00</div>
 
-</div>
-
- 
+  </div>
 
 
 
 
 
- <div id="tabela">
-  <table id="price-table">
-    <thead>
-      <tr>
-        <th>Produto</th>
-        <th>Preço Unitário (R$)</th>
-        <th>Quantidade</th>
-        <th>Total (R$)</th>
-        <th>Ações</th>
- </tr>
-
-    </thead>
-    <tbody>
-
-    </tbody>
-  </table>  
- </div>
 
 
+  <div id="tabela">
+    <table id="price-table">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço Unitário (R$)</th>
+          <th>Quantidade</th>
+          <th>Total (R$)</th>
+          <th>Ações</th>
+        </tr>
+
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
 
 
 
-<dialog id="modal-fechar">
 
- <p> fechamento do dia.</p>
-   <p>Lembre-se, o pdf depois de gerado não poderá ser restaurado pelo sistema</p>
-   <div class="botoes-modalpdf">
-    <button id="btn-fechar">Cancelar</button>
-    <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
-  
-   </div>
 
-</dialog>
+  <dialog id="modal-fechar">
 
- 
+    <p> fechamento do dia.</p>
+    <p>Lembre-se, o pdf depois de gerado não poderá ser restaurado pelo sistema</p>
+    <div class="botoes-modalpdf">
+      <button id="btn-fechar">Cancelar</button>
+      <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
 
- 
+    </div>
 
-  
+  </dialog>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
-<script src="../js/BtnSair.js"></script>
-<script src="../js/tabela.js"></script>
-<script src="../js/modalRelatorio.js"></script>
-<script src="../js/modalAjuda.js"></script>
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+  <script src="../js/BtnSair.js"></script>
+  <script src="../js/tabela.js"></script>
+  <script src="../js/modalRelatorio.js"></script>
+  <script src="../js/modalAjuda.js"></script>
 </body>
+
 </html>

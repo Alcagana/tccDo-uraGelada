@@ -282,7 +282,11 @@ p{
 
 
 
-
+.relatorio-e-total{
+    position: sticky; /* Torna o elemento "grudado" no scroll */
+    top: 0; /* Gruda no topo da página */
+    z-index: 1000; /* Garante que fica acima de outros elementos */
+}
 
 
 
