@@ -1,48 +1,32 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
-
-
-
 body{
-   margin: 0px;
-   padding: 0px;
-   box-sizing: border-box;
-   background-color:#48033f;
-  
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color:#48033f;
 }
-
 /*CABEÇALHO*/
-
 .botao , #btn-entrarAdm , #btn-entrarFun{
-
-    height: 60px;
-    margin-top: 0%;
-    font-size: 31px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
-    font-family: "Playpen Sans", cursive;
-    font-weight: 200;
-    background-color: #48033f;
-    margin-right: 60px;
-   gap: 10px;
-
+height: 60px;
+margin-top: 0%;
+font-size: 31px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+display: flex;
+align-items: center;
+justify-content:space-around;
+font-family: "Playpen Sans", cursive;
+font-weight: 200;
+background-color: #48033f;
+margin-right: 60px;
+gap: 10px;
 }
-
 #btn-entrar:hover{
-
-    color:#a53095; 
-
+color:#a53095; 
 }
-
-
-
-
 header{  
-
 width: 100%;
 height: 160px;
 display: flex;
@@ -50,86 +34,47 @@ align-items: center;
 justify-content: space-between;
 background-color:#48033f;
 }
-
-
-
 #logotipo{   
-    width: 160px;
-    height: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 100px;
-    border-radius: 60% 60% 60% 60% ;
-  
- 
-
+width: 160px;
+height: 140px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 100px;
+border-radius: 60% 60% 60% 60% ;
 }
-
-
 /*CORPO*/
-
 input{
-
-
-    width: 500px;
-    height: 50px;
-    border-radius: 10px;
-    font-size: 25px;
-    font-family: "Nunito Sans", sans-serif;
-    font-style: italic;
-    border: solid 2px;
-    border-color:#48033f;
-    background-color: rgba(255, 255, 255, 0.872);
- 
+width:500px;
+height:50px;
+border-radius: 10px;
+font-size: 25px;
+font-family: "Nunito Sans", sans-serif;
+font-style: italic;
+border: solid 2px;
+border-color:#48033f;
+background-color: rgba(255, 255, 255, 0.872);
 }
-
-
 #carrosel{
-
 width:1900px;
 height:800px;
 margin-top:  0px;
-
-
-
 }
-
 .img-carrossel{
-
-    width:1900px;
-    height:800px;
-    margin-left: 0.4px;
-
+width:1900px;
+height:800px;
+margin-left: 0.4px;
 }
-
-
 #post-it{
-
 width: 550px;
 height: 550px;
-
 margin-left: 5px;
-
 }
-
-
-
-
 .img-video{
-    margin-left: 80px;
-    margin-top: 10px;
+margin-left: 80px;
+margin-top: 10px;
 }
-
-
-
-
-
-
-
 .cards{
-
-
 width: 100%;
 height: 200px;
 display: flex;
@@ -140,190 +85,111 @@ margin-top: 20px;
 font-family:  "Playpen Sans", cursive;
 font-weight: 200;
 }
-
-
 .mensagem{
-    width: 350px;
-    height: 200px;
- 
-
+width: 350px;
+height: 200px;
 }
-
-
-
-
 #coração{
-
-    width: 15px;
-    height: 15px;
-    margin-top: 80px;
-    margin-left: 15px;
-
+width: 15px;
+height: 15px;
+margin-top: 80px;
+margin-left: 15px;
 }
-
 .texto{
 margin-left: 50px;
 color: #e7b705;
 font-size: 19px;
 margin-top: -65px
-
 }
-
-
-
 h1{
-    font-size: 20px;
+font-size: 20px;
 }
-
-
 .img-video{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
-
-
-
-    
+display: flex;
+align-items: center;
+gap: 30px;
+}    
 @media (max-width: 700px ) and (max-height: 1000px ){
-
-
-    body{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-        background-color:#48033f;
-       
-     }
-
-
-     header{
-       
-            width: 100%;
-            height: 250px;
-        
-        
-    }
-    #logotipo{
-        width: 250px;
-        height: 200px;
-        margin-left: -5px;
-    }
-    
-
-
-    .botao {
-        margin-left: 100px;
-    
-    }
-
-
-    #btn-entrarAdm , #btn-entrarFun{
-        font-size: 35px;
-    }
-
-
-        
-
-        
-        #post-it{
-
-            width: 400px;
-            height: 100px;
-             margin-top: 100px;
-            margin-left: 5%;
-            
-            }
-
-
-
-
-            #coração{
-
-                width: 20px;
-                height: 20px;
-                margin-top: 80px;
-                margin-left: -10px;
-            
-            }
-            
-            .texto{
-            width: 200px;
-            margin-left: 20px;
-            color: #e7b705;
-            font-size: 15px;
-            margin-top: -65px
-            
-            }
-
-            h1{
-                font-size: 20px;
-            }
-
-
-
-
-            .cards{
-
-
-                width: 100%;
-                height: 200px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                gap: 20px;
-                margin-top: 10px;
-                font-family:  "Playpen Sans", cursive;
-                font-weight: 200;
-                margin-left: 139px;
-                }
-      
-            #post-it{
-
-                width: 350px;
-                height: 350px;
-                display: flex;
-                align-items: center;
-                margin-top: 100px;
-               
-          
-                
-                }
-                
-
-        video{
-            width: 350px;
-            height: 350px;
-           
-            margin-left: -550px;
-            margin-top: 100px;
-        }
-
-
-
-            #teste{
-                width:700px;
-                height:500px;
-            }
-
-            #carrosel{
-
-                width:700px;
-                height:500px;
-                margin-top:  0px;
-                
-                
-                
-                }
-                
-                .img-carrossel{
-                
-                    width:500px;
-                    height:500px;
-                    margin-left: 0.4px;
-                
-                }
-
-
-
-    }
+body{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color:#48033f; 
+}
+header{
+width: 100%;
+height: 250px;   
+}
+#logotipo{
+width: 250px;
+height: 200px;
+margin-left: -5px;
+}
+.botao {
+margin-left: 100px;
+}
+#btn-entrarAdm , #btn-entrarFun{
+font-size: 35px;
+}     
+#post-it{
+width: 400px;
+height: 100px;
+margin-top: 100px;
+margin-left: 5%;    
+}
+#coração{
+width: 20px;
+height: 20px;
+margin-top: 80px;
+margin-left: -10px;
+}
+.texto{
+width: 200px;
+margin-left: 20px;
+color: #e7b705;
+font-size: 15px;
+margin-top: -65px
+}
+h1{
+font-size: 20px;
+}
+.cards{
+width: 100%;
+height: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+margin-top: 10px;
+font-family:  "Playpen Sans", cursive;
+font-weight: 200;
+margin-left: 139px;
+}
+#post-it{
+width: 350px;
+height: 350px;
+display: flex;
+align-items: center;
+margin-top: 100px;
+}
+video{
+width: 350px;
+height: 350px;          
+margin-left: -550px;
+margin-top: 100px;
+}
+#teste{
+width:700px;
+height:500px;
+}
+#carrosel{
+width:700px;
+height:500px;
+margin-top:  0px;                
+}               
+.img-carrossel{
+width:500px;
+height:500px;
+margin-left: 0.4px;
+}
+}
