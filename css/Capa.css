@@ -6,8 +6,6 @@ padding: 0px;
 box-sizing: border-box;
 background-color:#48033f;
 }
-
-/*CABEÇALHO*/
 .botao , #btn-entrarAdm , #btn-entrarFun{
 height: 60px;
 margin-top: 0%;
@@ -24,11 +22,9 @@ background-color: #48033f;
 margin-right: 60px;
 gap: 10px;
 }
-
 #btn-entrar:hover{
 color:#a53095; 
 }
-
 header{  
 width: 100%;
 height: 160px;
@@ -37,7 +33,6 @@ align-items: center;
 justify-content: space-between;
 background-color:#48033f;
 }
-
 #logotipo{   
 width: 160px;
 height: 140px;
@@ -47,8 +42,6 @@ justify-content: space-between;
 margin-left: 100px;
 border-radius: 60% 60% 60% 60% ;
 }
-
-/*CORPO*/
 input{
 width:500px;
 height:50px;
@@ -60,28 +53,20 @@ border: solid 2px;
 border-color:#48033f;
 background-color: rgba(255, 255, 255, 0.872);
 }
-
 #carrosel{
 width:1900px;
 height:800px;
 margin-top:  0px;
 }
-
 .img-carrossel{
 width:1900px;
 height:800px;
 margin-left: 0.4px;
 }
-
 #post-it{
 width: 550px;
 height: 550px;
 margin-left: 5px;
-}
-
-.img-video{
-margin-left: 80px;
-margin-top: 10px;
 }
 
 .cards{
@@ -95,45 +80,48 @@ margin-top: 20px;
 font-family:  "Playpen Sans", cursive;
 font-weight: 200;
 }
-
 .mensagem{
 width: 350px;
 height: 200px;
 }
-
 #coração{
 width: 15px;
 height: 15px;
 margin-top: 80px;
 margin-left: 15px;
 }
-
 .texto{
 margin-left: 50px;
 color: #e7b705;
 font-size: 19px;
 margin-top: -65px
 }
-
 h1{
 font-size: 20px;
 }
-
-.img-video{
+.imgs{
 display: flex;
 align-items: center;
 gap: 60px;
 margin-left: 50px;
 margin-top: 50px;
 }
-
-
 #img-diasorvete{
     width: 550px;
     height: 550px;
     margin-left: 5px;  
     
 }
+
+#sorvete{
+
+    width: 550px;
+    height: 550px;
+    margin-left: 5px;    
+  
+}
+
+
 
 @media (max-width: 900px ) {
 
@@ -233,12 +221,12 @@ margin-top: -90px;
 }
 
 
-.img-video{
+.imgs{
     
     align-items: center;
     gap: 50px;
     margin-left: 60px;
-    margin-top: 50px;
+    margin-top: 10px;
     }
 
 
@@ -258,8 +246,13 @@ margin-left: 0.4px;
   
 }
 
+#sorvete{
 
+    width: 250px;
+    height: 250px;      
+    margin-top: -100px;
 
+}
 
 
 }
