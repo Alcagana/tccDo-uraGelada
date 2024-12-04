@@ -1,78 +1,68 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
-
-
 #modalDelete{
-    width: 600px;
-    height: 320px;
-    background-color: #48033f;
- 
- }   
- #modalDelete::backdrop{
-    background-color: rgba(31, 30, 30, 0.582);
- }
-#t-1{
-    
-    margin-left: 90px;
-    color: #e7b705;
-    font-weight: 200;
-    font-family: "Playpen Sans", cursive;
-    font-size:20px ;
+width: 600px;
+height: 320px;
+background-color: #48033f;
+ } 
+
+#modalDelete::backdrop{
+background-color: rgba(31, 30, 30, 0.582);
 }
-    
+
+#t-1{
+margin-left: 90px;
+color: #e7b705;
+font-weight: 200;
+font-family: "Playpen Sans", cursive;
+font-size:20px ;
+}
 
 #t-2{
-    
-    margin-left: 80px;
-    color: #e7b705;
-    font-family: "Playpen Sans", cursive;
-    font-size:20px ;
+margin-left: 80px;
+color: #e7b705;
+font-family: "Playpen Sans", cursive;
+font-size:20px ;
 }
 
 #FecharModal{
-    color: #e7b705;
-    background-color: #46053d;
-    border: 0px;
-    font-size: 25px;
-    cursor: pointer;
+color: #e7b705;
+background-color: #46053d;
+border: 0px;
+font-size: 25px;
+cursor: pointer;
 }
-
 
 #FecharModal:hover{
-    color: #a50f91;
+color: #a50f91;
 }
-
-
 
 #inp-email1{
-    height: 30px;
-    width: 450px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    margin-left: 13%;
-    margin-top: 40px;
-    border-radius: 8px;
- 
+height: 30px;
+width: 450px;
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+font-size: 20px;
+margin-left: 13%;
+margin-top: 40px;
+border-radius: 8px;
 }
-
-
 
 #btn-deletar{
-    width: 140px;
-    height: 30px;
-    background-color:  #48033f;
-    font-size: 20px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    align-items: center;
-    font-family: "Playpen Sans", cursive;
-    margin-top: 40px;
-    margin-left: 34%;
-
+width: 140px;
+height: 30px;
+background-color:  #48033f;
+font-size: 20px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+align-items: center;
+font-family: "Playpen Sans", cursive;
+margin-top: 40px;
+margin-left: 34%;
 }
+
 #btn-deletar:hover{
-    color:#a50f91;
+color:#a50f91;
 }

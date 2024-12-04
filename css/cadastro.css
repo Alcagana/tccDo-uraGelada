@@ -1,278 +1,221 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
 
 body{
-   margin: 0px;
-   padding: 0px;
-   box-sizing: border-box;
-   background-color: hwb(0 94% 6%);
-   width: 100vw;
-   height: 100vh;
-  
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+background-color: hwb(0 94% 6%);
+width: 100vw;
+height: 100vh;
 }
     
 /*card Adm*/
-
 .cardAdm{
-    width: 550px;
-    height: 450px;
-    font-size: 50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-   margin-top: 2%;
-    border-radius: 20px;
-    border: solid 3px;
-    border-color: #48033f;
-    margin-left: 250px;
-
-    
+width: 550px;
+height: 450px;
+font-size: 50px;
+display:flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+margin-top: 2%;
+border-radius: 20px;
+border: solid 3px;
+border-color: #48033f;
+margin-left: 250px;  
 }
-
 
 #texto-Administrador{
-
-    margin-top: 35px;
-    margin-bottom: 50px;
-    font-family: "Playpen Sans", cursive;
-    font-size: 30px;
-    color:#48033f;
-    margin-left: 19%;
-
-
+margin-top: 35px;
+margin-bottom: 50px;
+font-family: "Playpen Sans", cursive;
+font-size: 30px;
+color:#48033f;
+margin-left: 19%;
 }
+
 label{
-    font-size: 12px;
-    font-family: "Nunito Sans", sans-serif;
+font-size: 12px;
+font-family: "Nunito Sans", sans-serif;
 font-weight: bold;
 }
+
 .inp-loginAdm{
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 120px;     
-    margin-right: 40px;    
-
-   
-
+width: 400px;
+height: 30px;
+border-radius: 5px;
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+border: solid 2px;
+border-color: #48033f;
+background-color: rgba(255, 255, 255, 0.872);
+margin-top: 120px;     
+margin-right: 40px;    
 }
-
 .inp-senhaAdm{
-
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 40px;     
-
-
-    
+width: 400px;
+height: 30px;
+border-radius: 5px;
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+border: solid 2px;
+border-color: #48033f;
+background-color: rgba(255, 255, 255, 0.872);
+margin-right: 40px;       
 }
-
 
 .btn-CadastrarAdm{
-        width: 250px;
-        height: 60px;
-        background-color: rgba(240, 248, 255, 0.797);
-        font-size: 25px;
-        cursor: pointer;
-        color: #48033f;
-        border: 0px;
-        align-items: center;
-        font-family: "Playpen Sans", cursive;
-        margin-top: 0px;
-        margin-right: 50px;
-       
-    }
-    .btn-CadastrarAdm:hover{
-    
-        color:#a50f91;
-
+width: 250px;
+height: 60px;
+background-color: rgba(240, 248, 255, 0.797);
+font-size: 25px;
+cursor: pointer;
+color: #48033f;
+border: 0px;
+align-items: center;
+font-family: "Playpen Sans", cursive;
+margin-top: 0px;
+margin-right: 50px;
     }
 
-
-
+.btn-CadastrarAdm:hover{
+color:#a50f91;
+}
 
 .textocampos{
-
-    margin-top:20px;
-    margin-bottom: -65px;
-    font-family: "Playpen Sans", cursive;
-    font-size: 20px;
-    color: #48033f;
-    text-align: center;
+margin-top:20px;
+margin-bottom: -65px;
+font-family: "Playpen Sans", cursive;
+font-size: 20px;
+color: #48033f;
+text-align: center;
 font-weight: bold;
 
-}
-   
+} 
+
 /*card Fun*/
-
 .cardFun{
-    width: 550px;
-    height: 450px;
-    font-size: 50px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
-    margin-top: 2.5%;
-    border-radius: 20px;
-    border: solid 3px;
-    border-color: #48033f;
-    margin-left: 52%;
-
-    
+width: 550px;
+height: 450px;
+font-size: 50px;
+display:flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+margin-top: 2.5%;
+border-radius: 20px;
+border: solid 3px;
+border-color: #48033f;
+margin-left: 52%;  
 }
-
-
 #texto-Funcionarios{
-
-    margin-left: 58%;
-    margin-top: -550px;
-    font-family: "Playpen Sans", cursive;
-    font-size: 30px;
-    color:#48033f;
-    
-
-
+margin-left: 58%;
+margin-top: -550px;
+font-family: "Playpen Sans", cursive;
+font-size: 30px;
+color:#48033f;
 }
 
 .inp-nomeFun{
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-top: 100px;       
-    margin-right: 40px;    
-
-   
-
+width: 400px;
+height: 30px;
+border-radius: 5px;
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+border: solid 2px;
+border-color: #48033f;
+background-color: rgba(255, 255, 255, 0.872);
+margin-top: 100px;       
+margin-right: 40px;    
 }
 
 .inp-loginFun{
-
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 40px;      
-
-
-    
+width: 400px;
+height: 30px;
+border-radius: 5px;
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+border: solid 2px;
+border-color: #48033f;
+background-color: rgba(255, 255, 255, 0.872);
+margin-right: 40px;        
 }
 
 .inp-senhaFun{
-
-    width: 400px;
-    height: 30px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-family: "Nunito Sans", sans-serif;
-    border: solid 2px;
-    border-color: #48033f;
-    background-color: rgba(255, 255, 255, 0.872);
-    margin-right: 40px;      
-
-
-    
+width: 400px;
+height: 30px;
+border-radius: 5px;
+font-size: 20px;
+font-family: "Nunito Sans", sans-serif;
+border: solid 2px;
+border-color: #48033f;
+background-color: rgba(255, 255, 255, 0.872);
+margin-right: 40px;       
 }
-
 
 .btn-CadastrarFun{
-        width: 250px;
-        height: 60px;
-        background-color: rgba(240, 248, 255, 0.797);
-        font-size: 25px;
-        cursor: pointer;
-        color: #48033f;
-        border: 0px;
-        align-items: center;
-        font-family: "Playpen Sans", cursive;
-        margin-top: -30px;
-        margin-left: 15px;
-       
-    }
-    .btn-CadastrarFun:hover{
-    
-        color:#a50f91;
-
+width: 250px;
+height: 60px;
+background-color: rgba(240, 248, 255, 0.797);
+font-size: 25px;
+cursor: pointer;
+color: #48033f;
+border: 0px;
+align-items: center;
+font-family: "Playpen Sans", cursive;
+margin-top: -30px;
+margin-left: 15px;
     }
 
+.btn-CadastrarFun:hover{
+ color:#a50f91;
+ }
 
 #Botoes-cardFun{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
-
 #deletarFuncionario{
-    width: 300px;
-    height: 30px;
-    background-color: rgba(240, 248, 255, 0.797);
-    font-size: 20px;
-    cursor: pointer;
-    color: #48033f;
-    border: 0px;
-    align-items: center;
-    font-family: "Playpen Sans", cursive;
-    margin-top: -9px;
-
+width: 300px;
+height: 30px;
+background-color: rgba(240, 248, 255, 0.797);
+font-size: 20px;
+cursor: pointer;
+color: #48033f;
+border: 0px;
+align-items: center;
+font-family: "Playpen Sans", cursive;
+margin-top: -9px;
   }
 
-  #deletarFuncionario:hover{
-
-    color:#cc0a0a;
-
+#deletarFuncionario:hover{
+color:#cc0a0a;
   }
 
 /*CABEÇALHO*/
-
-  #btn-ajuda{
-
-    width: 100px;
-    height: 60px;
-    margin-top:0.5%;
-    margin-right: 90px;
-    background-color:#48033f;
-    font-size: 31px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    font-family: "Playpen Sans", cursive;
-    font-weight: 200;
-
-   
+#btn-ajuda{
+width: 100px;
+height: 60px;
+margin-top:0.5%;
+margin-right: 90px;
+background-color:#48033f;
+font-size: 31px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+font-family: "Playpen Sans", cursive;
+font-weight: 200;
 }
 
 #btn-ajuda:hover{
-
-    color:#a50f91;
+color:#a50f91;
 }
 
-
-
 header{ 
-
 width: 100%;
 height: 150px;
 display: flex;
@@ -281,19 +224,14 @@ justify-content: space-between;
 background-color:#48033f
 }
 
-
-
 #logo{   /*logotipo*/
-    width: 160px;
-    height: 140px;
-    margin-left: 100px;
-
-    
-
-
+width: 160px;
+height: 140px;
+margin-left: 100px;
 }
+
 #btn-sair{
-    color: #48033f;
+color: #48033f;
  border: 0px;
  background-color: hwb(0 94% 6%);
  margin-top: 50px;
@@ -302,64 +240,60 @@ background-color:#48033f
  font-weight: bold;
  cursor: pointer;
 }
-#btn-sair:hover{
-   color: #cc0a0a;
 
+#btn-sair:hover{
+color: #cc0a0a;
 }
 
-
-
 @media(max-width: 700px )and (max-height: 1000px ){
- 
 header{
-    width: 100%;
-    height: 150px;
+width: 100%;
+height: 150px;
 }
 
 img{
-    margin-left: 10px;
+ margin-left: 10px;
 }
+
 #btn-ajuda{
-
-    width: 100px;
-    height: 70px;
-    font-size: 40px;
-    margin-left: -5px;
-
+width: 100px;
+height: 70px;
+font-size: 40px;
+margin-left: -5px;
 }
+
 #btn-sair{
-    margin-top: 10px;
-    margin-left: 10px;
+margin-top: 10px;
+margin-left: 10px;
 }
-
 
 #texto-Administrador{
-    text-align: center;
-    width: 500px;
-    margin-left: 280px;
-    margin-top: 100px;
+text-align: center;
+width: 500px;
+margin-left: 280px;
+margin-top: 100px;
 }
+
 #main-adm{
-    margin-top: 50px;
-    margin-left: -120px;
+margin-top: 50px;
+margin-left: -120px;
 }
 
 #texto-Funcionarios{
-    width: 500px;
-    text-align: center;
-    margin-left: 55%;
+width: 500px;
+text-align: center;
+margin-left: 55%;
 }
+
 #main-fun{
-    margin-top: 650px;
-    margin-left: -490px;
+margin-top: 650px;
+margin-left: -490px;
 }
 #logo{
-    width: 150px;
-    height: 150px;
-    margin-left: -5px;
+width: 150px;
+height: 150px;
+margin-left: -5px;
 }
-
-
 }
 
 

@@ -6,9 +6,11 @@ width: 700px;
 height: 400px;
 border-radius: 20px;
 }
+
 #modalAjuda::backdrop{
 background-color: rgba(31, 30, 30, 0.699);
 }
+
 /*textos*/
 .textos{ 
 width: 600px; 
@@ -20,6 +22,7 @@ font-family:"Nunito Sans", sans-serif;
 font-style: italic;
 font-size: 22px;
 }
+
 /*Buttons*/
 #btn-FecharModalAjuda{
 background-color: #5c1d53;
@@ -30,9 +33,11 @@ font-family:"Nunito Sans", sans-serif;
 font-style: italic;
 color: #e7b705;
 }
+
 #btn-FecharModalAjuda:hover{
 color: #9c7c07;
 }
+
 #btn-EnviarMansagem{ 
 background-color: #5c1d53;
 color: aliceblue;
@@ -44,20 +49,24 @@ font-style: italic;
 color: #e7b705;
 margin-top: 10px;
 }
+
 #btn-EnviarMansagem:hover{
 color: #9c7c07;
 }
+
 #CabMensagem{
 margin-left: 8%;
 margin-top: 10px;
 font-size: 25px;
 }
+
 #inputs{
 display: flex;
 gap: 50px;
 margin-left: 63px;
 margin-top: 50px;
-}  
+}
+  
 .inpts{
 width: 250px;
 height: 30px;

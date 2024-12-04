@@ -1,28 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
-
 body{
  background-color:#48033f;
  margin: 0px;
  padding: 0px;
  box-sizing: border-box;
-
 }
 
 header{  
-
-    width: 100%;
-    height: 160px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color:#48033f;
-    }
-    
+width: 100%;
+height: 160px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color:#48033f;
+}
 
 /*Botões de direcionamento da tabela*/
-
- .botoesimg{
- 
+.botoesimg{
 width: 100px;
 height: 30px;
 margin-left: 19%;
@@ -31,22 +25,17 @@ display: flex;
 justify-content: center;
 text-align: center;
 gap:50px;
-
-
 } 
 
 #imgs{
-    width: 60px;
-    height: 60px;
-    margin-top: 40px;
+width: 60px;
+height: 60px;
+margin-top: 40px;
 }
 
-
-
 #logo{
-
-    width: 160px;
-    height: 140px;
+width: 160px;
+height: 140px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -54,256 +43,199 @@ margin-left: 100px;
 border-radius: 60% 60% 60% 60% ;   
 }
 
-
 /*botões*/
-
-
 #btn-ajuda{
-    width: 200px;
-    height: 50px;
-    margin-left: 100px;
-    background-color:#48033f;
-    font-size: 31px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    font-family: "Playpen Sans", cursive;
+width: 200px;
+height: 50px;
+margin-left: 100px;
+background-color:#48033f;
+font-size: 31px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+font-family: "Playpen Sans", cursive;
 }
 
 #btn-ajuda:hover{
-    color: #b30c9c;
+color: #b30c9c;
 }
-
-
-
 #btn-cadaFun{
-    width: 350px;
-    height: 60px;
-    margin-bottom: 0%;
-    margin-left: 1000px;
-    background-color:#48033f;
-    font-size: 30px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    font-family: "Playpen Sans", cursive;
-    
+width: 350px;
+height: 60px;
+margin-bottom: 0%;
+margin-left: 1000px;
+background-color:#48033f;
+font-size: 30px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+font-family: "Playpen Sans", cursive; 
 }
+
 a{
-    text-decoration: none;
+text-decoration: none;
 }
-
 #btn-cadaFun:hover{
-    color: #b30c9c;
+color: #b30c9c;
 }
-
 #btn-sair{
 background-color: #48033f;
- border: 0px;
- color: #e7b705;
- margin-top: 50px;
- margin-left: 90%;
- font-size: 20px;
- font-weight: bold;
- cursor: pointer;
+border: 0px;
+color: #e7b705;
+margin-top: 50px;
+margin-left: 90%;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
 }
 #btn-sair:hover{
-   color: #cc0a0a;
-
+color: #cc0a0a;
 }   
 
 #btn-fecharRe{
-    width: 230px;
-    height: 55px;
-    margin-left: 78.5%;
-    background-color:#48033f;
-    font-size: 25px;
-    cursor: pointer;
-    color: #e7b705;
-    border: 0px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    font-family: "Playpen Sans", cursive;
-    margin-top: 0px;
-    
-    
+width: 230px;
+height: 55px;
+margin-left: 78.5%;
+background-color:#48033f;
+font-size: 25px;
+cursor: pointer;
+color: #e7b705;
+border: 0px;
+display: flex;
+align-items: center;
+justify-content:space-between;
+font-family: "Playpen Sans", cursive;
+margin-top: 0px;    
 }
 
 #btn-fecharRe:hover{
-    color: #b30c9c;
+color: #b30c9c;
 }
-
 
 #btn-pdf{
-    margin-left: 70%;
-    width: 120px;
-    height: 20px;
-    background-color:#48033f;
-    font-size: 20px;
-    color: #e7b705;
-    margin-top: 90px;
-    border: 0px;
-    cursor: pointer;
-   
-  }
-
-  #btn-fechar{
-    width: 20px;
-    height: 20px;
-    background-color:#48033f;
-    font-size: 20px;
-    color: #e7b705;
-    margin-top: 90px;
-    border: 0px;
-    cursor: pointer;
-  }
-
-
-
-
-
-
-
-
-/*Textos*/
-
-#textinho{
-    margin-left: 35%;
-    color:rgb(255, 255, 255) ;
-    font-family: "Playpen Sans", cursive;
-    font-size: 12px;
-    font-weight: 200;
-
-    }
-    
-h1{
-    color: #e7b705 ;
-    font-size: 40px;
-    margin-left: 40%;
-    font-family: "Playpen Sans", cursive;
-    font-weight: 400;
-    margin-top: 100px; 
+margin-left: 70%;
+width: 120px;
+height: 20px;
+background-color:#48033f;
+font-size: 20px;
+color: #e7b705;
+margin-top: 90px;
+border: 0px;
+cursor: pointer;   
 }
 
+#btn-fechar{
+width: 20px;
+height: 20px;
+background-color:#48033f;
+font-size: 20px;
+color: #e7b705;
+margin-top: 90px;
+border: 0px;
+cursor: pointer;
+ }
+
+/*Textos*/
+#textinho{
+margin-left: 35%;
+color:rgb(255, 255, 255) ;
+font-family: "Playpen Sans", cursive;
+font-size: 12px;
+font-weight: 200;
+}
+
+h1{
+color: #e7b705 ;
+font-size: 40px;
+margin-left: 40%;
+font-family: "Playpen Sans", cursive;
+font-weight: 400;
+margin-top: 100px; 
+}
 
 #grand-total{
-
-    width: 290px;
-    height: 50px;
-    font-size: 28px;
-    color:aliceblue;
-    margin-top: 20px;
-    font-family: "Playpen Sans", cursive;
-    margin-left: 78.5%;
-
-
+width: 290px;
+height: 50px;
+font-size: 28px;
+color:aliceblue;
+margin-top: 20px;
+font-family: "Playpen Sans", cursive;
+margin-left: 78.5%;
 }
 
 /*TABELA*/
-
 .increment, .decrement {
-    width: 30px;
-    height: 30px; 
-   background-color:#e7b705;
-   color: #48033f;
-  border-radius: 5px;
-  border: solid #e7b705 1px;
-  font-size: 25px;
-
-
+width: 30px;
+height: 30px; 
+background-color:#e7b705;
+color: #48033f;
+border-radius: 5px;
+border: solid #e7b705 1px;
+font-size: 25px;
 }
 
 #tabela{
-    width: 1500px;
-    height: 1500px;
-    margin-left: 200px;
-    margin-top: -2px; 
-    font-family: "Playpen Sans", cursive;
- font-size: 20px;
+width: 1500px;
+height: 1500px;
+margin-left: 200px;
+margin-top: -2px; 
+font-family: "Playpen Sans", cursive;
+font-size: 20px;
 }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-weight: lighter;
+table {
+width: 100%;
+border-collapse: collapse;
+font-weight: lighter;
   }
-  table, th, td {
-    border: 1px solid #e7b705;
-   }
-  th, td {
-    padding: 10px;
-    text-align: center;
-    color: rgb(255, 255, 255) ;
-    font-weight:300;
- 
+
+table, th, td {
+border: 1px solid #e7b705;
+}
+
+th, td {
+padding: 10px;
+text-align: center;
+color: rgb(255, 255, 255) ;
+font-weight:300; 
   }
 
   th{
-    background-color:#48033f;
-    color:#e7b705;
-    font-weight: 800;
+background-color:#48033f;
+color:#e7b705;
+font-weight: 800;
   }
 
-
-
- 
-
-
-  /*Modal fechar relatótio*/
-
+/*Modal fechar relatótio*/
 #modal-fechar{
-    width: 500px;
-    height: 300px;
-    background-color: #48033f;
-    border: 0px;
-
+width: 500px;
+height: 300px;
+background-color: #48033f;
+border: 0px;
 }
- 
-#modal-fechar::backdrop{
- 
-    background-color: rgba(31, 30, 30, 0.699);
 
+#modal-fechar::backdrop{
+background-color: rgba(31, 30, 30, 0.699);
 }
 
 p{
-    color: aliceblue;
-    font-family: "Playpen Sans", cursive;
-    font-size: 20px;
-    margin-left: 10%;
+color: aliceblue;
+font-family: "Playpen Sans", cursive;
+font-size: 20px;
+margin-left: 10%;
 }
-
-
-
 
 .relatorio-e-total{
-    position: sticky; /* Torna o elemento "grudado" no scroll */
-    top: 0; /* Gruda no topo da página */
-    z-index: 1000; /* Garante que fica acima de outros elementos */
+position: sticky; /* Torna o elemento "grudado" no scroll */
+top: 0; /* Gruda no topo da página */
+z-index: 1000; /* Garante que fica acima de outros elementos */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* @media ( max-width: 400px){
    
