@@ -1,27 +1,27 @@
 const precos = {
-  "CASQUINHA": 3.00,
-  "CASCÃO": 4.50,
-  "MILK SHAKE": 10.00,
-  "BANANA SPLIT": 20.00,
-  "SUNDAE KIDS": 5.00,
-  "SUNDAE ESPECIAL": 6.00,
-  "CUPUAÇU": 10.00,
-  "AÇAÍ": 10.00,
-  "PICOLÉ CHOCOLATE": 3.00,
-  "PICOLÉ LIMÃO": 2.51,
-  "PICOLÉ MORANGO": 2.52,
-  "PICOLÉ COCO": 2.53,
-  "PICOLÉ MANGA": 2.54,
-  "PICOLÉ FRUTAS VERMELHAS": 2.55,
-  "PICOLÉ MELANCIA": 2.56,
-  "PICOLÉ ABACAXI": 2.57,
-  "CHICLETES": 0.50,
-  "BALAS": 0.25,
-  "ÁGUA": 2.50,
-  "ENERGÉTICO": 12.00,
-  "KUAT": 5.00,
-  "FANTA": 5.50,
-  "COCA-COLA": 6.00,
+"CASQUINHA": 3.00,
+"CASCÃO": 4.50,
+"MILK SHAKE": 10.00,
+"BANANA SPLIT": 20.00,
+"SUNDAE KIDS": 5.00,
+"SUNDAE ESPECIAL": 6.00,
+"CUPUAÇU": 10.00,
+"AÇAÍ": 10.00,
+"PICOLÉ CHOCOLATE": 3.00,
+"PICOLÉ LIMÃO": 2.51,
+"PICOLÉ MORANGO": 2.52,
+"PICOLÉ COCO": 2.53,
+"PICOLÉ MANGA": 2.54,
+"PICOLÉ FRUTAS VERMELHAS": 2.55,
+"PICOLÉ MELANCIA": 2.56,
+"PICOLÉ ABACAXI": 2.57,
+"CHICLETES": 0.50,
+"BALAS": 0.25,
+"ÁGUA": 2.50,
+"ENERGÉTICO": 12.00,
+"KUAT": 5.00,
+"FANTA": 5.50,
+"COCA-COLA": 6.00,
 };
 
 const tableBody = document.querySelector('#price-table tbody');
@@ -30,67 +30,57 @@ let grandTotal = 0;
 
 // Criar as linhas da tabela
 function createTableRows() {
-  for (const [product, price] of Object.entries(precos)) {
-    const row = document.createElement('tr');
+for (const [product, price] of Object.entries(precos)) {
+const row = document.createElement('tr');
+row.innerHTML = `
+<td>${product}</td>
+<td>R$ ${price.toFixed(2)}</td>
+<td id="quantity-${product}">0</td>
+<td id="total-${product}">R$ 0.00</td>
+<td class="actions">
+<button class="increment">+</button>
+<button class="decrement">-</button>
+</td>
+`;
 
-    row.innerHTML = `
-      <td>${product}</td>
-      <td>R$ ${price.toFixed(2)}</td>
-      <td id="quantity-${product}">0</td>
-      <td id="total-${product}">R$ 0.00</td>
-      <td class="actions">
-        <button class="increment">+</button>
-        <button class="decrement">-</button>
-      </td>
-    `;
-
-    // Adicionar os event listeners aos botões
-    row.querySelector('.increment').addEventListener('click', () => increment(product));
-    row.querySelector('.decrement').addEventListener('click', () => decrement(product));
-
-    tableBody.appendChild(row);
-  }
+// Adicionar os event listeners aos botões
+row.querySelector('.increment').addEventListener('click', () => increment(product));
+row.querySelector('.decrement').addEventListener('click', () => decrement(product));
+tableBody.appendChild(row);
+}
 }
 
 // Atualizar o total geral
 function updateGrandTotal() {
-  grandTotalElement.textContent = `Total: R$ ${grandTotal.toFixed(2)}`;
+grandTotalElement.textContent = `Total: R$ ${grandTotal.toFixed(2)}`;
 }
 
 // Botão de mais
 function increment(product) {
-  const quantityElement = document.getElementById(`quantity-${product}`);
-  const totalElement = document.getElementById(`total-${product}`);
-
-  const currentQuantity = parseInt(quantityElement.textContent);
-  const newQuantity = currentQuantity + 1;
-  const total = newQuantity * precos[product];
-
-  quantityElement.textContent = newQuantity;
-  totalElement.textContent = `R$ ${total.toFixed(2)}`;
-
-  grandTotal += precos[product];
-  updateGrandTotal();
+const quantityElement = document.getElementById(`quantity-${product}`);
+const totalElement = document.getElementById(`total-${product}`);
+const currentQuantity = parseInt(quantityElement.textContent);
+const newQuantity = currentQuantity + 1;const total = newQuantity * precos[product];
+quantityElement.textContent = newQuantity;
+totalElement.textContent = `R$ ${total.toFixed(2)}`;
+grandTotal += precos[product];
+updateGrandTotal();
 }
 
 // Botão de menos
 function decrement(product) {
-  const quantityElement = document.getElementById(`quantity-${product}`);
-  const totalElement = document.getElementById(`total-${product}`);
-
-  const currentQuantity = parseInt(quantityElement.textContent);
-  if (currentQuantity > 0) {
-    const newQuantity = currentQuantity - 1;
-    const total = newQuantity * precos[product];
-
-    quantityElement.textContent = newQuantity;
-    totalElement.textContent = `R$ ${total.toFixed(2)}`;
-
-    grandTotal -= precos[product];
-    updateGrandTotal();
-  }
+const quantityElement = document.getElementById(`quantity-${product}`);
+const totalElement = document.getElementById(`total-${product}`);
+const currentQuantity = parseInt(quantityElement.textContent);
+if (currentQuantity > 0) {
+const newQuantity = currentQuantity - 1;
+const total = newQuantity * precos[product];
+quantityElement.textContent = newQuantity;
+totalElement.textContent = `R$ ${total.toFixed(2)}`;
+grandTotal -= precos[product];
+updateGrandTotal();
 }
-
+}
 // Resetar a tabela
 function resetTable() {
   for (const product of Object.keys(precos)) {
