@@ -34,13 +34,13 @@ color: #e7b705;
 font-weight: 800;}
 
 #logo {
-width: 200px;
-height: 150px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-margin-left: 200px;
-border-radius: 60%;}
+    width: 160px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    border-radius: 60% 60% 60% 60% ;}
 
 #textinho {
 margin-left: 35%;

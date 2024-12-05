@@ -1,78 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt.br">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>cadastro</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="../css/modalAjuda.css">
-<link rel="stylesheet" href="../css/cadastro.css">
-<link rel="stylesheet" href="../css/modalDeletar.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/modalAjuda.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/modalDeletar.css">
 </head>
+
 <body>
-<header>
-<img src="../imagens/logonova.png"alt="logosorveteria" id="logo">
-<button onclick="acessar" id="btn-ajuda">Ajuda </button>
-<!-- AJUDA -->
-<dialog id="modalAjuda">
-<button id="btn-FecharModalAjuda">X</button>                         
-<div class="cardModal">
-<div class="textos">
-<h2>Deseja relatar algum problema?</h2>
-</div>
-<form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
-<div id="inputs">
-<input class="inpts" type="text" name="name" placeholder="Insira seu Nome*" required>
-<input class="inpts" type="email" name="email" placeholder="Insira seu email*" required>
-</div>
-<textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*" required  ></textarea>
- <button id="btn-EnviarMansagem" type="submit">Enviar</button>
-</form>
-<p></p>
-</div>
-</dialog>       
-</header>
-<button id="btn-sair"> Sair</button>  
-<main id="main-adm">
-<div id="texto-Administrador">Cadastro Administrador </div>     
-<div class="cardAdm">
-<div class="textocampos">Preencha todos os campos</div>
-<input type="text" class="inp-loginAdm" id="inp-login" placeholder="Insira um email">
-<label><input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha"><br> **MÍNIMO 6 CARACTERES**</label>
-<button class="btn-CadastrarAdm" id="btn-Cadastrar">Cadastrar</button>                                                                                
-</div>
-</main> 
-<main id="main-fun">
-<div id="texto-Funcionarios">Cadastro Funcionários </div> 
-<div class="cardFun">
-<div class="textocampos">Preencha todos os campos</div>
-<input type="text" class="inp-nomeFun" id="inp-nomeFun" placeholder="Insira o nome">
-<input type="text" class="inp-loginFun" id="inp-loginFun" placeholder="Insira um email">
-<label><input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha"><br> **MÍNIMO 6 CARACTERES**</label> 
-<div id="Botoes-cardFun">
-<button class="btn-CadastrarFun" id="btn-CadastrarFun">Cadastrar</button>
-<button id="deletarFuncionario">Deletar funcionário</button>                                                                            
-</div>     
-</div>
-<!-- MODAL -->
-<dialog id="modalDelete">
-<button id="FecharModal">X</button>
-<h1 id="t-1">Insira o email do funcionário que deseja deletar.</h1>
-<h2 id="t-2">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!</h2>
-<input id="inp-email1" placeholder="Insira o email que deseja deletar">
-<br>
-<button id="btn-deletar" >DELETAR</button>
-</dialog>
-</main>
-<script src="../js/modalDelete.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
-<script src="../js/BtnSair.js"></script>
-<script src="../js/cadastrarAdm.js"></script>
-<script src="../js/modalAjuda.js"></script>
-<script type="module" src="../js/cadastrarFuncionarios.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <header>
+        <img src="../imagens/logonova.png" alt="logosorveteria" id="logo">
+        <button onclick="acessar" id="btn-ajuda">Ajuda </button>
+        <dialog id="modalAjuda">
+            <button id="btn-FecharModalAjuda">X</button>
+            <div class="cardModal">
+                <div class="textos">
+                    <h2>Deseja relatar algum problema?</h2>
+                </div>
+                <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+                    <div id="inputs">
+                        <input class="inpts" type="text" name="name" placeholder="Insira seu Nome*" required>
+                        <input class="inpts" type="email" name="email" placeholder="Insira seu email*" required>
+                    </div>
+                    <textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*"
+                        required></textarea>
+                    <button id="btn-EnviarMansagem" type="submit">Enviar</button>
+                </form>
+                <p></p>
+            </div>
+        </dialog>
+    </header>
+    <button id="btn-sair"> Sair</button>
+    <main id="main-adm">
+        <div id="texto-Administrador">Cadastro Administrador </div>
+        <div class="cardAdm">
+            <div class="textocampos">Preencha todos os campos</div>
+            <input type="text" class="inp-loginAdm" id="inp-login" placeholder="Insira um email">
+            <label><input type="password" class="inp-senhaAdm" id="inp-senha" placeholder="Crie uma senha"><br> **MÍNIMO
+                6 CARACTERES**</label>
+            <button class="btn-CadastrarAdm" id="btn-Cadastrar">Cadastrar</button>
+        </div>
+    </main>
+    <main id="main-fun">
+        <div id="texto-Funcionarios">Cadastro Funcionários </div>
+        <div class="cardFun">
+            <div class="textocampos">Preencha todos os campos</div>
+            <input type="text" class="inp-nomeFun" id="inp-nomeFun" placeholder="Insira o nome">
+            <input type="text" class="inp-loginFun" id="inp-loginFun" placeholder="Insira um email">
+            <label><input type="password" class="inp-senhaFun" id="inp-senhaFun" placeholder="Crie uma senha"><br>
+                **MÍNIMO 6 CARACTERES**</label>
+            <div id="Botoes-cardFun">
+                <button class="btn-CadastrarFun" id="btn-CadastrarFun">Cadastrar</button>
+                <button id="deletarFuncionario">Deletar funcionário</button>
+            </div>
+        </div>
+        <dialog id="modalDelete">
+            <button id="FecharModal">X</button>
+            <h1 id="t-1">Insira o email do funcionário que deseja deletar.</h1>
+            <h2 id="t-2">ATENÇÃO, CUIDADO COM O EMAIL DIGITADO!</h2>
+            <input id="inp-email1" placeholder="Insira o email que deseja deletar">
+            <br>
+            <button id="btn-deletar">DELETAR</button>
+        </dialog>
+    </main>
+    <script src="../js/modalDelete.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+    <script src="../js/BtnSair.js"></script>
+    <script src="../js/cadastrarAdm.js"></script>
+    <script src="../js/modalAjuda.js"></script>
+    <script type="module" src="../js/cadastrarFuncionarios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
