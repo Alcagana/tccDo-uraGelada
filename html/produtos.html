@@ -31,9 +31,13 @@
       </div>
 
       <form action="https://formsubmit.co/cleidetejano1504@gmail.com" method="POST">
+
+
+
+
         <div id="inputs">
           <input class="inpts" type="text" name="name" placeholder="Insira seu Nome*" required>
-          <input class="inpts" type="email" name="email" placeholder="Insira seu email*" required>
+          <input class="inpts" type="email" name="email" placeholder="Insira seu E-mail*" required>
         </div>
 
         <textarea id="CabMensagem" name="message" rows="4" cols="40" placeholder="Deixe sua mensagem*"
@@ -74,10 +78,10 @@
   </div>
 
   <dialog id="modal-fechar">
+    <button id="btn-fechar">X</button>
     <p> fechamento do dia.</p>
     <p>Lembre-se, o pdf depois de gerado não poderá ser restaurado pelo sistema</p>
     <div class="botoes-modalpdf">
-      <button id="btn-fechar">Cancelar</button>
       <button onclick="generatePDF()" id="btn-pdf">Gerar PDF</button>
     </div>
   </dialog>

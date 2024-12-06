@@ -28,6 +28,7 @@ border: 0px;
 font-size: 25px;
 font-family: "Playpen Sans", cursive;
 color: #e7b705;
+
 }
 
 #btn-FecharModalAjuda:hover{
@@ -50,21 +51,26 @@ color:#a50f91;
 }
 
 #CabMensagem{
-margin-left: 8%;
+margin-left: 15%;
 margin-top: 10px;
-font-size: 25px;
+font-size: 20px;
+border-radius: 5px;
+font-family: "Playpen Sans", cursive;
 }
 
 #inputs{
 display: flex;
 gap: 50px;
-margin-left: 63px;
+margin-left: 100px;
 margin-top: 50px;
+gap: 30px;
 }
   
 .inpts{
-width: 250px;
+width: 200px;
 height: 30px;
 font-family: "Playpen Sans", cursive;
 font-size:20px ;
+border-radius: 5px;
+margin-left: -px;
 }
