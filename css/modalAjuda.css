@@ -2,9 +2,11 @@
 /*MODAL INTEIRO*/
 #modalAjuda{ 
 background-color: #5c1d53;
-width: 700px;
-height: 400px;
+width: 690px;
+height: 390px;
 border-radius: 20px;
+position: fixed;
+overflow: hidden; /* Remove scroll do modal */
 }
 #modalAjuda::backdrop{
 background-color: rgba(31, 30, 30, 0.699);
@@ -28,6 +30,9 @@ border: 0px;
 font-size: 25px;
 font-family: "Playpen Sans", cursive;
 color: #e7b705;
+margin-left: 10px;
+margin-top: 15px;
+
 
 }
 
