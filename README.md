@@ -1,6 +1,6 @@
 DIÁRIO DE CONTROLE🤖
 ```
-https://github.com/Alcagana/tccDo-uraGelada.git
+https://alcagana.github.io/tccDo-uraGelada/
 ```
 ---
 
