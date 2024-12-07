@@ -1,3 +1,4 @@
+// Configuração do Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyAIQ_gs6JfrAtIugERsfQY2GEhstt1C6gc",
     authDomain: "tccdocuragelada-ef726.firebaseapp.com",
@@ -9,62 +10,67 @@ const firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 
-//CADASTRAR
-document.getElementById('btn-Cadastrar').addEventListener('click', function () {
-    const email = document.querySelector("#inp-login").value;
-    const senha = document.querySelector("#inp-senha").value;
-    
-    if (email === "" || senha === "") {
-        Swal.fire({
-            position: "top-end",
-            icon: "warning",
-            title: "Por favor, verefique todos os campos.",
-            showConfirmButton: false,
-            timer: 1500
-        });
-        return;
-    }
-    if (!email.value.includes("@")) {
-        Swal.fire({
-            position: "top-end",
-            icon: "error",
-            title: "O email deve conter '@'.",
-            showConfirmButton: false,
-            timer: 1800
-        });
-        return;
-    }
+// CADASTRAR
+document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('btn-Cadastrar').addEventListener('click', function () {
+        const email = document.querySelector("#inp-login").value.trim(); // Remove espaços desnecessários
+        const senha = document.querySelector("#inp-senha").value.trim();
 
-    if (senha.value.length < 6) {
-        Swal.fire({
-            position: "top-end",
-            icon: "error",
-            title: "A senha deve ter no mínimo 6 caracteres.",
-            showConfirmButton: false,
-            timer: 1800
-        });
-        return;
-    }
-    // Se a senha for válida cadastre o usuário
-    firebase.auth().createUserWithEmailAndPassword(email, senha)
-        .then((userCredential) => {
-            // O cadastro foi bem-sucedido
+        // Validações básicas
+        if (email === "" || senha === "") {
             Swal.fire({
                 position: "top-end",
-                icon: "success",
+                icon: "warning",
+                title: "Por favor, verifique todos os campos.",
                 showConfirmButton: false,
                 timer: 1500
             });
-        })
-        .catch((error) => {
-            // Se houve um erro, mostre a mensagem
+            return;
+        }
+
+        if (!email.includes("@")) {
             Swal.fire({
                 position: "top-end",
                 icon: "error",
-                title: "Erro ao cadastrar: verifique o email e a senha inseridos!!!",
+                title: "O email deve conter '@'.",
                 showConfirmButton: false,
-                timer: 2200
+                timer: 1800
             });
-        });
-});
+            return;
+        }
 
+        if (senha.length < 6) {
+            Swal.fire({
+                position: "top-end",
+                icon: "error",
+                title: "A senha deve ter no mínimo 6 caracteres.",
+                showConfirmButton: false,
+                timer: 1800
+            });
+            return;
+        }
+
+        // Cadastra o usuário no Firebase
+        firebase.auth().createUserWithEmailAndPassword(email, senha)
+            .then((userCredential) => {
+                // Cadastro bem-sucedido
+                Swal.fire({
+                    position: "top-end",
+                    icon: "success",
+                    title: "Cadastro concluído com sucesso!!!",
+                    showConfirmButton: false,
+                    timer: 1000
+                });
+            })
+            .catch((error) => {
+                // Mensagem de erro do Firebase
+                Swal.fire({
+                    position: "top-end",
+                    icon: "error",
+                    title: `Erro ao cadastrar: ${error.message}`,
+                    showConfirmButton: false,
+                    timer: 2200
+                });
+            });
+    });
+});
