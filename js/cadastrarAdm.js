@@ -13,7 +13,7 @@ firebase.initializeApp(firebaseConfig);
 document.getElementById('btn-Cadastrar').addEventListener('click', function () {
     const email = document.querySelector("#inp-login").value;
     const senha = document.querySelector("#inp-senha").value;
-    //AQUI PODE COLOCAR UMA VALIDAÇÃO DE SENHA QUE VOCÊ PRECISAR, DEPOIS COLOCAR O CÓDIGO ABAIXO DENTRO DESSA VALIDAÇÃO. 
+    
     if (email === "" || senha === "") {
         Swal.fire({
             position: "top-end",
@@ -24,7 +24,28 @@ document.getElementById('btn-Cadastrar').addEventListener('click', function () {
         });
         return;
     }
-    // Se a senha for válida, tente cadastrar o usuário
+    if (!email.value.includes("@")) {
+        Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: "O email deve conter '@'.",
+            showConfirmButton: false,
+            timer: 1800
+        });
+        return;
+    }
+
+    if (senha.value.length < 6) {
+        Swal.fire({
+            position: "top-end",
+            icon: "error",
+            title: "A senha deve ter no mínimo 6 caracteres.",
+            showConfirmButton: false,
+            timer: 1800
+        });
+        return;
+    }
+    // Se a senha for válida cadastre o usuário
     firebase.auth().createUserWithEmailAndPassword(email, senha)
         .then((userCredential) => {
             // O cadastro foi bem-sucedido
