@@ -43,7 +43,7 @@ No software, temos dois tipos de acesso: um para funcionários, que nos leva a u
 Para acesso ao software, é necéssario :
 
 
-- Acesso a rede (Wi-fi ou móvel.
+- Acesso a rede (Wi-fi ou móvel).
 - Ter acesso a algum aparelho eletrônico, celular ou computador.
 
 
