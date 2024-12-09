@@ -203,7 +203,7 @@ font-family: "Playpen Sans", cursive;
 font-weight: 400;
 margin-top: 100px;}
 
-@media (max-width: 900px) {
+@media (max-width: 900px){
 
 #logo {
 width: 150px;

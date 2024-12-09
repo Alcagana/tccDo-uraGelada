@@ -1,5 +1,5 @@
 (() => {
-    // Verifica se o Firebase já foi inicializado
+    // aqui ta vendo se o fire bade ja foi inicilizado/funcionando
     if (!firebase.apps.length) {
         const firebaseConfig = {
             apiKey: "AIzaSyAIQ_gs6JfrAtIugERsfQY2GEhstt1C6gc",
@@ -13,14 +13,14 @@
         firebase.initializeApp(firebaseConfig);
     }
 
-    // Evento de DOMContentLoaded para garantir que o DOM esteja carregado
+    // Evento de DOMContentLoaded, ele verifica se o espelho do html já foi carregado
     document.addEventListener('DOMContentLoaded', () => {
-        // Adiciona evento de clique no botão de cadastro
+        // envento para o botão de cadastrar
         document.getElementById('btn-Cadastrar').addEventListener('click', function () {
             const email = document.querySelector("#inp-login").value.trim(); // Remove espaços desnecessários
             const senha = document.querySelector("#inp-senha").value.trim();
 
-            // Validações básicas
+            // Validações básicas de email,senha, @ e tamanho de senha
             if (email === "" || senha === "") {
                 Swal.fire({
                     position: "top-end",
@@ -54,7 +54,7 @@
                 return;
             }
 
-            // Cadastra o usuário no Firebase
+            // aqui é o código que cadastra no Firebase
             firebase.auth().createUserWithEmailAndPassword(email, senha)
                 .then((userCredential) => {
                     // Cadastro bem-sucedido
@@ -67,7 +67,7 @@
                     });
                 })
                 .catch((error) => {
-                    // Mensagem de erro do Firebase
+                    // Mensagem que fala o erro que deu no firebase
                     Swal.fire({
                         position: "top-end",
                         icon: "error",

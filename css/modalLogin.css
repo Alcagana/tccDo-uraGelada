@@ -129,7 +129,7 @@ margin-top: -300px;
 margin-left: -25px;    
 }
 
-@media (min-width:400px) and (max-width: 500px ){
+@media (min-width:400px){
 /*RESPONSIVIDADE ADM */
 #modalLoginAdm{   
 margin-top: 200px;
