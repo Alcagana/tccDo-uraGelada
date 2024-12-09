@@ -28,7 +28,7 @@ No software, temos dois tipos de acesso: um para funcionários, que nos leva a u
 
 | ![HTML](https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white)        |  ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white)  |  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)       |
 |:--------------:|:-------------:|:-------------:| 
-| 50 %           | 50 %          | 50 %          |                 
+| 27.8 %         | 36.1 %        | 36.1 %        |                 
 |                |               |               |                 
 
 
